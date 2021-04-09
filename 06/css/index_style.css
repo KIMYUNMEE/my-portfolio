@@ -1,0 +1,59 @@
+/* header시작 */
+header{position: fixed; top:0; left:0; right:0; z-index: 20; height: 4rem; background: #fff;}
+header h1{width: 8rem; height: 4rem; background: url(../images/@h1_logo.png) no-repeat center;}
+header h1 a{display: block; height: 4rem;}
+.header_wrap{display: flex; justify-content: space-between; margin: 0 auto; width:1260px; height: 4rem; background: #fff; line-height: 4rem;}
+header .gnb .gnb_dep1 {display: flex; line-height: 4rem;}
+header .gnb .gnb_dep1 > li {padding: 0 1rem;}
+header .gnb .gnb_dep1 > li > a{display: block; padding: 0 1.5rem; color: #131313; font-size: 1rem; text-align: center; letter-spacing: -1px;}
+header .gnb .gnb_dep1 > li > a:hover{color: #108ad3;}
+.lnb_dep2{overflow: hidden; display: none; position: absolute; left: 0; z-index: 21; width: 100%; border-bottom: 2px solid #0d2d4f; background: #e8e9eb;}
+.lnb_dep2 > ul{display: flex; flex-wrap: wrap; position: relative; z-index: 200; padding: .5rem 0 2.1rem; margin: 0 auto; width: 1260px; box-sizing: border-box;}
+.lnb_dep2 > ul::before{content: ""; position: absolute; top: 0; left: 0; width: 1px; height: 100%; background: #dddee0;}
+.lnb_dep2 > ul::after{content: "";position: absolute; top: 0; right: 0; width: 1px; height: 100%; background: #dddee0;}
+.lnb_dep2 > ul > li{position: relative; width: 25%; box-sizing: border-box;}
+.lnb_dep2 > ul > li ~ li::before{content: ""; position: absolute; top: 0; left: 0; width: 1px; height:20.45rem; background: #dddee0;}
+.lnb_dep2 > ul > li > a{display: block; padding: 0 .5rem 0 1.9rem; color: #000; font-size: .9rem; font-weight: 500; line-height: 3.6rem; text-align: left; }
+.lnb_dep2 .lnb_dep3{display: flex; flex-direction: column;}
+.lnb_dep2 .lnb_dep3 li a{display: block; position: relative; padding: 0 0 0 2.4rem; font-size: .7rem; color: #646464; line-height: 1.5rem; text-align: left; }
+.lnb_dep2 .lnb_dep3 li a::before{content: "-"; position: absolute; left: 1.9rem;}
+.lnb_dep2 .lnb_dep3 li a:hover{color: #000;}
+header input[type=search]{display: inline-block; padding: 0 1rem; width: 8.75rem; height: 2rem; border-radius: 2rem; background: url(../images/btn_search.png)no-repeat right 1rem center / .7rem .7rem #e8e9eb;}
+header input[type=search]::placeholder{color: #000; font-size: .7rem;}
+header button{display: inline-block; height: 2rem;}
+.citemap{padding: 0 2.1rem 0 1rem; border: 1px solid #cdcecf; border-radius: 2rem; background: url(../images/btn_map.png) no-repeat right 1rem center; color: #4f4f4f;}
+.lang{padding: 0; width: 2rem; border-radius: 100%; background: #0d2d4f; color: #fff; line-height: 2rem;}
+
+/* footer 시작 */
+/* 푸터부분 */
+footer img{width:100%;}
+footer .footer_top ul li{text-align: center;}
+.footer_top .prev {left: 0; background: url(../images/btn_prev.png)no-repeat center/ 100% auto #fff;}
+.footer_top .next {right: 0; background: url(../images/btn_next.png)no-repeat center/ 100% auto #fff;}
+footer .btn_wrap {position: relative; margin: 0 auto; width: 1260px;}
+footer .bg{background: #f3f4f5;}
+footer .bottom{display: flex; justify-content: space-around; padding:1.5rem 0 2.95rem; margin: 0 auto; width: 63rem;}
+footer .bottom h2 a{display: block; width:6.8rem; height: 1.45rem; background: url(../images/h2_logo.png)no-repeat; }
+footer .bottom ul li {line-height: 1;}
+footer .bottom ul li a b{font-size: .7rem; color:#141313;}
+footer .bottom ul li p{padding-top: .95rem; font-size: .65rem; color:#828282; line-height: .95rem;}
+footer .bottom ul li:last-child p {padding-top: .4rem;}
+footer h1 a {display: block; width:6.85rem; height: 1.5rem; background: url(../images/b_logo.png)no-repeat center /100% auto; }
+footer .right a{display: inline-block; margin: 0 .5rem;}
+footer .right .wa{width:5rem; height: 3.25rem; background: url(../images/wa.png)no-repeat;}
+footer .right .good_content{width:8.7rem; height: 3.25rem; background: url(../images/good.png)no-repeat center / 100% auto;}
+/* 포트폴리오 기능 및 페이지이동 도형 */
+.blink::before,
+.blink02::before{content: ""; position: absolute;z-index: 10; width:20px; height: 20px; border-radius: 100%; background: #fa70cb;animation:blink 0.8s ease-in-out infinite alternate;}
+@keyframes blink{
+0% {opacity:0}
+49%{opacity:0}
+50%{opacity:1}
+}
+ .blink::before{background: #fa70cb;}
+ .blink02::before{background: #fbaf5d;}
+@keyframes blink02{
+0% {opacity:0}
+49%{opacity:0}
+50%{opacity:1}
+}
