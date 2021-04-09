@@ -1,0 +1,11 @@
+/* gallery 시작 */
+.gallery{margin: 0 auto; padding-bottom: 70px; width: 1280px;}
+.gallery div~div{float: left; width:50%;}
+.gallery div a{overflow: hidden; float: left; position: relative; }
+.gallery div a img {transition: transform .5s; }
+.gallery div a:hover img {transform: scale(1.1); }
+.gallery div a .grayscale span{position: absolute; left:50%; top:50%; font-size: 15px; color:#fff; transform: translate(-50%); transition: opacity .5s; }
+.gallery div a .grayscale {position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0,0,0,.5); transition: opacity .5s; opacity: 0;}
+.gallery div a .grayscale:hover,
+.gallery div a .grayscale span:hover{opacity: 1;}
+/* gallery 끝 */
