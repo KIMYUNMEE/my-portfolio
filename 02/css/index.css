@@ -1,0 +1,135 @@
+/* 비주얼 슬라이드 */
+.visual { position: relative;}
+.visual .slide {height: 735px; background:url(../images/bg_visual.png) no-repeat right bottom #f5c11d;}
+.visual .slide > div { margin: 0 auto; padding: 230px 0 0; width: 1200px; color:#fff; line-height: 1;}
+.visual .slide > div span { font-size: 24px;}
+.visual .slide > div div { padding: 30px 0 33px; font-size: 64px; font-weight: bold;}
+.visual .slide > div em { font-size: 19px; line-height: 31px;}
+.visual button { position: absolute; right: 50px; top: 50%; width: 60px; height: 60px; border-radius: 100%; background: url(../images/ico_arrow_right.png) no-repeat center rgba(0,0,0,.3); transform: translateY(-50%);}
+.visual .paging { position: absolute; left: 50%; bottom: 216px; width: 1200px; transform: translateX(-50%);}
+.visual .paging a { display:inline-block; width:30px; height:4px; background: rgba(255,255,255,.3);}
+.visual .paging a.on { background:#fff;}
+
+/* 바로가기 서비스 */
+.quick_nav .crown{ padding: 36px 0 20px 115px; width: 20%; height: 150px; box-sizing: border-box; background:url(../images/ico_kcab.png) no-repeat left 25px center #ff7200; font-size: 15px; color:#fff; line-height: 25px; }
+.quick_nav > div {float: left;}
+.quick_nav > div:nth-child(3){width:80%;}
+.quick_nav div > nav {background: #fff;}
+.quick_nav div > nav ul {padding: 25px 70px 25px 0;}
+.quick_nav div > nav ul li { float: left; width:190px;}
+.quick_nav div > nav ul li ~ li { border-left: 1px solid #ccc;}
+.quick_nav div > nav ul li a { display: block; padding:75px 0 0; height: 100px; box-sizing: border-box; background: no-repeat center 10px; text-align: center; font-size: 15px; color:#1f1f1f;}
+.quick_nav div > nav ul li:nth-child(1) a { background-image: url(../images/ico_quick1.png);}
+.quick_nav div> nav ul li:nth-child(2) a { background-image: url(../images/ico_quick2.png);}
+.quick_nav div> nav ul li:nth-child(3) a { background-image: url(../images/ico_quick3.png);}
+.quick_nav div > nav ul li:nth-child(4) a { background-image: url(../images/ico_quick4.png);}
+.quick_nav div > nav ul li:nth-child(5) a { background-image: url(../images/ico_quick5.png);}
+.quick_nav div > nav ul li:nth-child(6) a { background-image: url(../images/ico_quick6.png);}
+
+/* 회원혜택 */
+.member { padding: 100px 0; background: #f0f0f0;}
+.member > div { margin: 0 auto; width: 1200px;}
+.member h2 { padding: 0 0 49px; text-align: center; font-size: 27px; color:#222; line-height: 1;}
+.member .banner,
+.member .info {float: left;}
+.member .banner { padding: 0 12px 0 0;}
+.member .info { width: 600px; background: #fff;}
+.member .info ~ .info { margin: 12px 0 0;}
+.member .info a { overflow: hidden; float: left; }
+.member .info a img { float: left; width:264px; transition: all .3s;}
+.member .info a:hover img { transform: scale(1.2);}
+.member .info a div { float: left; position: relative; z-index: 2;  padding: 45px 36px 0; width:264px; background: #fff;}
+.member .info a div h3 { padding: 0 0 13px; font-size: 22px; color:#222; line-height: 1;}
+.member .info a div p { height: 100px; font-size: 16px; color:#888; line-height:24px;}
+.member .info a div span { display: block; width: 97px; height: 33px; border: 1px solid #ff7200; text-align: center; line-height: 33px; font-size: 14px; color:#ff7200; transition: all .3s;}
+.member .info a:hover div span { width:120px; background: #ff7200; color:#fff; transition: all .3s;}
+/* 서비스안내 */
+.service { background: url(../images/bg_service.png) no-repeat center top / auto 100%;}
+.service .h2 { padding: 0; color:#fff;}
+.service nav ul { padding: 0 0 50px;}
+.service nav ul li {float: left; width:50%;}
+.service nav ul li button { width: 100%; height: 55px; border-bottom: 1px solid #fff; background: none; cursor: pointer; font-size: 18px; color:#fff;}
+.service nav ul li.on button { color:#ff7200; border-bottom:2px solid #ff7200;}
+.service .slide ul li {float: left; width:calc(33.33% - 10px);}
+.service .slide ul li ~ li { padding: 0 0 0 10px;}
+.service .slide ul li img[alt=""] { width: 100%;}
+.service .slide a {float: left;}
+.service .slide a > div:last-child { position: relative; padding: 30px; height: 230px; background: #fff; box-sizing: border-box;}
+.service .slide a > div:last-child span { position: absolute; left: 30px; bottom: 30px; padding: 0 10px 0 0; background: url(../images/bu_arrow_right2.png) no-repeat right; font-size: 13px; color:#222;}
+.service .slide a > div:last-child h3 { font-size: 20px; color:#222; line-height: 1;}
+.service .slide a > div:last-child p { padding: 12px 0 0; font-size: 16px; color:#888; line-height: 23px;}
+.service .slide a > div:first-child { position: relative; overflow: hidden;}
+.service .slide a > div:first-child span { position: absolute; right: 27px; top:27px; width: 97px; height: 97px; border-radius: 100%; background: rgba(255,255,255,.8); transition: all .4s;}
+.service .slide a > div:first-child span img{position: absolute; top:50%; left:50%; transform: translate(-50%,-50%);}
+.service .slide li:nth-child(1) a > div span img{width:32px; height: 27px;}
+.service .slide li:nth-child(2) a > div span img{width:86px; height: 17px;}
+.service .slide li:nth-child(3) a > div span img{width:81px; height: 27px;}
+.service .slide a > div:first-child div { position: absolute; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.6); line-height: 43px; text-align: center; color:#fff; font-size: 23px; transition: all .4s;}
+.service .slide a:hover > div:first-child span { transform: translateX(150%); opacity: 0;}
+.service .slide a:hover > div:first-child div { line-height: 258.55px;}
+.service .btn_type1 {  position: relative;}
+.service .btn_type1:after { content: "전체 보기"; position: absolute; left: 0; right: 0; top: 0; height: 0; overflow: hidden; transition: all .5s; }
+.service .btn_type1:hover:after { height: 100%;  color: #fff; background: #000; letter-spacing: 10px;}
+/* 칭찬하기 */
+  .tb_type1 { border-top: 1px solid #ddd; text-align: center;}
+  .tb_type1 tr { border-bottom: 1px solid #ddd;}
+  .tb_type1 td { height: 80px;}
+  .tb_type1 .cate { display:block; border: 1px solid #ccc; border-radius: 3px; line-height: 34px; font-size:15px; color:#888;}
+  .tb_type1 .subject { padding: 0 0 0 22px; text-align: left;}
+  .tb_type1 .subject a { overflow: hidden; display: block; width:885px; font-size: 17px; color:#000; white-space: nowrap; text-overflow: ellipsis;}
+  .tb_type1 .date { font-size: 14px; color:#c1c1c1;}
+  .tb_type1 .more { display: block; width: 46px; height: 46px; background: url(../images/bu_arrow_right.png) no-repeat center; border-radius: 100%; border: 1px solid #dfdfdf;}
+  .tb_type1 tr:hover .more { animation: btn2 1s infinite;}
+  @keyframes btn2 {
+    0% { background-position:center}
+    50% { background-position: 200% center}
+    51% { background-position: -200% center}
+    100% { background-position: center}
+  }
+  .great .btn_type1:hover { animation: btn 1s infinite}
+    @keyframes btn {
+    0% { width: 154px;}
+    40% { width: 180px;}
+    45% { width: 160px;}
+    50% { width: 170px;}
+    55% { width: 165px;}
+    60% { width: 160px;}
+    100% { width: 154px;}
+    }
+/* 자주찾는 메뉴 */
+.fav_nav { padding: 70px 0; background: #f0f0f0;}
+.fav_nav ul li {float: left; width:calc(25% - 15px);}
+.fav_nav ul li ~ li { padding: 0 0 0 15px;}
+.fav_nav ul li a { display: block; padding: 40px 20px; height: 250px; background: #fff no-repeat right 25px bottom 25px; box-sizing: border-box; box-shadow: 2px 2px 3px rgba(0,0,0,.1); transition: box-shadow .3s, transform .4s;}
+.fav_nav ul li a:hover { box-shadow: 4px 4px 10px rgba(0,0,0,.3); transform: translateY(-10px);}
+.fav_nav ul li a strong { color:#222; font-size: 21px; line-height: 1;}
+.fav_nav ul li a p { padding: 13px 0 0; color:#888; font-size:15px; line-height: 23px;}
+.fav_nav ul li:nth-child(1) a { background-image: url(../images/ico_fav1.png);}
+.fav_nav ul li:nth-child(2) a { background-image: url(../images/ico_fav2.png);}
+.fav_nav ul li:nth-child(3) a { background-image: url(../images/ico_fav3.png);}
+.fav_nav ul li:nth-child(4) a { background-image: url(../images/ico_fav4.png);}
+
+/* 스타일가이드 */
+.h2 { padding: 0 0 49px; text-align: center; font-size: 27px; color:#222; line-height: 1;}
+.align_center { text-align: center;}
+.btn_type1 { display: inline-block; width: 154px; height: 45px; border: 1px solid #000; text-align: center; line-height: 45px; font-size: 15px; color:#000;}
+.btn_type1.white { border-color:#fff; color:#fff;}
+
+/* 정렬 */
+* + .align_center { margin-top:50px;}
+.ptb100 { padding: 100px 0;}
+
+
+/*
+overflow
+float
+display : flex
+  >> flex-direction, flex-wrap
+position, left, right, top, bottom
+padding, margin
+width, height
+background
+border
+font
+etc ( transition, animation, box-shadow ...)
+*/
