@@ -1,0 +1,40 @@
+/* sub3-6.html(payment_complete_wrap)시작 */
+body{margin-bottom:0;}
+.payment_complete_wrap {background: #313131; }
+.payment_complete_wrap header {position: fixed; left:0; top:0; right:0; z-index: 1; margin: 0; height:2.5rem; border-bottom: .33rem solid #191919; background: #fe5866; color:#000; font-size:.73rem; text-align: center; }
+.payment_complete_wrap header button{position: absolute; right:0; top:50%; width:2.5rem; height: 2.5rem; transform: translateY(-50%);}
+.payment_complete_wrap header .close {background: url(../images/btn_close_white.png)no-repeat center/.83rem auto;}
+.payment_complete_wrap header strong{color:#000; line-height: 2.5rem; }
+.payment_complete_wrap .movie_poster{filter:blur(3px);}
+.payment_complete_wrap img{width:100%;}
+.payment_complete_wrap .purchase_ticket{position: absolute; top:7.78rem; margin: 0 .88rem; width:calc(100% - 1.76rem); border-radius: 25px; background: #fff; }
+.payment_complete_wrap .purchase_ticket .ticket_info{padding: .5rem 0 1.35rem; font-size: .7rem; line-height: 1.6rem;}
+.payment_complete_wrap .purchase_ticket .ticket_info02{padding: 1.15rem;}
+.payment_complete_wrap  .tickets_info p::after{content: ""; display: inline-block; width:.55rem; height: .55rem; background: url(../images/ico_view.png)no-repeat top .11rem center/100% auto;}
+.payment_complete_wrap .purchase_ticket .title{font-size: 1.08rem; color:#000; line-height: 1.6rem;}
+.payment_complete_wrap .purchase_ticket .title::before{content: "전체"; display: inline-block; margin-right: .38rem; width:1.2rem; height: 1.2rem; border-radius: 100%; background: #5bc67e; font-size: .38rem; color:#fff; line-height: 1.2rem; text-align: center; vertical-align: middle;}
+.payment_complete_wrap .purchase_ticket .date{display: block; padding: 1.31rem 0 .78rem; border-top: 1px solid #e6e6e6; font-size: .51rem; color:#000;}
+.payment_complete_wrap .purchase_ticket .date b{font-size: .65rem;}
+.payment_complete_wrap .purchase_ticket em{display: block; padding-bottom: 1.85rem; border-bottom: 1px solid #e6e6e6; color:#8b8b8b; font-size: .61rem; }
+.payment_complete_wrap .purchase_ticket em strong{font-size: 1.36rem; color:#000;}
+.payment_complete_wrap .purchase_ticket .personnel{padding: 1.28rem 0 .86rem; font-size: .53rem; color:#000;}
+.payment_complete_wrap .purchase_ticket .seat_final{width:100%; border-radius: 18px; background:url(../images/btn_view01.png)no-repeat right .93rem  center /.2rem .36rem #fe5866; font-size: .56rem; color:#fff; line-height: 2.58rem;}
+.payment_complete_wrap .purchase_ticket .notice02{padding: .91rem 0 .73rem 1rem; background: url(../images/ico_notice02.png)no-repeat left center /.7rem auto; color:#fe243d; line-height: .8rem; font-size: .55rem; }
+.payment_complete_wrap .tickets_info{display: flex; justify-content: space-between; right:0; position: absolute; top:-0.95rem; left:0; font-size: .53rem; color:#fff;}
+.payment_complete_wrap .purchase_ticket .registar02{display: block; margin:0 auto 1.73rem; width:6.6rem; border-radius: .71rem; background: #414141; font-size: .51rem; line-height: 1.5rem; color:#fff; }
+.payment_complete_wrap .ad {position: relative;}
+.payment_complete_wrap .ad img{border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;}
+.payment_complete_wrap .ad .txt06 {position: absolute; left:0; top:0; right:0; bottom:0; padding: 1.2rem; border-top: 3px dashed #dededc;}
+.payment_complete_wrap .ad .txt06 span{ display: block; padding-bottom: .38rem; color:#fff; font-size: .51rem;}
+.payment_complete_wrap .ad .txt06 a{display: block; margin-top: .35rem; width:2.91rem; border:1px solid #fff; border-radius: .45rem; font-size: .5rem; color:#fff;  line-height: 1.06rem; text-align: center;}
+.payment_complete_wrap .ad .txt06 p{font-size: .78rem; color:#fff; line-height: 1.1rem;}
+.payment_complete_wrap .purchase_ticket .circle {display: flex; justify-content: space-between; position: absolute; left: 0; right: 0; top: -17px; z-index: 300;}
+.payment_complete_wrap .purchase_ticket .circle span:nth-child(1){display: inline-block; margin-left: -16px; width: 1.41rem; height: 1.41rem; border-radius: 100%; background: #313131;}
+.payment_complete_wrap .purchase_ticket .circle span:nth-child(2){ display: inline-block; margin-right: -16px; width: 1.41rem; height: 1.41rem; border-radius: 100%; background: #313131;}
+.payment_complete_wrap .btn01{margin-bottom: 1.4rem; padding-top: 14rem; text-align: center; font-size: 0;}
+.payment_complete_wrap .share,
+.payment_complete_wrap .cancel{margin: 0 .28rem; width:5.51rem; border-radius: .6rem; border:1px solid #fff; background: none; font-size: .5rem; color:#fff; line-height: 1.55rem;}
+.payment_complete_wrap .share::before{content: ""; display: inline-block; margin-right: .3rem; background: url(../images/ico_share.png)no-repeat left/100% auto; width:.7rem; height: .78rem; vertical-align:-4px;}
+.payment_complete_wrap ul{padding: .85rem; }
+.payment_complete_wrap ul li{position: relative; padding-left: .96rem; font-size:.48rem; line-height: .98rem; color:#fff;}
+.payment_complete_wrap ul li::before{content: ""; position: absolute; left:.58rem; top:.43rem; width:.1rem; height: .1rem; background: #fff; }

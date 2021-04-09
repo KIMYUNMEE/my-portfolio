@@ -1,0 +1,48 @@
+/* sub3-1.html */
+.seatchoose_wrap header{position: relative; padding: 0 .83rem; margin: 0; height:2.5rem; color:#000; font-size:.73rem; text-align: center;}
+.seatchoose_wrap header h2{font-size: .73rem; color:#000; line-height: 2.5rem; }
+.seatchoose_wrap header div{position: absolute; left:0; top:50%; font-size: 0; transform: translateY(-50%);}
+.seatchoose_wrap header div a{display: inline-block; margin:0 .75rem; width:1rem; height:1.2rem;}
+.seatchoose_wrap header div .prev {background: url(../images/btn_prev02.png)no-repeat center /.56rem auto;}
+.seatchoose_wrap header div .home{ background: url(../images/ico_home02.png) no-repeat center /100% auto;}
+.seatchoose_wrap header div button{display: block; margin-right: .83rem; width:.91rem; height: .91rem;}
+.seatchoose_wrap header div .close {background: url(../images/btn_close.png)no-repeat center /.56rem auto;}
+.movieroom .seat{ position: absolute; top:0; left:50%; padding: 0; background: none; transform: translateX(-50%);}
+.movieroom .seat ul li{height: .3rem;}
+.movieroom .seat button{display: inline-block; width:.2rem; height:.15rem; background: #b2b2b2;}
+.movieroom{overflow-x: scroll; position: relative; padding:2.1rem 0 9rem; background: rgba(0,0,0,1); text-align: center;}
+.movieroom .seat_detail{ margin-top: 3.3rem; width:22.95rem; }
+.movieroom .seat .green{background: #407652;}
+.movieroom button{margin: .06rem; width:1.43rem; height: 1.08rem;  border-top-left-radius: 10px; border-top-right-radius: 10px; background: #412d24; font-size: .33rem; color:#fff; line-height: 1.08rem;}
+.movieroom .none{background: none;}
+.movieroom .seat_detail .seat_avail{position: relative; background: #1eb0fd;}
+.movieroom .seat_avail.on{background: #fe243c;}
+.movieroom .seat_detail .seat_avail::before{content: "";
+position: absolute; left:50%; top:.11rem; width:.45rem; height: .08rem; border-radius: 10px; background: #fff; transform: translateX(-50%);}
+.movieroom .seat_detail .seat_avail.on2::before{content: ""; position: absolute;  top: -4px; right: 16px; width: 1px; height: 34px; background: #000; transform: rotate(54deg); }
+.movieroom .seat_detail .seat_avail.on.on2::before{display: none;}
+.movieroom .green{position: relative; background: #132318;}
+.movieroom .seat_detail .green::before{content: ""; position: absolute; top: -4px; right: 16px; width: 1px; height: 34px; background: #000; transform: rotate(54deg); }
+.movieroom .seat_detail .none{padding: 0 .66rem;}
+.movieroom strong{display: block; margin-top: 3rem; font-size:.66rem; color:#282a29; letter-spacing: 20px;}
+.seat_info{position: absolute; left:0; right:0; bottom:0; background: #040809; font-size: .4rem; color:#feffff; }
+.seat_info ul li:nth-child(1)::before{content: ""; display: inline-block; margin:0 .16rem; width:.5rem; height: .5rem; background: url(../images/ico_seat01.png)no-repeat center /.5rem auto;}
+.seat_info ul li:nth-child(2)::before{content: ""; display: inline-block; margin:0 .16rem; width:.5rem; height: .5rem; background: url(../images/ico_seat02.png)no-repeat center /.5rem auto;}
+.seat_info ul li:nth-child(3)::before{content: ""; display: inline-block; margin:0 .16rem; width:.5rem; height: .5rem; background: url(../images/ico_seat03.png)no-repeat center /.5rem auto;}
+.seat_info ul li:nth-child(4)::before{content: ""; display: inline-block; margin:0 .16rem; width:.5rem; height: .5rem; background: url(../images/ico_seat04.png)no-repeat center /.5rem auto;}
+.seat_info ul li:nth-child(5)::before{content: ""; display: inline-block; margin:0 .16rem; width:.5rem; height: .5rem; background: url(../images/ico_seat05.png)no-repeat center /.5rem auto;}
+.seat_info ul li {float:left; padding: 0 .2rem; line-height: 1.55rem;}
+.seat_choose02{margin: 0 .88rem; background: #fff; }
+.seat_choose02 .seat_choose03{display: block; position: relative; margin: .41rem 0; width:1.71rem; height: .88rem; border-top-left-radius: 9px; border-top-right-radius: 9px; background:#eee;}
+.seat_choose02 .seat_choose03::before{content: "C06"; display: none; position: absolute; top:50%; left:50%; color:#fff; font-size: .33rem; transform: translate(-50%,-50%);}
+.seat_choose02 .seat_choose03.on::before{content: "C06"; display: block; position: absolute; top:50%; left:50%; color:#fff; font-size: .33rem; transform: translate(-50%,-50%);}
+.seat_choose02 .number_info{display: flex; justify-content: space-between;  border-top:1px solid #eee;}
+.seat_choose02 strong{display: inline-block; margin: 0; font-size: .56rem; color:#000; letter-spacing: normal; line-height: 2.38rem;}
+.seat_choose02 button{display: inline-block; margin: .64rem 0; padding: 0 .75rem; width:auto; border:1px solid #000; border-radius: 32px; background: #fff; box-shadow: 1px 5px 1px rgba(0,0,0,.1); font-size:.5rem; color:#000; line-height: 1.15rem; }
+.price_info{padding: 0 .88rem; background: #f8f8f8;}
+.price_info p{display: flex; justify-content: space-between; line-height: 2.46rem; font-size: .55rem; color:#000;}
+.price_info p span{font-size: .48rem;}
+.price_info p span b{font-size: .68rem;}
+.price_info div{text-align: center;}
+.price_info a:nth-child(1){display: inline-block; padding: 0 2.56rem; border-radius: 11px; background: #fe243d; color:#fff; font-size: .68rem; line-height: 2.25rem;}
+.price_info a:nth-child(2){display: inline-block; padding: 0 2.08rem 0 4.46rem; border-radius: 11px; border:1px solid #000; background: url(../images/ico_Lpay.png)no-repeat left 2.01rem center /2.15rem auto #fff; color:#000; font-size: .68rem;  line-height: 2.25rem;}

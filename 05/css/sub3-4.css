@@ -1,0 +1,37 @@
+/* sub3-4.html(payment_wrap) */
+body{margin-bottom: 0;}
+.payment_wrap {background: #eee; }
+.payment_wrap .payment_wrap_detail{padding: 2.8rem .9rem 7.4rem;}
+.payment_wrap header{position: absolute; left: 0; right: 0; margin: 0; height: 2.8rem; text-align: center;}
+.payment_wrap header a,
+.payment_wrap header button{position: absolute; top:50%; width:2.8rem; height:2.8rem; transform: translateY(-50%);}
+.payment_wrap header a{left:0;}
+.payment_wrap header button{right:0;}
+.payment_wrap header .prev,
+.payment_wrap header .close{background-position: center; background-size: .56rem auto; background-repeat: no-repeat;}
+.payment_wrap header .prev {background-image: url(../images/ico_prev.png);}
+.payment_wrap header .close {background-image: url(../images/btn_close.png);}
+.payment_wrap header h1{position: relative; line-height: 2.5rem; font-size: .7rem;}
+.payment_wrap header h1::before{content: ""; display: inline-block; margin: 0 .25rem; width:.86rem; height: 1rem; background: url(../images/ico_kakao02.png)no-repeat center /100% auto; vertical-align: middle;}
+.payment_wrap .txt03 {overflow: hidden; display: block; padding-top:.85rem; width:14rem; font-size: .86rem; color:#000; line-height: 1.31rem; text-overflow: ellipsis; white-space: nowrap; }
+.payment_wrap .txt03 b{font-size: 1.03rem; color:#000;}
+.payment_wrap .money_wrap{margin: 1.31rem 0 .7rem; padding: .88rem; border-radius: 36px; background:#fff; }
+.payment_wrap .money_wrap .money{padding:  1.05rem; border-radius: 20px; background: #ffeb00; }
+.payment_wrap .money_wrap .money p{padding-bottom: 1.65rem; color:#1e1e1e; font-size:.71rem;}
+.payment_wrap .money_wrap .money p::before{content: ""; display: inline-block; margin-right:.25rem; width:2.53rem; height: .78rem; background: url(../images/ico_kakao03.png)no-repeat center /100% auto; vertical-align: middle;}
+.payment_wrap .money_wrap .money div {display: flex; justify-content: space-between;}
+.payment_wrap .money_wrap .money div b{font-size: .78rem; color:#000;}
+.payment_wrap .money_wrap .money div:nth-child(3){padding-bottom: .38rem;}
+.payment_wrap .money_wrap .money div:nth-child(4){padding-top: .35rem; border-top: 1px solid #f1d51a;}
+.payment_wrap .money_wrap .money div span{line-height: 1.3rem; font-size: .5rem; color:#a59118;}
+.payment_wrap .money_wrap .txt04{padding: .91rem 0; text-align: center; font-size: .58rem; color:#6f767e;}
+.payment_wrap .money_wrap .point03{font-size: 0;}
+.payment_wrap .money_wrap .txt05 {font-size: .55rem; color:#000;}
+.payment_wrap .money_wrap input[type="text"]{margin-right: .15rem; padding: 0 .63rem; width: calc(80% - .15rem); border:2px solid #e7ebee; border-radius: 12px; box-sizing: border-box; background: #e7ebee; line-height: 1.96rem;}
+.payment_wrap .money_wrap button{margin-left: .15rem; width:calc(20% - .15rem); border-radius: 14px; background: #444b53; color: #fff; font-size: .58rem; line-height: 2.1rem; }
+.payment_wrap .paging{text-align: center;}
+.payment_wrap .paging span{display: inline-block; margin: 0 .15rem; width:.3rem; height: .3rem; border-radius: 100%; background: #cfd4da;}
+.payment_wrap .agree{display: block; padding: 1.53rem 0 1.15rem; text-align: center; font-size: .56rem; color:#878e96;}
+.payment_wrap .agree b{ text-decoration: underline; color:#636c73;}
+.payment_wrap .total {display: block; border-radius: 20px; border:1px solid #f1ce00; background: #ffeb00; color:#000; line-height: 3.2rem; font-size: .88rem; text-align: center;}
+.payment_wrap .corp{display: block; padding-top: .71rem; font-size:.5rem; text-align: center; color:#adb6bd;}
