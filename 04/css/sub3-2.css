@@ -1,0 +1,14 @@
+html{font-size: 20px;}
+body{font-size: 1rem;}
+/* mypage_detail02 시작 */
+.mypage_detail02{padding: 0 1.2rem; text-align: center;}
+.mypage_detail02 .later{display: block; padding-top: 1.21rem; text-align: right; font-size:.75rem;  color:#4d4d4d;}
+.mypage_detail02 .img_logo{display: inline-block; padding: 8.3rem 0; width:4.96rem; height:7.23rem; }
+.mypage_detail02 .email_start {display: block; background:#dc074a; color:#fff; font-size: .83rem; line-height: 2.8rem;}
+.mypage_detail02 p{padding: 1.3rem 0; font-size: .61rem; color:#888;}
+.mypage_detail02 p::before,.mypage_detail02 p::after{content: ""; display: inline-block; width:calc(50% - 1.1rem) ; height: 1px; background:#c5c5c5; vertical-align: middle;}
+.mypage_detail02 p::before{margin-right: .48rem; }
+.mypage_detail02 p::after{margin-left: .48rem;}
+.mypage_detail02 .img_wrap{font-size: 0;}
+.mypage_detail02 .img_wrap img{display: inline-block; padding: 0 .6rem; width:2.8rem; height: 2.8rem;}
+/* mypage_detail02 끝 */

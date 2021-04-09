@@ -1,0 +1,44 @@
+html{font-size: 20px;}
+body{ font-size: 1rem;}
+/* header 시작 */
+.popup4 header{position: relative; margin: 0; height:2.5rem; color:#000; font-size:.73rem; text-align: center;}
+.popup4 header div{position: absolute; top:50%; left:0; transform: translateY(-50%); }
+.popup4 header div a{display: inline-block; width:.8rem; height:.8rem;}
+.popup4 header div a.prev {background: url(../images/ico_prev.png)no-repeat center /.56rem auto;}
+.popup4 header button{display: block; position: absolute; right:0; top:50%; width:.8rem; height: .8rem; transform: translateY(-50%);}
+.popup4 header button.close {background: url(../images/btn_close.png)no-repeat center /.56rem auto;}
+.popup4 header h1{position: relative; line-height: 2.5rem; font-size: .7rem;}
+.popup4 header h1::before{content: ""; display: inline-block; margin: 0 .25rem; width:.86rem; height: 1rem; background: url(../images/ico_kakao02.png)no-repeat center /100% auto; vertical-align: middle;}
+/* header 끝 */
+/* main 시작 */
+.popup4 {overflow-y: scroll; position:fixed; left: 0; right:0; top:0; bottom:0; z-index: 101; padding: 0 .9rem; background: #eee; }
+.popup4 .txt03 {display: block; padding: .93rem 0 1.21rem; font-size: .86rem; color:#000;}
+.popup4 .txt03 h2{padding: .2rem 0; font-size: .85rem; color:#0f1012;}
+.popup4 .txt03 b{padding: .2rem 0; font-size:1.01rem; color:#0f1012;}
+.txt08{margin-bottom: .8rem; border-radius: .75rem; background: #e3e7ea; line-height: 2.3rem; color:#60646d; text-align: center; font-size:.6rem;}
+.discount{position: relative; display: flex; justify-content: space-between; padding: 0 1.26rem; border-radius: .75rem; background:#fff; line-height: 3.9rem;}
+.discount::after{content: ""; position: absolute; top:50%; right:1.15rem; width:.43rem; height: .71rem; background: url(../images/bu_arrow_right09.png)no-repeat center/ 100% auto; transform: translateY(-50%);}
+.discount span{font-size: .8rem; color:#0f1012;}
+.discount em b{color:#008dff; font-size: .66rem; }
+.discount em{padding-top: 0; padding-right: .5rem; font-size:.76rem;  color:#222;}
+.popup4 .money_wrap{margin: .8rem 0 .7rem; padding: .88rem; border-radius: 36px; background:#fff; }
+.popup4 .money_wrap .txt04{padding: .91rem 0; text-align: center; font-size: .58rem; color:#6f767e;}
+.popup4 .money_wrap .txt05 {font-size: .55rem; color:#000;}
+.popup4 .money_wrap input[type="text"]{margin-right: .15rem; padding: 0 .63rem; width: calc(80% - .15rem); border:2px solid #e7ebee; border-radius: 12px; box-sizing: border-box; background: #e7ebee; line-height: 1.96rem;}
+.popup4 .money_wrap .point03{font-size: 0;}
+.popup4 .money_wrap button{margin-left: .15rem; width:calc(20% - .15rem); border-radius: 14px; background: #444b53; color: #fff; font-size: .58rem; line-height: 2.1rem; }
+.popup4 .money_wrap .money{padding:1.05rem; border-radius: 20px; background: #ffeb00; }
+.popup4 .money_wrap .money div {display: flex; justify-content: space-between;}
+.popup4 .money_wrap .money div:nth-child(3){padding-bottom: .38rem;}
+.popup4 .money_wrap .money div:nth-child(4){padding-top: .35rem; border-top: 1px solid #f1d51a;}
+.popup4 .money_wrap .money div span{line-height: 1.3rem; font-size: .5rem; color:#a59118;}
+.popup4 .money_wrap .money div b{font-size: .78rem; color:#000;}
+.popup4 .money_wrap .money p{padding-bottom: 1.65rem; color:#1e1e1e; font-size:.71rem;}
+.popup4 .money_wrap .money p::before{content: ""; display: inline-block; margin-right:.25rem; width:2.53rem; height: .78rem; background: url(../images/ico_kakao03.png)no-repeat center /100% auto; vertical-align: middle;}
+.popup4 .agree{display: block; padding: 1.53rem 0 1.15rem; text-align: center; font-size: .56rem; color:#878e96;}
+.popup4 .agree b{text-decoration: underline; color:#636c73;}
+.popup4 .paging{text-align: center;}
+.popup4 .paging span{display: inline-block; margin: 0 .15rem; width:.3rem; height: .3rem; border-radius: 100%; background: #cfd4da;}
+.popup4 .total {display: block; border-radius: 20px; border:1px solid #f1ce00; background: #ffeb00; color:#000; line-height: 3.2rem; font-size: .88rem; text-align: center;}
+.popup4 .txt09{display: block; padding-top:.71rem; font-size:.5rem; text-align: center; color:#adb6bd;}
+/* main 끝 */
