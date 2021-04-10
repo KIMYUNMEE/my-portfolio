@@ -1,0 +1,17 @@
+/* sub3-5.html(payment_wrap02) 시작 */
+body{margin-bottom: 0;}
+.payment_wrap02 {background: #eee; }
+.payment_wrap02 header{position: absolute; left: 0; right: 0; margin: 0; height: 2.8rem; text-align: center;}
+.payment_wrap02 header a,
+.payment_wrap02 header button{position: absolute; top:50%; width:2.8rem; height:2.8rem; transform: translateY(-50%);}
+.payment_wrap02 header a{left:0;}
+.payment_wrap02 header button{right:0;}
+.payment_wrap02 header .prev,
+.payment_wrap02 header .close{background-position: center; background-size: .56rem auto; background-repeat: no-repeat;}
+.payment_wrap02 header .prev {background-image: url(../images/ico_prev.png);}
+.payment_wrap02 header .close {background-image: url(../images/btn_close.png);}
+.payment_wrap02 header h1{position: relative; line-height: 2.5rem; font-size: .7rem;}
+.payment_wrap02 header h1::before{content: ""; display: inline-block; margin: 0 .25rem; width:.86rem; height: 1rem; background: url(../images/ico_kakao02.png)no-repeat center /100% auto; vertical-align: middle;}
+.payment_wrap02 p{padding: 17.5rem 0; font-size:.76rem; line-height: 1.2rem; color:#000; text-align: center;}
+.payment_wrap02 .total {display: block; margin: 0 .46rem; border-radius: 20px; border:1px solid #f1ce00; background: #ffeb00; color:#000; line-height: 3.2rem; font-size: .88rem; text-align: center;}
+.payment_wrap02 .corp{display: block; padding-top: .71rem; font-size:.5rem; text-align: center; color:#adb6bd;}

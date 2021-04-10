@@ -1,0 +1,20 @@
+html{font-size: 20px;}
+body{font-size: 1rem;}
+.login li:first-child{position: relative; padding-left: 4.03rem; min-height:3.2rem;  }
+.login li:first-child a{position: absolute; top:50%; right:0; width:1.2rem; height: .5rem; background: url(../images/btn_read.png)no-repeat right center/100% auto;
+transform: translateY(-50%);}
+.login li img{position: absolute; left:0; top:0; width:3.2rem; height: 3.2rem; }
+.login li p{padding:.45rem 0 .76rem; color:#4d4d4d; font-size:.91rem;  }
+.login li:first-child span{display: block; padding-bottom: 1.61rem; font-size: .66rem;}
+.mypage_detail{padding: 1.88rem 1.2rem 0; }
+.login li .login_detail{display:block; background: #f4f4f6; color:#4c4c4c; line-height: 2.81rem; font-size: .56rem; text-align: center;}
+.login li .login_detail strong,
+ .login li .login_detail span,
+  .login li .login_detail em{padding:  0 .83rem; }
+.login li .login_detail strong::after{content: "0";display: inline-block; margin: 0 .53rem; width:2.25rem; height: 1rem; border-radius: 1rem; background: #c5c5c5; font-size:.56rem; color:#fff; line-height: 1rem; vertical-align: middle;}
+.login_menu{ padding: .75rem 0 1.35rem; }
+.login_menu li a{ color:#4d4d4d; font-size: .83rem; line-height: 2.81rem;}
+.alarm{padding: 1.4rem 1.2rem 2.08rem; background: #f8f8f8;}
+.alarm div strong{font-size:.83rem;  color:#4d4d4d;}
+.alarm p{font-size: .55rem; color:#4d4d4d; line-height: 1.1rem;}
+.bar li:nth-child(3) a.on{ background: url(../images/ico_my_on.png) no-repeat top .45rem center / .88rem auto;}

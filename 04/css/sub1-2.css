@@ -1,0 +1,33 @@
+html{font-size: 20px;}
+body{ font-size: 1rem;}
+/* header시작 */
+header button{display: block; margin: 1.25rem 0 0 1.1rem; width:.83rem; height: .83rem; background: url(../images/btn_close.png)no-repeat center/100% auto; }
+/* header끝 */
+/* 체크인,체크아웃 */
+.txt01{padding: 2.3rem 0 .98rem; text-align: center; font-size: 0;}
+.txt01 strong{font-size: 1.1rem; color:#4d4d4d; }
+.txt01 em{display: inline-block; margin: 0 4.1rem 0 4.1rem; width:1.6rem; height: .35rem; background: url(../images/bu_arrow_halfright.png)no-repeat center /100% auto;}
+.txt01 div{display: none; margin: 0 auto; width: 17.53rem;}
+.txt01 div.on{display: flex; justify-content: space-between;}
+.txt01 span{font-size: .55rem; color:#898989;}
+/* 체크인,체크아웃 끝 */
+/* tb_type1시작 */
+table caption{display: none;}
+.tb_type1 {margin-bottom: .35rem;}
+.tb_type1 thead th{height: 1.6rem; font-size: .56rem;}
+.tb_type1 thead th.blue{color:#2994cc;}
+.tb_type1 thead th.red{color:#cc3433;}
+.tb_type1 .txt02{padding: 1.41rem 0; font-size: .66rem; color:#4d4d4d; text-align:center;}
+.tb_type1 tbody td{text-align: center;}
+button{ width:100%; height: 2.8rem; background: none; font-size: .61rem;}
+.unselectable{ font-size: .58rem; color:#c5c5c5;}
+.tb_type1 tbody td .blue{color: #2994cc;}
+.tb_type1 tbody td .red{color: #cc3433;}
+.tb_type1 tbody td button .price{padding: .51rem 0 .36rem; font-size: .35rem; color:#666;}
+.tb_type1 tbody td button .price.specials{color:#dc4878;}
+/* tb_type1 끝 */
+/* 날짜 선택 버튼 시작 */
+.date_wrap{padding: 0 .5rem; border-top: 1px solid #e7e7e7;}
+.date_wrap p{padding: .48rem 0 .41rem; font-size:.51rem; color:#888; text-align: center;}
+.date_wrap .btn01{display: block; margin-bottom: .5rem; border-radius: .11rem; background: #e6e6e6; color:#c5c5c5; font-size:.78rem; line-height: 2.2rem; text-align: center;}
+/* 날짜 선택 버튼 끝 */

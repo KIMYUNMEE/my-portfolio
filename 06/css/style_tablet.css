@@ -1,0 +1,89 @@
+html{font-size: 20px;}
+body{font-size: 1rem;}
+
+
+/* header부분 */
+header{padding: 0 1.5rem; width: 100%; box-sizing: border-box;}
+.header_wrap{width:100%;}
+header .gnb{width: 80%;}
+header .gnb .lnb_dep1 {justify-content: flex-start;}
+header .gnb .gnb_dep1 > li > a {padding: 0;}
+.util{display: none;}
+header .gnb .gnb_dep1 > li{flex:1; padding: 0;}
+.lnb_dep2 > ul{padding: .45rem 0 2.1rem; width: 100%;}
+.lnb_dep2 > ul::before{left: 1.5rem;}
+.lnb_dep2 > ul::after{right: 1.5rem;}
+.lnb_dep2 > ul > li:nth-child(5)::before,
+.lnb_dep2 > ul > li:nth-child(9)::before{display: none;}
+.lnb_dep2 > ul > li > a{padding: 0 .5rem 0 1.7rem; line-height: 3.4rem;}
+.lnb_dep2 .lnb_dep3 li a{padding: 0 0 0 2.15rem; }
+.lnb_dep2 .lnb_dep3 li a::before{left: 1.7rem;}
+.visual{padding:0 1.7rem 3rem;}
+.visual .visual_wrap .box_wrap{ display: block; }
+.visual .title{padding:6.8rem 0px 3.55rem}
+.visual .box_wrap .two > ul {flex-direction: row; margin-top: 1rem;}
+.visual .box_wrap .two ul li.white{margin-bottom: 0; margin-right: .5rem; }
+.visual .box_wrap .two ul li.blue{flex:2;}
+.visual .box_wrap .two ul li.blue{margin-left: .5rem; margin-top: 0; padding: 1.25rem .6rem 1.1rem;}
+.visual .box_wrap .box {flex:none;}
+.visual .box_wrap .box ul li:first-child{margin-left: 0;}
+.notice{display: none;}
+@media (min-width: 768px) and (max-width: 990px) {
+  .visual .box_wrap .two ul li.white > a{background: #fff;}
+}
+
+/* 생명보헙협회부분 */
+.association{padding: 0 1.7rem 3rem;}
+.h2{padding-top:4rem;}
+.h2::before{top:4rem;}
+.notice1{margin-bottom: 1rem; width:100%;}
+.notice2{display: none;}
+.notice1 .tab1 button:last-child{display: inline-block; }
+.ad{flex: 1; margin: 0 0 0 .5rem;}
+.quick{flex: 1; width:50%; padding: 2rem 0 6.35rem; margin: 0 .5rem 0 0;}
+.quick li a{padding: 8.95rem 0 0 0;}
+.quick li a::before{top:4.1rem;}
+.association .ad a img{width:100%; height: 100%;}
+.association .go {display: none;}
+.fp-tableCell > section {padding-top: 0; height:auto;}
+
+/* 소비자부분 */
+.customer{padding: 0 1.7rem 3rem; }
+.customer .box2_wrap div {width:100%;}
+.customer .customer_wrap img{display: none;}
+.menu_type01 a h3{padding-top: 6.6rem; width: 100%; text-align: center; }
+.menu_type01 a p{display: none;}
+.menu_type01 a span{display: none}
+.menu_type01 a{padding: 0; background-position: top 2rem center;}
+/* 소비자부분 끝 */
+
+/* 종사자 부분 */
+.employee img{width:100%;}
+.employee{padding: 0 1.7rem 3rem; height: auto; }
+.employee .employee_wrap ul{flex-wrap: wrap;}
+.employee .employee_wrap ul li{flex:none; width:calc(50% - 1rem);}
+.employee .employee_wrap ul li:nth-child(1),
+.employee .employee_wrap ul li:nth-child(2){margin-bottom: .95rem;}
+
+/* 회원사 부분*/
+
+.member{padding: 0 1.7rem 3rem; height: auto;}
+.member .member_wrap{width:100%; box-sizing: border-box;}
+.member ul{flex-wrap: wrap; justify-content: center;}
+.member ul li{width:33.3%;}
+.member img{width:100%;}
+.member .member_wrap ul .bottom{margin-top: 2.25rem;}
+
+/* 푸터부분 */
+.footer_top .next{right: 1.25rem; background: url(../images/btn_next.png)no-repeat center/ 60% auto #fff;}
+.footer_top .prev{left: 1.25rem; background: url(../images/btn_prev.png)no-repeat center / 60% auto #fff;}
+footer ul li a{display: block;}
+footer ul li a img{width: 50%;}
+footer .btn_wrap{width: 100%;}
+footer .bottom{ flex:none; display: block; padding:2.4rem .95rem 3.35rem; width:100%; box-sizing: border-box;}
+footer .bottom h1{display: none;}
+footer .bottom .img {display: block; padding-top: .9rem; }
+footer .bottom h2 a {display: none;}
+footer .right{padding-top: .9rem;}
+footer .right a{ margin: 0 .12rem;}
+footer .right a:nth-child(1){margin-left:.3rem; }

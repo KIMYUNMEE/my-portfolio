@@ -1,0 +1,138 @@
+/* visual 시작 */
+.sprite {background: url(../images/sprite.png) no-repeat;}
+.visual video {width:100%;background: #fff; }
+.visual {position: relative; width:100%;}
+.visual > div:last-child{position: absolute; left:0; bottom:0; right:0; background: #019fa1;}
+.visual ul {display: flex; justify-content: space-around; align-items: center; margin: 0 auto; width:1200px; height:80px;}
+.visual ul li{flex:1;}
+.visual div ul li a{position: relative; display: block; padding:0 0 0 115px; font-size: 20px; color:#fff; line-height: 80px;}
+.visual div ul li a:before {content: ""; position: absolute; left:58px; top:50%; width: 40px; height: 42px; background: url(../images/sprite.png) no-repeat; transform: translateY(-50%);}
+.visual div ul li:nth-child(1) a:before { background-position: -229px 0; top:58%; }
+.visual div ul li:nth-child(2) a:before { background-position: -279px 0;}
+.visual div ul li:nth-child(3) a:before { background-position: -329px 0;}
+.visual div ul li:nth-child(4) a:before { background-position:-377px 0;}
+.btn_play{display: block; position: absolute; top:50%; left:50%; width:80px; height: 80px; background: url(../images/sprite.png) no-repeat; background-position: 0 -173px; transform: translate(-50%, -50%);}
+.btn_play.on{display: block; width:80px; height: 80px; background: url(../images/sprite.png) no-repeat; background-position: -90px -173px;}
+/* visual 끝 */
+
+/* view 시작 */
+.view ul {display: flex; flex-wrap: wrap; position: relative; padding: 60px 0 25px 0; margin: 0 auto; width:1280px;}
+.view ul li{position: relative; margin: 0 25px 25px 0; padding-top: 120px; padding-bottom: 30px; width:408px; height: 360px; border: 1px solid #ddd; border-top: 2px solid #3086c9; box-sizing: border-box; text-align: center; }
+.view ul li:nth-child(3){margin-right: 0;}
+.view ul li:nth-child(4){border-top: 1px solid #12b8ba;}
+.view ul li:nth-child(5){border-top: 1px solid #12b8ba;}
+.view ul li:nth-child(6){margin-right: 0; border-top: 1px solid #12b8ba;}
+.view ul li:before {content: ""; position: absolute; left:50%; top:35px; width:80px; height: 75px; background: url(../images/sprite.png) no-repeat; transform: translateX(-50%);}
+.view ul li:nth-child(1):before {background-position: -463px -163px; }
+.view ul li:nth-child(2):before {background-position: 0 -263px;}
+.view ul li:nth-child(3):before {background-position: -84px -263px;}
+.view ul li:nth-child(4):before {background-position: -164px -263px;}
+.view ul li:nth-child(5):before {height: 80px; background-position: -375px -163px;}
+.view ul li:nth-child(6):before {width:99px; background-position: -256px -263px;}
+.view .h2{font-size: 20px; line-height: 1; }
+.h2 {font-size:30px; line-height: 1;}
+.h2.white{color:#fff;}
+.view h2:after {content: ""; display: block; margin: 15px auto; width:30px; height: 1px; background-color:#3086c9;}
+.view .consulting .consulting_form{position: relative; display: flex; flex-direction: column; padding: 0 145px 0 60px;}
+.view .reservation{position: absolute; right:60px; top:0; width:84px; height:90px; border-radius: 3px; font-size: 16px; color:#fff; background: #3086c9;  }
+.view input[type="text"]{padding:0 10px 0 18px; width:196px; height: 40px; border:1px solid #ddd; box-sizing: border-box;}
+.view input[type="tel"]{margin-top: 10px; padding:0 10px 0 18px; width:196px; height: 40px; border:1px solid #ddd; box-sizing: border-box;}
+.view button{width:140px; border-radius: 4px; border:1px solid #254069; background: none; font-size: 15px; color:#4f5b77; line-height: 40px; cursor: pointer;}
+.view button.on {display: inline-block; margin-top: 10px; width:208px; background: #3086c9; color:#fff; font-size: 15px; }
+.view ul li p {padding-bottom: 13px; box-sizing: border-box; line-height: 25px; color:#5c5e5c; font-size: 14px;  }
+.view ul li:nth-child(3) p{padding: 20px 0 10px; line-height: 32px; font-size: 16px; }
+.view ul li:nth-child(3) span {font-size: 14px; color:#5c5e5c;}
+.view ul li:nth-child(4) p,
+.view ul li:nth-child(5) p,
+.view ul li:nth-child(6) p{padding-bottom: 23px; line-height: 25px; }
+/* view 끝 */
+
+/* quick_search 시작 */
+.quick_search ul li a:hover {box-shadow: 2px 10px 10px rgba(0,0,0,.3); transform: translateY(-10px);}
+.quick_search{background-color: #23507b; }
+.quick_search .box { margin: 0 auto; padding: 60px 0; width:1280px; text-align: center;}
+.quick_search p {padding-top: 20px; font-size:15px; color:#fff;}
+.quick_search div.search{position: relative; margin: 40px 0;}
+.search[type="search"]{position: relative; padding-left: 20px; width:868px; height: 60px;}
+.search button{position: absolute; top:0; right:205px; width:56px; height: 60px; background: url(../images/ico_search1.png)no-repeat;}
+.quick_search ul{display: flex;}
+.quick_search ul li{position: relative; margin-right: 25px; width:300px; height: 292px; text-align: center;}
+.quick_search ul li a{display: block; width:300px; height: 292px; text-align: center; transition: box-shadow .3s, transform .4s;}
+.quick_search ul li a:before {content: ""; position: absolute; left:50%; top:44px; width:53px; height: 54px; background: url(../images/sprite.png) no-repeat; transform: translateX(-50%);}
+.quick_search ul li:nth-child(odd){background-color: #12b8ba;}
+.quick_search ul li:nth-child(even){background-color: #3086c9;}
+.quick_search ul li:nth-child(4){margin-right: 0;}
+.quick_search ul li:nth-child(1) a:before {background-position: -425px 0;}
+.quick_search ul li:nth-child(2) a:before {background-position: -489px 0;}
+.quick_search ul li:nth-child(3) a:before {background-position: 0 -60px;}
+.quick_search ul li:nth-child(4) a:before {background-position: -58px -60px;}
+.quick_search div h3{padding-bottom: 18px; font-size: 22px; color: #fff; line-height: 1; }
+.quick_search .box_1 {padding-top: 160px;}
+.quick_search .box_1 .text{line-height: 24px; font-size: 14px; color:#fff;}
+/* quick_search 끝 */
+img{width:100%;}
+.new img{width:auto;}
+/* notice 시작 */
+.notice{ margin: 60px auto 66px auto; width:1280px; text-align: center;}
+.notice .notice_1{padding:22px 0 60px 0; font-size: 16px;}
+.notice ul {display: flex; justify-content: center;}
+.notice ul li {width:255px; border-right:1px solid #ddd; border-top:1px solid #dddddd; border-bottom: 1px solid #12b8ba;}
+.notice ul li a{display:block; width:255px; line-height: 50px; font-size:15px; color:#747774;}
+.notice  ul li a.on {background: #12b8ba; color:#fff;}
+.notice .notice_2{ display: flex; flex-wrap:wrap; }
+.notice .notice_2 li{ margin:25px 25px 0 0; width:408px; height: 180px; border:1px solid #ddd; }
+.notice .notice_2 li:nth-child(3){margin-right: 0;}
+.notice .notice_2 li:nth-child(6){margin-right: 0; margin-bottom: 30px; }
+.notice .notice_2 li:nth-child(4){margin-bottom: 30px;}
+.notice .notice_2 li:nth-child(5){margin-bottom: 30px; }
+.notice .notice_2 li span{font-size: 10px; color:#12c4d9;}
+.notice .notice_2 li > div {padding:35px 30px 33px 30px; width:408px; box-sizing: border-box; text-align: left;}
+.notice .notice_2 li strong{display: block; padding: 25px 0 10px 0; line-height: 1; font-size: 15px; }
+.notice .notice_2 li strong.flow_hidden{overflow: hidden; width:280px; text-overflow: ellipsis; white-space: nowrap;}
+.notice .notice_2 li p {font-size: 13px; color:#747774; line-height: 24px;}
+/* notice 끝 */
+/* slide1 시작 */
+.btn_wrap{position: absolute;top:0; left:0;right:0; bottom:0; z-index: 1; margin:0 auto; width:1280px; height: 100%; }
+button.btn_prev {position: absolute; left:0; top:50%; width:25px; height: 49px; background-position: -182px -173px; transform: translateY(-50%);}
+button.btn_next {position: absolute; right:0; top:50%; width:25px; height: 49px; background-position: -219px -173px; transform: translateY(-50%);}
+.btn_play_on{position: absolute;}
+.btn_stop{position:absolute; bottom:66px; right:46%; z-index:2; width:20px; height:20px; background:url(../images/btn_play.png)no-repeat center /100% auto; line-height: 20px; }
+.btn_stop.play{background:url(../images/btn_stop.png)no-repeat center/100% auto;}
+/* slide1 끝 */
+
+/* info 시작 */
+.info .health_story button.prev,
+.info .lecture button.prev{position: absolute; left:30px; top:50%; width:15px; height: 15px; background-position: -116px -60px; transform: translateY(-50%);}
+.info .health_story button.next,
+.info .lecture button.next{position: absolute; top:50%; right:30px; width:15px; height: 15px; background-position: -134px -60px; transform: translateY(-50%);}
+.info {padding: 66px 0 60px 0; background-color: #eee; }
+.info .wrap{margin: 0 auto; width:1280px; text-align: center; }
+.info .wrap .info_txt{padding: 22px 0 60px 0; box-sizing: border-box; font-size: 15px; color:#5a5c5a;}
+.info h3{font-size: 23px;}
+.info .health_story{float:left; position: relative; margin-right: 13px; padding:36px 30px 35px 30px; width:475px; height: 315px; border-top: 1px solid #12b8ba; box-sizing: border-box; background: #fff; text-align: left;}
+.info .health_story .new {margin: 22px 23px; text-align:left;}
+.info .health_story .new a{overflow: hidden; display: block; width:351px; height: 188px; box-sizing: border-box;}
+.info .health_story .new a p {padding-top: 12px; box-sizing: border-box; font-size: 15px; color:#666; line-height: 22px; letter-spacing:-2px; }
+.info .health_story .new a strong {letter-spacing:-2px; font-size: 17px; line-height: 1; color:#000; }
+.info .health_story .new a img{float: left; margin: 0 20px 0 0; width:104px; height: 104px;}
+.info .lecture{float:left; display: flex; justify-content:space-between; flex-wrap: wrap; position: relative; margin-left: 13px; padding:35px 30px 40px 30px; height: 315px; width:777px; border-top: 1px solid #12b8ba; box-sizing: border-box; background: #fff; }
+.info .lecture .slide3{margin: 22px 30px 0; width:777px;}
+.info .lecture .slide3 .professor {float: left; margin-right: 20px; width: 200px;}
+.info .lecture .slide3 .professor span{display: inline-block; width:70px; height: 70px; border-radius: 100%; background: #ddd;}
+.info .lecture .slide3 .professor strong{display: block; font-size: 20px;}
+.info .lecture .slide3 .professor strong:nth-child(4){overflow: hidden; padding: 10px 0 0 30px; text-overflow: ellipsis; white-space: nowrap;}
+.info .lecture .slide3 .professor strong:nth-child(2){padding-top: 6px;}
+.info .lecture .slide3 .professor p {padding-top: 10px; font-size: 13px; color:#9b9d9b;}
+/* info 끝 */
+
+
+/* overflow
+display
+position
+padding
+margin
+width
+height
+background
+border
+font */

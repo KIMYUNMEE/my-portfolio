@@ -1,0 +1,21 @@
+/* notice_1 시작 */
+.notice_1 p{float: left; padding-top: 33px; font-size: 15px; color:#8f918f; }
+.notice_1 span{color:#3086c9;}
+.notice_1 .search1 input[type="search"]{float: right; margin-bottom: 30px; width:265px; height: 40px; border:1px solid #ddd; }
+.notice_1 .search1 button{position: absolute; top:0; right:0; width:90px; background: #3086c9; line-height: 40px; color:#fff;}
+.notice_1 .search1{position: relative;}
+/* tb_type1 시작 */
+.tb_type1 {margin: 0 auto; width:1280px; border-top: 1px solid #222;}
+.tb_type1 caption{display: none;}
+.tb_type1 th{font-size: 15px; line-height: 56px;}
+.tb_type1 thead tr{border-bottom: 1px solid #ddd;}
+.tb_type1 tbody tr{border-bottom: 1px solid #ddd; text-align: center;}
+.tb_type1 tbody td.on {text-align: left;}
+.tb_type1 tbody tr td{padding: 30px 0 25px 0; font-size: 12px; color: #66666b; }
+.tb_type1 tbody tr td.on a{font-size: 15px; color: #66666b;}
+.tb_type1 tbody tr td.on{padding:0 39px;}
+.tb_type1 tbody tr td.on a b{color:#12b8ba;}
+.tb_type1 tbody tr td.on span{display: inline-block; position: relative; margin-left: 13px; width:23px; height: 21px; text-align: center; vertical-align: -6px;}
+.tb_type1 tbody tr td.on span::before{content: ""; position: absolute; top:0; left:0; width:23px; height: 21px; background: url(../images/sprite.png) -325px -123px;}
+/* tb_type1 끝*/
+/* notice_1 끝 */

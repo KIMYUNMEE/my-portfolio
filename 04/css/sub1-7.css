@@ -1,0 +1,12 @@
+/* header 시작 */
+.popup5 header{position: relative; text-align: center;}
+.popup5 header h1{position: relative; display: inline-block; line-height: 2.8rem; font-size: .7rem;}
+.popup5 header h1::before{content: ""; display: inline-block; margin: 0 .25rem; width:.86rem; height: 1rem; background: url(../images/ico_kakao02.png)no-repeat center /100% auto; vertical-align: middle;}
+.popup5 header .prev {position: absolute; top:50%; left:0; width:2.8rem; height:2.8rem; background: url(../images/ico_prev.png)no-repeat left center /.8rem .8rem; transform: translateY(-50%);}
+.popup5 header .close {position: absolute; right:0; top:50%; width:2.8rem; height: 2.8rem; background: url(../images/btn_close.png)no-repeat right center /.83rem .83rem; transform: translateY(-50%);}
+/* header 끝 */
+/* main 시작 */
+.popup5 {overflow-y: scroll; position:fixed; left: 0; right:0; top:0; bottom:0; z-index: 101; padding: 0 .9rem; background: #eee; }
+.popup5 .total {display: block; border-radius: 20px; border:1px solid #f1ce00; background: #ffeb00; color:#000; line-height: 3.2rem; font-size: .88rem; text-align: center;}
+.popup5 p{padding: 9.3rem 0; font-size:.76rem; line-height: 1.2rem; color:#000; text-align: center;}
+/* main 끝 */

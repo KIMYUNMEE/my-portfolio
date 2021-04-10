@@ -1,0 +1,77 @@
+html{font-size: 20px;}
+body{ font-size: 1rem; padding:1.05rem;}
+/* header 시작 */
+header{position: relative; text-align: center; height: 1.3rem; }
+header button{position: absolute; left:0; top:50%; width:1.3rem; height:1.3rem; background: url(../images/btn_close.png)no-repeat center /100% auto; transform: translateY(-50%);}
+header strong{text-align: center; font-size:.83rem; color:#323232;}
+/* header 끝 */
+/* 페이징 시작 */
+.paging{padding: .9rem 0 .6rem; text-align: center; font-size:.45rem;  color:#929292;}
+/* 페이징 끝*/
+/* 이미지 시작 */
+img{width:100%;}
+/* 이미지 끝 */
+/* room_detail 시작 */
+.room_detail{background: #fff; text-align: center;}
+.room_detail h2{display: block; padding: 1rem 0 .75rem; font-size: .81rem; color:#4d4d4d;}
+.room_detail .txt04{padding-bottom: 1.26rem; }
+.room_detail .txt05{padding:0 .21rem; color:#929292; font-size:.5rem; }
+.room_detail em{padding: 0 .15rem 0 .21rem; font-size:.7rem; color:#eb2235;}
+.room_detail b{padding: 0 .15rem; font-size:.66rem; color:#323232;}
+.room_detail del{display: inline-block; padding: 0 .15rem; font-size: .53em; color:#c5c5c5;}
+.room_detail .total_info{padding: .78rem 0 .93rem; border-top: 1px solid #f0f0f0;}
+.room_detail .total_info li{float: left; padding-top: 1.38rem; width:33.3%;}
+.room_detail .total_info li p{font-size: .56rem; color:#4d4d4d;}
+.room_detail .total_info li span{display:inline-block; margin-top: .38rem; width:2.41rem; border-radius:.33rem; background: #f8f8f8; font-size:.5rem; color:#929292; line-height: .91rem; }
+.room_detail .total_info li:nth-child(1){background: url(../images/ico_person02.png)no-repeat top center /1.5rem 1.18rem;}
+.room_detail .total_info li:nth-child(2){background: url(../images/ico_bed.png)no-repeat top center /1.5rem 1.18rem;}
+.room_detail .total_info li:nth-child(3){background: url(../images/ico_acreage.png)no-repeat top center /1.5rem 1.18rem;}
+/* room_detail 끝 */
+/* benefits_info 시작 */
+.benefits_info{padding-bottom: 1.63rem; border-top: 1px solid #f0f0f0; text-align: left;}
+.benefits_info h3{display: block; padding: 1.66rem 0 1.08rem; font-size:.85rem; color:#4d4d4d;}
+.benefits_info span{font-size: .65rem; color:#cf9d5e;}
+.benefits_info span::before{content: ""; display: inline-block; margin-right: .51rem; width:.35rem; height: .3rem; background: url(../images/bu_check.png)no-repeat center /100% auto;}
+/* benefits_info 끝 */
+/* discount_info 시작 */
+.discount_info{padding-bottom: 1.63rem; border-top: 1px solid #f0f0f0; text-align: left;}
+.discount_info h3{display: block; padding: 1.66rem 0 1.08rem; font-size:.85rem; color:#4d4d4d;}
+.discount_info span{font-size:.65rem; color:#4d4d4d;}
+.discount_info span em{color:#d7094a;}
+.discount_info span em::before{content: ""; display: inline-block; margin-right: .26rem; width:.73rem; height: .53rem; background: url(../images/ico_coupon.png)no-repeat center/100% auto;}
+/* discount_info 끝 */
+/* 체크인 체크아웃 시작 */
+.check_inout{padding-bottom: 1.63rem; border-top: 1px solid #f0f0f0; text-align: left;}
+.check_inout strong{display: block; padding-top: 1.66rem; font-size: .85rem; color:#4d4d4d;}
+.check_inout ul{padding: 1.45rem 0 0 0;}
+.check_inout li{float: left; position: relative; padding: 0 .3rem; width:calc(50% - .6rem); font-size: .63rem; color:#4d4d4d; text-align:center;}
+.check_inout li~li::before{content: ""; position: absolute; left:0; top:0; width:1px; height:1.6rem; background: #f0f0f0;}
+/* 체크인 체크아웃 끝 */
+/* room_info 시작 */
+.room_info{padding-bottom: 1.63rem; border-top: 1px solid #f0f0f0; text-align: left;}
+.room_info h3{display: block; padding: 1.66rem 0 1.06rem;  font-size: .85rem; color:#4d4d4d;}
+.room_info p{position: relative; padding-left: .55rem; font-size: .65rem; color:#4d4d4d;}
+.room_info p::before{content: ""; position: absolute; left:0; top:50%;  width:.2rem; height:.2rem; border-radius: 100%; background: #666; transform: translateY(-50%);}
+/* room_info 끝 */
+/* surcharge_info 시작 */
+.surcharge_info{padding-bottom: 1.63rem; border-top: 1px solid #f0f0f0; text-align: left;}
+.surcharge_info div{display: flex; justify-content: space-between;padding: 1.66rem 0 1.35rem;}
+.surcharge_info div h3{display: block; font-size: .85rem; color:#4d4d4d;}
+.surcharge_info div span{font-size:.56rem; color:#929292;}
+.surcharge_info h4{font-size: .76rem; color:#4d4d4d;}
+.surcharge_info p{position: relative; padding-left: .55rem; font-size: .63rem; color:#4d4d4d;}
+.surcharge_info p::before{content: ""; position: absolute; left:0; top:50%;  width:.2rem; height:.2rem; border-radius: 100%; background: #666; transform: translateY(-50%);}
+.tb_type2 caption{display: none;}
+.tb_type2 {margin: .8rem 0 1.1rem; border: 1px solid #f0f0f0;}
+.tb_type2 tbody th{padding-left: .63rem; height: 2.1rem; font-size:.56rem; color:#929292; background:#f8f8f8;}
+.tb_type2 tbody td{padding-left: .61rem; font-size: .63rem; color:#4d4d4d;}
+/* surcharge_info 끝 */
+/* room_confirm_info 시작 */
+.room_confirm_info {padding-bottom: 5rem; border-top: 1px solid #f0f0f0; text-align: left; }
+.room_confirm_info h3{display: block; padding: 1.66rem 0 .55rem; font-size: .85rem; color:#4d4d4d;}
+.room_confirm_info li{position: relative; padding: .55rem 0 .55rem .55rem; font-size: .65rem; color:#4d4d4d;}
+.room_confirm_info li::before{content: ""; position: absolute; left:0; top:50%; width:.2rem; height:.2rem; border-radius: 100%; background: #666; transform: translateY(-50%);}
+/* room_confirm_info 끝 */
+/* reservation 버튼 시작 */
+.reservation{position: fixed; left:0; right:0; bottom:0; background:#eb2235; font-size: .8rem; line-height:2.2rem; color:#fff; text-align: center;}
+/* reservation 버튼 끝 */

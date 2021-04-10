@@ -1,0 +1,80 @@
+/* bar부분 */
+html{font-size: 20px;}
+body{font-size: 1rem;}
+.bar{display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; background: #fff; font-size: 0; box-shadow: 4px 4px 10px rgba(0,0,0,.3);}
+.bar > li{flex:1; position: relative; text-align: center; }
+.bar >li >a{display: block; padding-top: 1.56rem; font-size: .41rem; color:#737373; line-height: 1rem;}
+.bar >li >a{display: block; padding-top: 1.56rem; font-size: .41rem; color:#737373; line-height: 1rem;}
+.bar  >li >a.on{color:#d00025;}
+.bar >li:nth-child(1) a {background: url(../images/ico_popcorn.png) no-repeat top .55rem center / 1rem auto; }
+.bar >li:nth-child(2) a {background: url(../images/ico_movieschedule.png) no-repeat top .55rem center / 1rem auto; }
+.bar >li:nth-child(3)> button{content: ""; position: absolute; top:-0.4rem; left:50%; z-index: 60; width:2rem; height: 2rem; border-radius: 100%; background: url(../images/ico_ticket.png) no-repeat center / 1rem auto #fff; box-shadow: 4px 4px 10px rgba(0,0,0,.3); transform: translateX(-50%);}
+.bar >li:nth-child(3)> button.on{ background: url(../images/btn_close.png) no-repeat top .55rem center / 1rem auto #fff;}
+.bar >li:nth-child(3)> button span{display: block; padding-top: 2.1rem; font-size: .41rem; color:#737373; }
+.bar > li:nth-child(6) a { background: url(../images/ico_menu.png) no-repeat top .55rem center / 1rem auto; }
+.bar > li:nth-child(5) a { background: url(../images/ico_my.png) no-repeat top .55rem center / 1rem auto; }
+
+
+/* 햄버거부분 */
+.hambuger.on { right:0; z-index: 40;}
+.hambuger {overflow:auto; position: fixed; top:0;
+bottom:0; right:-100%; z-index: 30; width: 70%; background: #fff; transition:all .5s; }
+.hambuger .util{display: flex; justify-content: flex-end; padding: .85rem .85rem 1rem .85rem;}
+.hambuger .util button { display: inline-block; margin: 0 0 0 .55rem; width:1.1rem; height: 1.2rem; background: url(../images/btn_close.png)no-repeat center /100% auto; vertical-align: -1px;}
+.hambuger > div > a {display: inline-block; margin: 0 .55rem;
+width:1.1rem; height: 1.2rem; background: url(../images/ico_setting.png)no-repeat center /100% auto; }
+.hambuger .center > a{display: inline-block; width:4.3rem; height: 1.45rem; border:1px solid #000; border-radius: .66rem; background: none; color:#000; font-size: .58rem; line-height: 1.45rem;}
+.hambuger .center{padding:.85rem; text-align: center;}
+.hambuger .center span{padding: 0 .56rem; height: 1.2rem; font-size:.46rem; color:#fff; background: #ccc; border-radius: .43rem; line-height: 1.2rem; }
+.hambuger .txt01{padding: 1.03rem 0 .8rem; font-size: .65rem; color:#000;}
+.hambuger .coupon_box li{float: left; position: relative; padding: 1rem 1rem 0; width:calc(33.3% - 2rem);}
+.hambuger .coupon_box li~li::before{content: ""; position: absolute; left:0; top:0; width:.05rem; height: 100%; background: #ddd;}
+.hambuger .coupon_box li::after{position: absolute; top:0; left:50%; font-weight: bold; font-size: .78rem; transform: translateX(-50%);}
+.hambuger .coupon_box li:nth-child(1)::after{content: "276";}
+.hambuger .coupon_box li:nth-child(2)::after{content: "0";}
+.hambuger .coupon_box li:nth-child(3)::after{content: "0";}
+.hambuger .coupon_box li a{ color:#000; font-size: .56rem;}
+.hambuger .coupon_box li .blue{color:#29a2fd;}
+.hambuger p{padding: 1.45rem 0 2.8rem; font-size: .5rem; }
+.hambuger .center .reservation {display:flex; margin:.5rem 0 1.15rem; border-radius: 84px; background: #fe243d; line-height: 3rem;}
+.hambuger .center .reservation a {display: block;  color: #fff; font-size: .66rem;}
+.hambuger .center .reservation li{flex:1; position: relative;}
+.hambuger .center .reservation li~li::before{content: ""; position: absolute; left: 0; top: 50%; width: 3px; height: 2rem; background: #ff6678; transform: translateY(-50%);}
+.hambuger .center .items{display: flex; flex-wrap: wrap; }
+.hambuger .center .items li{width:33.3%;}
+.hambuger .center .items li a {display: block; padding-top:1.68rem; margin-bottom: 1.6rem; background-repeat: no-repeat; background-position: center top; background-size: 1.1rem auto; font-size:.58rem; color:#000;}
+.hambuger .center .items li:nth-child(1) a{background-image:url(../images/ico_movie.png);}
+.hambuger .center .items li:nth-child(2) a{background-image:url(../images/ico_movieroom.png);}
+.hambuger .center .items li:nth-child(3) a{background-image:url(../images/ico_special.png);}
+.hambuger .center .items li:nth-child(4) a{background-image:url(../images/ico_popcorn_small.png);}
+.hambuger .center .items li:nth-child(5) a{background-image:url(../images/ico_special_02.png); }
+.hambuger .center .items li:nth-child(6) a{background-image:url(../images/ico_store_small.png);}
+.hambuger .center .items li:nth-child(7) a{background-image:url(../images/ico_sale_small.png); }
+.hambuger .center .items li:nth-child(8) a{background-image:url(../images/ico_game_small.png);}
+.hambuger .center .items li:nth-child(9) a{background-image:url(../images/ico_notice.png);}
+.hambuger .question ul{display: flex; padding: 0 .2rem; border-top: .25rem solid #ddd; border-bottom: .25rem solid #ddd; box-sizing: border-box;}
+.hambuger .question ul li {flex:1; position: relative; background: #fff; text-align: center;}
+.hambuger .question ul li~li::before{content: ""; position: absolute; left: 0; top: 50%; width: 1px; height: .55rem; background: #ddd; transform: translateY(-50%);}
+.hambuger img{width:100%;}
+.hambuger .question ul li a{display:block; font-size: .56rem; color:#000; line-height: 2.18rem; letter-spacing: -2px;}
+.hambuger .center_02{padding-top: 1.5rem; font-size: 0; text-align: center;}
+.hambuger .center_02 a{display:inline-block; margin: 0 .41rem; width:1.78rem; height: 1.78rem; background-position: center; background-size: 100% auto; background-repeat: no-repeat;}
+.hambuger .center_02 .facebook {background-image: url(../images/ico_facebook_circle.png);}
+.hambuger .center_02 .youtube{background-image: url(../images/ico_youtube_circle.png);}
+.bg_black.on {position: fixed; left: 0; top: 0; bottom: 0; right:0; z-index: 30; background: rgba(0,0,0,.5); }
+.popup {display: none; position: absolute; left: 50%; top: 50%; width: 300px; height: 300px; border: 2px solid red; background: #fff; transform: translate(-50%, -50%); }
+/* 포트폴리오 기능 및 페이지이동 도형 */
+.blink::before,
+.blink02::before{content: ""; position: absolute;z-index: 10; width:20px; height: 20px; border-radius: 100%; background: #fa70cb;animation:blink 0.8s ease-in-out infinite alternate;}
+@keyframes blink{
+0% {opacity:0}
+49%{opacity:0}
+50%{opacity:1}
+}
+ .blink::before{background: #fa70cb;}
+ .blink02::before{background: #fbaf5d;}
+@keyframes blink02{
+0% {opacity:0}
+49%{opacity:0}
+50%{opacity:1}
+}

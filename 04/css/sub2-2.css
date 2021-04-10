@@ -1,0 +1,31 @@
+html{font-size: 20px;}
+body{ font-size: 1rem;}
+/* header 시작 */
+header{display: flex; justify-content: space-between; padding: 0 1.25rem; height: 2.7rem; line-height: 2.7rem; background: #fff; border:1px solid #ddd; }
+header h2{color:#4d4d4d; font-size: .83rem;}
+header .cancel{color:#eb2235; font-size: .83rem;}
+/* header 끝 */
+/* reser_end 시작 */
+.reser_end{padding: 0 1.2rem; }
+.reser_end p{padding-top: 2.71rem; font-size:.61rem; color:#cf9d5e;}
+img{width:100%;}
+.reser_end a{display: block;}
+.reser_end h3{display: block; padding: .71rem 0; font-size: .8rem; color:#4d4d4d;}
+.reser_end em{display: block; padding-bottom: 2.63rem; font-size: .55rem; color:#454545;}
+.offer{margin: 0 1.2rem; padding: .9rem 0; background: #f8f8f8; font-size: .6rem; color:#888; text-align: center;}
+/* reser_end 끝 */
+/* bar 시작 */
+.bar{position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; border-top: 1px solid #b7b7b7; background: #fff; font-size: 0;}
+.bar ul{display: flex;}
+.bar li{flex:1; text-align: center; }
+.bar li a{display: block; padding-top: 1.75rem; font-size: .41rem; color:#737373;}
+.bar li a.on{color:#d00025;}
+.bar li:nth-child(1) a { background: url(../images/ico_home.png) no-repeat top .45rem center / .85rem auto; }
+.bar li:nth-child(2) a { background: url(../images/ico_history.png) no-repeat top .45rem center / .9rem auto; }
+.bar li:nth-child(3) a { background: url(../images/ico_my.png) no-repeat top .45rem center / .88rem auto; }
+.bar li:nth-child(3).on a{ background: url(../images/ico_my_on.png) no-repeat top .45rem center / .88rem auto;}
+.bar li:nth-child(1).on a{ background: url(../images/ico_home_on.png) no-repeat top .45rem center / .88rem auto;}
+.bar li:nth-child(2).on a{ background: url(../images/ico_history_on.png) no-repeat top .45rem center / .88rem auto;}
+.bar li:nth-child(4).on a{ background: url(../images/ico_plus_on.png) no-repeat top .45rem center / .88rem auto;}
+.bar li:nth-child(4) a { background: url(../images/ico_plus.png) no-repeat top .45rem center / 1rem auto; }
+/* bar 끝 */

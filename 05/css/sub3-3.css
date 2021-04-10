@@ -1,0 +1,101 @@
+/* sub3-3.html */
+.pay_wrap {overflow-y: scroll; position:fixed; left: 0; right:0; top:0; bottom:0; z-index: 101; background: #eee; }
+.pay_wrap header{position: relative; padding: 0 .26rem; margin: 0; height:2.5rem; background: #fff; color:#000; font-size:.73rem; text-align: center;}
+.pay_wrap header div a.home{ background: url(../images/ico_home02.png) no-repeat center /100% auto;}
+.pay_wrap header div{position: absolute; left:0; top:50%; font-size: 0; transform: translateY(-50%);}
+.pay_wrap header h2{font-size: .73rem; color:#000; line-height: 2.5rem; text-align: center;}
+.pay_wrap header div a{display: inline-block; margin:0 .75rem; width:1rem; height:1.2rem;}
+.pay_wrap header div a.prev {background: url(../images/btn_prev02.png)no-repeat center /.56rem auto;}
+.pay_wrap .reset{position: absolute; right:.9rem; top:50%; padding: 0 .6rem; border:1px solid #808080; border-radius: 30px; background: none; line-height: 1.3rem; color:#808080; transform: translateY(-50%);}
+.pay_wrap .reset::before{content: ""; display: inline-block; margin: 0 .2rem; width:.48rem; height: .48rem; background: url(../images/btn_reset.png)no-repeat center/100% auto #fff;}
+.pay_wrap .movie_ex{margin: .25rem 0 .5rem 0; padding: .83rem 0; border-top:1px solid #ddd; background: #fff;}
+.pay_wrap .movie_ex_detail {display: inline-block;}
+.pay_wrap .pay_method,
+.pay_wrap .discount{margin-bottom: .25rem;}
+.pay_wrap .discount,
+.pay_wrap .pay_method{ background: #fff;}
+.pay_wrap .discount{padding: 1.1rem .8rem .5rem; }
+.pay_wrap .pay_method{padding: .95rem .8rem .76rem;}
+.pay_wrap .discount h3,
+.pay_wrap .pay_method h3{font-size: .65rem; color:#000;}
+.pay_wrap .discount .point {margin: .5rem 0; border:1px solid #000; border-radius: 7px;}
+.pay_wrap .discount .point ul li{float: left; width:calc(50% - 1px); text-align: center;}
+.pay_wrap .discount .point button{background: none; line-height: 2rem; font-size: .51rem;}
+.pay_wrap .discount .point ul li:nth-child(1){border-right:1px solid #ddd;}
+.pay_wrap .discount .point02 li button{position: relative; width: 100%; border:1px solid #eee; border-radius: 7px; background: #fff; font-size: .4rem; color:#000; line-height: 2.55rem; }
+.pay_wrap .discount .point02 li button span{position: absolute; top:.2rem; right:.2rem; width:.75rem; height: .75rem; border-radius: 100%; background: #000; color:#94cdf8; font-size: .33rem; line-height: .75rem;}
+.pay_wrap .discount .point02 li{float: left; padding: 0 .25rem; width:calc(25% - .5rem); text-align: center;}
+.pay_wrap .discount .point02 li.on button,
+.pay_wrap .pay_method ul li.on button{border:1px solid #000;}
+.pay_wrap .discount .point02 li.on button:after { content: ''; display: block; position: absolute; top:48.5px; left: 49px; z-index: 1; margin-left: -17px; width: 0; border-style: solid; border-width: 8px 4px 0 5.5px; border-color: #fff transparent;}
+.pay_wrap .discount .point02  li.on button:before{ content: ''; display: block; position: absolute; top: 50.5px; left: 49px; z-index: 0; margin-left: -17px; width: 0; border-style: solid; border-width: 8px 4px 0 5.5px; border-color: #000 transparent;}
+.pay_wrap .discount .tab_content{display: none;}
+.pay_wrap .discount .tab_content.on { display: block;}
+.pay_wrap .discount .point02_detail li a.unavailable{background: #fcfcfc; color:#636363;}
+.pay_wrap .discount .point02_detail li{float: left; padding: .125rem; width:calc(50% - .25rem);  }
+.pay_wrap .discount .point02_detail li a{display: block; border:1px solid #ddd; border-radius: 5px; background: #fff; line-height: 1.9rem; font-size: .48rem; color:#000; text-align: center; }
+.pay_wrap .discount .point02_detail{margin-top: .5rem; padding: .63rem .78rem;  background: #f8f8f8; }
+.pay_wrap .pay_method ul{margin-top: .65rem;}
+.pay_wrap .pay_method ul li{float: left; padding: 0 .25rem; width:calc(25% - .5rem); text-align: center;}
+.pay_wrap .pay_method ul li button{width:100%; padding-top: 2.18rem; padding-bottom: .56rem; border:1px solid #eee; background: #fff;}
+.pay_wrap .pay_method ul li button.blue{color:#2aa3fe;}
+.pay_wrap .pay_method ul li:nth-child(1) button{background: url(../images/ico_credit.png)no-repeat top .8rem center /1.2rem auto;}
+.pay_wrap .pay_method ul li:nth-child(2) button{background: url(../images/ico_lpoint.png)no-repeat top .75rem center /1.05rem auto;}
+.pay_wrap .pay_method ul li:nth-child(3) button{background: url(../images/ico_easypay.png)no-repeat top .8rem center /1.2rem auto;}
+.pay_wrap .pay_method ul li:nth-child(4) button{background: url(../images/ico_phonepay.png)no-repeat top .65rem center / .9rem 1.2rem ;}
+.pay_wrap .pay_method ul.registar li a.password_re{display: block; margin: .73rem 0 .55rem; padding: 2.4rem 0 .38rem; border:1px solid #eee; border-radius: 5px;  background: url(../images/btn_plus.png)no-repeat top 1.38rem center /.8rem auto #fff; color:#000; font-size: .51rem; line-height: .81rem;}
+.pay_wrap .pay_method .pay li a{padding: 1.76rem 0 .45rem;}
+.pay_wrap .pay_method .pay li:nth-child(1) a{background: url(../images/ico_kakaopay.png)no-repeat top .8rem center /1.9rem .8rem;}
+.pay_wrap .pay_method .pay li:nth-child(2) a{background: url(../images/ico_payco.png)no-repeat top .8rem center /2.75rem .68rem;}
+.pay_wrap .pay_method .pay li:nth-child(3) a{background: url(../images/ico_naverpay.png)no-repeat top .8rem center /3.2rem .8rem;}
+.pay_wrap .pay_method .pay li:nth-child(4) a{background: url(../images/ico_toss.png)no-repeat top .8rem center /2.55rem .66rem;}
+.pay_wrap .pay_method .pay li:nth-child(5) a{background: url(../images/ico_cashbee.png)no-repeat top .8rem center /1.9rem .61rem,url(../images/ico_tmoney.png)no-repeat top .8rem center /1.3rem .81rem;}
+.pay_wrap .pay_method .registar{background: #f5f5f5;}
+.pay_wrap .pay_method .registar li{width:6.65rem;}
+.pay_wrap .pay_method ul li a{display: block; padding: 1.53rem 0 .65rem; border:1px solid #ddd; border-radius: 5px; font-size: .43rem; color:#000; background-size: .9rem auto; background-position:top .5rem center; background-repeat: no-repeat;}
+.pay_wrap .pay_method ul li:nth-child(1) a{background-image: url(../images/ico_credit01.png); }
+.pay_wrap .pay_method ul li:nth-child(2) a{background-image: url(../images/ico_credit02.png);}
+.pay_wrap .pay_method ul li:nth-child(3) a{background-image: url(../images/ico_credit03.png);}
+.pay_wrap .pay_method ul li:nth-child(4) a{background-image: url(../images/ico_credit04.png);}
+.pay_wrap .pay_method ul li:nth-child(5) a{background-image: url(../images/ico_credit05.png);}
+.pay_wrap .pay_method ul li:nth-child(6) a{background-image: url(../images/ico_credit06.png);}
+.pay_wrap .pay_method ul li:nth-child(7) a{background-image: url(../images/ico_credit07.png);}
+.pay_wrap .pay_method ul li:nth-child(8) a{background-image: url(../images/ico_credit08.png);}
+.pay_wrap .pay_method ul li:nth-child(9) a{background-image: url(../images/ico_credit09.png);}
+.pay_wrap .pay_method ul li:nth-child(10) a{background-image: url(../images/ico_credit10.png);}
+.pay_wrap .pay_method ul li:nth-child(11) a{background-image: url(../images/ico_credit11.png);}
+.pay_wrap .pay_method ul li:nth-child(12) a{background-image: url(../images/ico_credit12.png);}
+.pay_wrap .pay_method ul li:nth-child(13) a{background-image: url(../images/ico_credit13.png);}
+.pay_wrap .pay_method ul li:nth-child(14) a{background-image: url(../images/ico_credit14.png);}
+.accumulate{margin-bottom: .25rem; padding: 0 .8rem; background: #fff; font-size: .56rem; color:#000;}
+.pay_wrap .accumulate input[type="checkbox"]{position: absolute; top:0; left:-10000%;}
+.pay_wrap .accumulate input[type="checkbox"]+label{position: relative;}
+.pay_wrap .accumulate input[type="checkbox"]+label span{position: absolute; top:0; left:0; z-index: 20; width:1rem; height:1rem; border-radius: 100%; box-sizing: border-box; background: #fff;border:1px solid #ddd; }
+.pay_wrap .accumulate input[type="checkbox"]:checked+label span{margin-top: -1px; box-sizing: border-box; background: url(../images/ico_check_on02.png)no-repeat center /.43rem .3rem #000 ; }
+.pay_wrap .accumulate input[type="radio"]{position: absolute; top:0; left:-10000%;}
+.pay_wrap .accumulate input[type="radio"]+label{position: relative;}
+.pay_wrap .accumulate input[type="radio"]+label span{position: absolute; top:0; left:0;  width:1.01rem; height:1.01rem; border-radius: 100%; border:1px solid #ddd; box-sizing: border-box; background: #fff;}
+.pay_wrap .accumulate input[type="radio"]+label span::after{content: ""; position: absolute; top:50%; left:50%; width:.5rem; height: .5rem; border-radius: 100%; background: #ddd;  transform: translate(-50%,-50%);}
+.pay_wrap .accumulate input[type="radio"]:checked+label span::after{position: absolute; top:50%; left:50%; width:.5rem; height: .5rem; border-radius: 100%; background: #000;  transform: translate(-50%,-50%);}
+.pay_wrap .accumulate input[type="radio"]:checked+label span{border:1px solid #000;}
+.pay_wrap .accumulate em{position: relative; padding-left: 1.3rem; line-height: 2.85rem;}
+.pay_wrap .accumulate > div{display: flex; justify-content: space-between;}
+.pay_wrap .agree02 input[type="checkbox"]{position: absolute; top:0; left:-10000%;}
+.pay_wrap .agree02 input[type="checkbox"]+label{position: relative;}
+.pay_wrap .agree02 input[type="checkbox"]+label span{position: absolute; top:50%; left:0; width:1.01rem; height:1.01rem; border:1px solid #ddd; border-radius: 100%; box-sizing: border-box; background: #fff; transform: translateY(-50%);}
+.pay_wrap .agree02 input[type="checkbox"]:checked+label span{margin-top: -1px; box-sizing: border-box; background: url(../images/ico_check_on02.png)no-repeat center /.43rem .3rem #000;}
+.pay_wrap .agree02{margin-bottom: 3.7rem; background: #fff;}
+.pay_wrap .agree02 ul li div a{padding-right: .4rem; background: url(../images/btn_more.png)no-repeat right center/.21rem .3rem;font-size: .4rem; color:#000; line-height: 1.5rem;}
+.pay_wrap .agree02 li button {position: relative; padding: 0 .8rem; width: 100%; border:none; background:#fff; color:#fff; text-align: left; line-height: 2.51rem; transition:all .5s;}
+.pay_wrap .agree02 li button:after {content:""; position: absolute; right:0; top:50%; width:1rem; height:1rem; background: url(../images/btn_more02.png)no-repeat center/100% auto; transition:all .5s; transform: translateY(-50%);}
+.pay_wrap .agree02 li.on button:after{margin-top: -10px; transform: rotate(180deg);}
+.pay_wrap .agree02 li div{ display: none; padding: .5rem .91rem .75rem; background: #f8f8f8; text-align: left; color:#000;}
+.pay_wrap .agree02 li div li{display: flex; justify-content:space-between;}
+.pay_wrap .agree02 em{position: relative; padding-left: 1.31rem; color:#000; font-size: .56rem; line-height: 1.5rem;}
+.payment {display: flex; justify-content: space-between; position: fixed; left:0; right:0; bottom:0; padding-left: .61rem; background: #fff; color: #000;}
+.payment p{padding: .33rem 0 .5rem; font-size: .48rem; color:#666; line-height: 1.18rem;}
+.payment p b{font-size: .46rem; color:#000;}
+.payment div span{display: block; font-size: .46rem; font-weight: bold;}
+.payment div span b{font-size: .46rem; }
+.payment div span strong{color:#fe243c; font-size:.56rem; }
+.payment a{padding: 0 1.86rem; background: #fe243d; color:#fff; font-size: .65rem; line-height: 3.2rem; }

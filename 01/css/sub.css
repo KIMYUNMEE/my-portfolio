@@ -1,0 +1,35 @@
+/* sub visual 시작 */
+.sub_visual{display:flex; justify-content: center; align-items: center; height:334px; background:no-repeat center;}
+.sub_visual h2 {color:#fff; font-size: 13px; text-align: center; }
+.sub_visual h2 span{display: block; font-size: 47px;}
+.sub_visual.bg01 {position: relative; background-image: url(../images/visual.jpg); }
+.sub_visual.bg02 {position: relative; background-image: url(../images/sub_visual1.jpg);}
+/* sub visual 끝 */
+/* quickmenu 시작 */
+.quickmenu{ position: absolute; left:0; bottom: 0; width:100%; height: 60px; border-top: 1px solid #8d898d;}
+.quickmenu > ul { display: flex; margin: 0 auto; width:1100px; height: 60px; border-left:1px solid #8d898d;}
+.quickmenu > ul > li > a {display: inline-block; padding: 0 20px; width:180px; box-sizing: border-box; border-right: 1px solid #8d898d; background: url(../images/icon_down.png)no-repeat right center; font-size: 14px; color:#fff; line-height: 60px;}
+.quickmenu > ul > li{position: relative;}
+.quickmenu > ul > li >a:hover{display: block;}
+.quickmenu a.home{ display: block; width:70px; height: 60px; border-right: 1px solid #8d898d; box-sizing: border-box; background: url(../images/ico_home.png) no-repeat center; }
+.quickmenu ul li ul {display: none; position: absolute; padding:1px 0 10px; min-width: 180px; box-sizing: border-box; background:#f4f4f4; font-size: 0; }
+.quickmenu > ul > li:hover ul{display: block;}
+.quickmenu > ul > li:nth-child(3):hover > a,
+.quickmenu > ul > li:nth-child(4):hover > a{background: url(../images/icon_up.png) no-repeat right 20px center #f4f4f4; color:#000;  }
+.quickmenu ul li ul li a{display: block; padding:0 20px; font-size: 14px; color:#000; line-height: 46px;}
+.quickmenu ul li ul li a.on{color:#c51f2a;}
+.quickmenu ul li ul li a:hover{color:#c51f2a;}
+/* quickmenu 끝 */
+.news,
+.recruit { padding: 84px 0 153px; }
+/* sub_banner02 시작 */
+.sub_banner02 {display: flex; height: 200px; text-align: right; }
+.sub_banner02 .left { flex:1; position: relative; background: url("../images/sub_banner.jpg")no-repeat center;}
+.sub_banner02 .right01 { flex:1; position: relative; background: url("../images/sub_banner3.jpg")no-repeat center;}
+.sub_banner02 .right02 { flex:1; position: relative; background: url("../images/sub_banner2.jpg")no-repeat center;}
+.sub_banner02 a{position: absolute; font-size: 22px; color:#fff;}
+.sub_banner02 .on {right:50px; top:88px;}
+.sub_banner02 .on2 {left:50px; top:88px;}
+.sub_banner02 .on:before{ content: ""; float: left; display: block; margin-right: 22px; width:30px; height: 30px; border:1px solid #666; background: url("../images/ico_blank01.png")no-repeat center;}
+.sub_banner02 .on2:before{content: ""; float: right; display: block; margin-left: 22px; width:30px; height: 30px; border:1px solid #666; background: url("../images/ico_blank02.png")no-repeat center;}
+/* sub_banner02 끝 */

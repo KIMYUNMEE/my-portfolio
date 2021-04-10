@@ -1,0 +1,18 @@
+html{font-size: 20px;}
+body{ font-size: 1rem;}
+/* header 시작 */
+header{display: flex; justify-content: space-between; padding: 0 1.25rem; height: 2.7rem; line-height: 2.7rem; background: #fff; border:1px solid #ddd; }
+header h2{color:#4d4d4d; font-size: .83rem;}
+header .cancel{color:#eb2235; font-size: .83rem;}
+/* header 끝 */
+/* reser_end 시작 */
+.reser_end{padding: 0 1.2rem; font-size: 0;}
+.reser_end p{padding: 1.5rem 0 .6rem; font-size: .83rem; color:#929292;}
+.reser_end span{display: block; padding-bottom: 1.8rem; font-size: .7rem; color:#929292;}
+.reser_end .offer {margin: .48rem 0 .3rem; padding: 1.38rem .96rem 1.26rem; border: .05rem solid #e1e2e4; font-size: .66rem; color:#4d4d4d; text-align: center;}
+.reser_end .offer a{display: block; margin-top: .9rem; background: #dc074a; font-size:.66rem; color:#fff; line-height:1.8rem;}
+.reser_end .box{margin-top:.35rem; background:#f6f6f8;}
+.reser_end .box.size2{width:9.96rem; height: .7rem;}
+.reser_end .box.size1{width:6.61rem; height: .85rem;}
+.reser_end .box.size3{width:11.21rem; height: .8rem;}
+/* reser_end 끝 */

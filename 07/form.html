@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <form>
+    <fieldset>
+    <legend>로그인</legend> <!--온라인서식에대한제목-->
+    <ul>
+      <li>
+        <input type="text">한줄 글상자</li>
+        <input type="text" readonly>폼요소 전체공통<br>
+        <input type="text" disabled>폼요소 전체공통<br>
+        <input type="text" readonly="readonly"><br>
+        <input type="password" placeholder="비밀번호를 입력하세요">입력서식 공통<br>
+        <input type="text" value="홍길동">입력서식 공통<br> <!--value는 미리 써져있는걸로 수정이 가능 ex)개인정보 수정 placeholder랑 다르다 password에 value를 쓰지 못해-->
+        <input type="text"><br>
+      <li>
+        <input type="paassword">비밀번호 입력상자</li>
+      <li>
+        <input type="radio" name="rag1" checked id="ra1_1"><label for="ra1_1">남자</label><!--name은 둘중 하나만 체크할 수있게 해준다 라디오버튼만 name을 쓸수있다-->
+        <input type="radio" name="rag1" id="ra1_2"><label for="ra1_2">여자</label>
+        <br>
+        <input type="radio" name="rag2" id="ra2_1"><label for="ra2_1">서울</label>
+        <input type="radio" name="bb">부산<!--name값은 오로지 영어만 영어+숫자도 가능 소문자로만 가능-->
+      </li>
+      <li>
+        <input type="checkbox" checked>물회 <!---체크박스는 다중선택으로 name이 필요없다--> <!--checked는 라디오 또는 체크박스만 해당-->
+        <input type="checkbox">엽떡
+        <input type="checkbox">치킨
+        <input type="checkbox">탕수육
+      </li>
+      <li>
+        <input type="file">첨부파일</li>
+        <input type="url">도메인 입력</li> <!--유용-->
+        <input type="email">이메일 입력<li>
+        <input type="number">숫자입력</li>
+        <input type="tel">전화번호 입력</li>
+        <input type="search">검색어 입력</li>
+        <input type="date">달력선택</li><!--35부터 40은 모바일전용-->
+      <li><textarea>미리 글쓰기 가능</textarea><!--value 대신 쓸 수있는것-->
+      <li><button>버튼</button>기능 버튼</li>
+      <li>
+        <select>
+          <option>선택하세요</option>
+          <option>010</option>
+          <option>017</option>
+          <option>012</option>
+          <option>013</option>
+          <option>014</option>
+          <option>테스트 테스트 테스트 테스트</option><!--제일 긴 줄로 가로길이가 설정됨! 가로사이즈를 안줘도 제일 긴 줄을 따라간다-->
+          </select>
+      </li>
+    </ul>
+    </fieldset>
+    </form>
+    <br><br><br><br>
+<!--과제시작-->
+<!--폼1-->
+<div class="form1">
+  <div class="form1_2">
+    <div class="form1_3">
+  <h2>로그인</h2>
+  <p>L.POINT 통합 회원은 롯데서비스를 하나의 ID로 이용할 수 있습니다</p>
+  <ul class="login">
+        <li><label for="txt2_1">아이디</label><input type="email" placeholder="아이디 또는 이메일을 입력해주세요" id="txt2_1"></li>
+        <li><label for="txt2_2">비밀번호</label><input type="password" placeholder="비밀번호를 입력해주세요" id="txt2_2"></li>
+        <button>로그인</button>
+  </ul>
+  <ul class="find">
+    <li><a href="">아이디 찾기 </a></li> <li><a href="">비밀번호 찾기</a></li> <li><a href="">가입하기</a></li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+
+<br><br><br><br><br><br>
+<!--폼2-->
+<div class="form2">
+  <h2>로그인</h2>
+  <ul>
+    <li>-포스코에서 제공하는 보다많은 정보와 서비스 이용을 원하신다면 로그인을 해주시기 바랍니다.</li>
+    <li>-포스코 홈페이지 비회원 직원 및 가족 여러분께서는 회원 가입 후 로그인하여 주시기 바랍니다.</li>
+  </ul>
+    <div class="box1">
+    <div class="left">
+      <div class="login">
+   <ul>
+     <li class="line2_1"><label for="txt3_1">아이디</label><input type="text" id="txt3_1" style="width:398px;"></li>
+     <li class="line2_1"><label for="txt3_2">패스워드</label><input type="password" id="txt3_2" style="width:398px;"></li>
+     <button>로그인</button>
+   </ul>
+</div>
+</div>
+    <div class="right">
+  <h3>회원가입</h3>
+    <p>포스코 회원만이 누릴 수 있는 각종 서비스와 정보를 누려보세요.</p>
+<a href="">회원가입</a>
+
+  <h3>아이디 찾기/비밀번호 재 발급</h3>
+    <p>본인 확인 후 아이디와 비밀번호를 메일로 보내드립니다.</p>
+  <a href=""class="btn">아이디 찾기/비밀번호 재발급</a>
+  </div>
+</div>
+<p>개인정보수정은 로그인 후 상단에 위치한 마이페이지를 선택하셔서 수정하시면 됩니다.</p>
+</div>
+<br><br><br><br><br><br><br><br>
+<br><br><br>
+<!--폼3-->
+<!-- 폼3 -->
+<div class="form_style3">
+  <ul class="tab_type4">
+    <li><a href="">내국인</a></li>
+    <li><a href="">외국인 및 재외국민</a></li>
+  </ul>
+  <div class="wrap">
+    <div class="inner">
+      <div class="left">
+        <h2>아이디(이메일) 찾기</h2>
+        <ul>
+          <li><label for="txt4_1">성명</label><input type="text" id="txt4_1"></li>
+          <li><label for="txt4_2">생년월일</label><input type="tel" id="txt4_2"></li>
+        </ul>
+        <p>*예시:YYYY-MM-DD</p>
+        <div><button>찾기</button></div>
+      </div>
+      <div class="right">
+        <h2>비밀번호 찾기</h2>
+        <ul>
+          <li><label for="txt4_3">아이디(이메일)</label><input type="email" id="txt4_3"></li>
+          <li><label for="txt4_4">이름</label><input type="text" id="txt4_4"></li>
+          <li><label for="txt4_5">생년월일</label><input type="tel" id="txt4_5"></li>
+        </ul>
+        <p>*예시:YYYY-MM-DD</p>
+        <div><button>찾기</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+   <br><br><br><br><br><br><br><br>
+<!--폼4-->
+<div class="form4">
+    <div class="form4_1">
+      <!-- top이랑 button을 중간정렬 하기 위해서 form4_1로 한번 감싸서 margin:auto를 만든다 -->
+      <div class="top">
+    <ul>
+    <li>채용구분<span></span>
+      <input type="checkbox" id="chk2_1"><label for="chk2_1">전체</label>
+      <input type="checkbox" id="chk2_2"><label for="chk2_2">신입</label>
+    <input type="checkbox" id="chk2_3"><label for="chk2_3">경력</label>
+    <input type="checkbox" id="chk2_4"><label for="chk2_4">Foreigner</label>
+      <input type="checkbox" id="chk2_5"><label for="chk2_5">계약</label>
+    </li>
+
+    <li>직군구분<span></span>
+      <input type="checkbox" id="chk3_1"><label for="chk3_1">전체</label>
+      <input type="checkbox" id="chk3_2"><label for="chk3_2">Engineering</label>
+      <input type="checkbox" id="chk3_3"><label for="chk3_3">Design</label>
+      <input type="checkbox" id="chk3_4"><label for="chk3_4">Business</label>
+      <input type="checkbox" id="chk3_5"><label for="chk3_5">Staff</label>
+      <input type="checkbox" id="chk3_6"><label for="chk3_6">기타</label>
+    </li>
+      </ul>
+    </div>
+      <div class="btn22">
+        <input type="search" title="채용,직군검색"><button>검색</button>
+      </div>
+    </div>
+  </div>
+
+<br><br><br>
+<!--폼 5-->
+<div class="form5">
+ <table class="form5_2">
+   <caption>
+     인테리어 정보입력
+     <div>
+       상품선택, 이름, 주소, 연락처를 입력하는 표
+   </caption>
+   <colgroup>
+     <col style="width:119px;">
+     <col>
+   </colgroup>
+   <tbody>
+     <tr>
+       <th><span>필수입력</span>상품선택</th>
+     <td>
+       <ul>
+         <li><input type="checkbox" id="chk1_1"><label for="chk1_1">전체</label></li>
+         <li><input type="checkbox" id="chk1_2"><label for="chk1_2">리모델링</label></li>
+         <li><input type="checkbox" id="chk1_3"><label for="chk1_3">부엌</label></li>
+         <li><input type="checkbox" id="chk1_4"><label for="chk1_4">욕실</label></li>
+         <li><input type="checkbox" id="chk1_5"><label for="chk1_5">빌트인수납</label></li>
+         <li><input type="checkbox" id="chk1_6"><label for="chk1_6">가구</label></li>
+         <li> <p>*중복선택가능합니다.</p> </li>
+       </ul>
+     </td>
+     </tr>
+   <tr>
+     <th><span>필수입력</span>이름</th>
+     <td>
+       <input type="text" placeholder="이름을 적어주세요" id="txt1_1">
+       <p>*정확한 상담을 위해 실명으로 부탁드립니다.</p>
+     </td>
+   </tr>
+   <tr>
+     <th><span>필수입력</span>주소</th>
+     <td><input type="number" placeholder="우편번호" id="txt1_2">
+          <button>검색</button>
+          <input type="text" title="상세주소 입력"> <!-- label대신 title 설명에 대해서 쓰는 목적  text가 없으면 title을 써-->
+     </td>
+   </tr>
+   <tr>
+     <th><span>필수입력</span>연락처</th>
+     <td>
+       <select id="txt1_3">
+         <option>선택해주세요</option>
+       </select>
+       <input type="tel" title="연락처 중간자리">
+       <input type="tel" title="연락처 마지막 자리">
+     </td>
+   </tr>
+   </tbody>
+   </table>
+ </div>
+<br><br><br><br><br><br><br>
+<!-- 폼6 -->
+<div class="form_style6">
+  <table class="tb_type13">
+    <caption>
+      주거공간 선택
+      <div>주거형태, 분야, 비용, 스타일, 평형대를 선택하는 표</div>
+    </caption>
+    <colgroup>
+      <col style="width:70px;">
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <th>주거형태</th>
+        <td>
+          <ul>
+            <li><input type="checkbox" id="chk4_1"><label for="chk4_1">아파트</label></li>
+            <li><input type="checkbox" id="chk4_2"><label for="chk4_2">연립/빌라</label></li>
+            <li><input type="checkbox" id="chk4_3"><label for="chk4_3">단독주택</label></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>분야</th>
+        <td>
+          <ul>
+            <li><input type="checkbox" id="chk5_1"><label for="chk5_1">리모델링</label></li>
+            <li><input type="checkbox" id="chk5_2"><label for="chk5_2">키친&amp;바스</label></li>
+            <li><input type="checkbox" id="chk5_3"><label for="chk5_3">빌트인수납</label></li>
+            <li><input type="checkbox" id="chk5_4"><label for="chk5_4">가구</label></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>비용</th>
+        <td>
+          <ul>
+            <li><input type="checkbox" id="chk6_1"><label for="chk6_1">500만원 미만</label></li>
+            <li><input type="checkbox" id="chk6_2"><label for="chk6_2">500~1000만원</label></li>
+            <li><input type="checkbox" id="chk6_3"><label for="chk6_3">1000~2000만원</label></li>
+            <li><input type="checkbox" id="chk6_4"><label for="chk6_4">2000~3000만원</label></li>
+            <li><input type="checkbox" id="chk6_5"><label for="chk6_5">3000~4000만원</label></li>
+            <li><input type="checkbox" id="chk6_6"><label for="chk6_6">4000~5000만원</label></li>
+            <li><input type="checkbox" id="chk6_7"><label for="chk6_7">5000만원 이상</label></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>스타일</th>
+        <td>
+          <ul>
+            <li><input type="checkbox" id="chk7_1"><label for="chk7_1">모던</label></li>
+            <li><input type="checkbox" id="chk7_2"><label for="chk7_2">클래식</label></li>
+            <li><input type="checkbox" id="chk7_3"><label for="chk7_3">내추럴</label></li>
+            <li><input type="checkbox" id="chk7_4" checked><label for="chk7_4">화이트</label></li>
+            <li><input type="checkbox" id="chk7_5"><label for="chk7_5">모노톤</label></li>
+            <li><input type="checkbox" id="chk7_6"><label for="chk7_6">파스텔</label></li>
+            <li><input type="checkbox" id="chk7_7"><label for="chk7_7">로맨틱</label></li>
+            <li><input type="checkbox" id="chk7_8"><label for="chk7_8">유니크</label></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>평형대</th>
+        <td>
+          <ul>
+            <li><input type="checkbox" id="chk8_1"><label for="chk8_1">20평형</label></li>
+            <li><input type="checkbox" id="chk8_2"><label for="chk8_2">30평형</label></li>
+            <li><input type="checkbox" id="chk8_3" checked><label for="chk8_3">40평형</label></li>
+            <li><input type="checkbox" id="chk8_4"><label for="chk8_4">50평형이상</label></li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button>선택 적용하기</button>
+  <button>초기화</button>
+</div>
+
+<br><br><br>
+
+<!--폼7-->
+<!-- 폼7 -->
+<div class="form_style7">
+  <h2>개인정보 입력</h2>
+  <p>아래에 회원가입정보를 모두 입력해주세요.</p>
+  <table class="tb_type14">
+    <caption>
+      회원가입 폼
+      <div>아이디(이메일), 비밀번호, 비밀번호확인, 이름, 휴대폰번호 입력 표</div>
+    </caption>
+    <colgroup>
+      <col style="width:140px;">
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <th><label for="txt5_1"><span>필수입력</span>아이디(이메일)</label></th>
+        <td>
+          <input type="email" id="txt5_1" style="width:300px;">
+          <p>아이디를 입력해 주세요.</p>
+        </td>
+      </tr>
+      <tr>
+        <th><label for="txt5_2"><span>필수입력</span>비밀번호</label></th>
+        <td>
+          <input type="password" id="txt5_2" style="width:181px;">
+          <p class="info">비밀번호는 공백없이 8~15자 이내의 영문(대문자,소문자), 숫자의 조합으로 지정해 주세요.</p>
+          <p>비밀번호를 입력해 주세요.</p>
+        </td>
+      </tr>
+      <tr>
+        <th><label for="txt5_3"><span>필수입력</span>비밀번호확인</label></th>
+        <td>
+          <input type="password" id="txt5_3" style="width:181px;">
+          <p>비밀번호를 입력해 주세요.</p>
+        </td>
+      </tr>
+      <tr>
+        <th><label for="txt5_4"><span>필수입력</span>이름</label></th>
+        <td>
+          <input type="text" id="txt5_4" style="width:181px;">
+          <p>이름을 입력해 주세요.</p>
+        </td>
+      </tr>
+      <tr>
+        <th><label for="txt5_5"><span>필수입력</span>휴대폰번호</label></th>
+        <td>
+          <input type="tel" id="txt5_5" placeholder="‘-’없이 숫자만 입력" style="width:181px;">
+          <button>인증번호 전송</button>
+          <p>휴대폰번호를 입력해 주세요.</p>
+          <p class="info">인증받으실 본인의 휴대폰 번호를 0101231234형태로입력해 주세요.(아이디 또는 비밀번호를 찾기 위해 꼭 필요한 정보입니다.) </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <ul>
+    <li>이용약관<button>보기</button></li>
+    <li>개인정보 수집<button>보기</button></li>
+    <li>개인정보 처리위탁<button>보기</button></li>
+  </ul>
+  <input type="checkbox" id="chk9_1"><label for="chk9_1">본인은 만14세 이상이며, 한샘 회원 이용약관 및 개인정보 수집/이용에 관한 내용을 확인하였고, 위 내용에 동의합니다. <span>(필수)</span></label>
+  <div class="box">
+    <h3>마케팅 수신동의 <span>(선택)</span></h3>
+    <input type="checkbox" id="chk10_1"><label for="chk10_1">전체동의</label>
+    (
+    <input type="checkbox" id="chk10_2"><label for="chk10_2">이메일</label>
+    <input type="checkbox" id="chk10_3"><label for="chk10_3">SMS</label>
+    <input type="checkbox" id="chk10_4"><label for="chk10_4">TM</label>
+    <input type="checkbox" id="chk10_5"><label for="chk10_5">DM</label>
+    )
+    <p>한샘에서 제공하는 정보 등을 받으실 수 있습니다. 단, 상품 구매정보는 수신동의 여부 관계없이 발송됩니다.</p>
+  </div>
+  <div class="btn">
+    <button>가입하기</button>
+  </div>
+</div>
+
+<!-- <h2>개인정보 입력</h2>
+<p>아래에 회원가입정보를 모두 입력해주세요.</p>
+<table width="100%" border="1">
+<caption>
+  회원가입 폼
+  <div>아이디(이메일), 비밀번호, 이름, 휴대폰번호 입력 폼</div>
+</caption>
+  <colgroup>
+    <col style="width:141px;">
+    <col>
+  </colgroup>
+<tbody>
+  <tr>
+    <th><label for="txt5_1"><img src="images/ico_check1.png" alt="필수입력">아이디(이메일)</label></th>
+    <td>
+      <input type="email" id="txt5_1">
+      <p>아이디를 입력해주세요.</p>
+    </td>
+  </tr>
+  <tr>
+    <th><label for="txt5_2"><img src="images/ico_check1.png" alt="필수입력">비밀번호</label></th>
+    <td>
+      <input type="password" id="txt5_2">
+      <p>비밀번호를 입력해 주세요.</p>
+    </td>
+  </tr>
+  <tr>
+    <th><label for="txt5_3"><img src="images/ico_check1.png" alt="필수입력">비밀번호확인</label></th>
+    <td>
+      <input type="password" id="txt5_3">
+      <p>비밀번호를 입력해 주세요.</p>
+    </td>
+  </tr>
+  <tr>
+    <th><label for="txt5_4"><img src="images/ico_check1.png" alt="필수입력">이름</label></th>
+    <td>
+      <input type="text" id="txt5_4">
+      <p>이름을 입력해 주세요.</p>
+    </td>
+  </tr>
+  <tr>
+    <th><label for="txt5_5"><img src="images/ico_check1.png" alt="필수입력">후대폰번호</label></th>
+    <td>
+      <input type="tel" id="txt5_5" placeholder="‘-’없이 숫자만 입력">
+      <p>휴대폰번호를 입력해 주세요.</p>
+      <p>인증받으실 본인의 휴대폰 번호를 0101231234형태로입력해 주세요.(아이디 또는 비밀번호를 찾기 위해 꼭 필요한 정보입니다.) </p>
+      <button>인증번호 전송</button>
+    </td>
+  </tr>
+    </tbody>
+</table>
+  <ul>
+    <li>이용약관<button>보기</button></li>
+    <li>개인정보 수집<button>보기</button></li>
+    <li>개인정보 처리위탁<button>보기</button></li>
+  </ul>
+<input type="checkbox" id="chk9_1"><label for="chk9_1">본인은 만14세 이상이며, 한샘 회원 이용약관 및 개인정보 수집/이용에 관한 내용을 확인하였고, 위 내용에 동의합니다. (필수)</label>
+<h3>마케팅 수신동의 (선택)</h3>
+<input type="checkbox" id="chk10_1"><label for="chk10_1">전체동의(</label>
+<input type="checkbox" id="chk10_2"><label for="chk10_2">이메일</label>
+<input type="checkbox" id="chk10_3"><label for="chk10_3">SMS</label>
+<input type="checkbox" id="chk10_4"><label for="chk10_4">TM</label>
+<input type="checkbox" id="chk10_5"><label for="chk10_5">DM)</label>
+<p>한샘에서 제공하는 정보 등을 받으실 수 있습니다. 단, 상품 구매정보는 수신동의 여부 관계없이 발송됩니다.</p>
+<button>가입하기</button> -->
+<br><br><br><br>
+<!-- 폼8 -->
+<div class="form_style8">
+  <div class="top">
+    <div class="wrap">
+      <h2>필수 정보</h2>
+      <p class="star">필수 입력 항목입니다.</p>
+    </div>
+    <table class="tb_type15">
+      <caption>
+        회원가입 필수정보
+        <div>아이디, 패스워드, 패스워드확인, 이름, 휴대전화, 이메일, 주소 입력표</div>
+      </caption>
+      <colgroup>
+        <col style="width:140px;">
+        <col>
+      </colgroup>
+      <tbody>
+        <tr>
+          <th><label for="txt6_1">아이디</label></th>
+          <td>
+            <input type="text" id="txt6_1" style="width:390px;">
+            <button>중복확인</button>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt6_2">패스워드</label></th>
+          <td>
+            <input type="password" id="txt6_2" style="width:390px;">
+            <p class="right">※비밀번호는 영문/숫자/특수문자를 조합하여 8~16자로 입력해주세요.</p>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt6_3">패스워드 확인</label></th>
+          <td>
+            <input type="password" id="txt6_3" style="width:390px;">
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt6_4">이름</label></th>
+          <td>
+            <input type="text" id="txt6_4" style="width:390px;">
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt6_5">휴대전화</label></th>
+          <td>
+            <select id="txt6_5" style="width:113px;">
+              <option>선택</option>
+              <option>010</option>
+            </select>
+            <span>-</span>
+            <input type="tel" title="휴대전화 번호 가운데 자리" style="width:108px;">
+            <span>-</span>
+            <input type="tel" title="휴대전화 번호 마지막 자리" style="width:108px;">
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt6_6">이메일</label></th>
+          <td>
+            <input type="email" id="txt6_6" style="width:138px;">
+            <span>@</span>
+            <input type="email" title="이메일주소 뒷부분" style="width:188px;">
+            <select title="이메일주소 뒷부분 선택" style="width:180px;">
+              <option>직접입력</option>
+              <option>naver.com</option>
+            </select>
+            <p class="point">기업 그룹웨어 메일인 경우 문자가 깨질수도 있습니다. 한메일 사용자의 경우 수신이 원할하지 않을수 있습니다.</p>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt6_7">주소</label></th>
+          <td>
+            <input type="number" id="txt6_7" style="width:242px;">
+            <button class="post">우편 번호 검색</button>
+            <div>
+              <input type="text" title="기본주소" style="width:555px;">
+              <input type="text" title="상세주소" style="width:555px;">
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="bottom">
+    <h2>선택 정보</h2>
+    <table class="tb_type15">
+      <caption>
+        회원가입 선택정보
+        <div>추천인 아이디, 생년월일, 성별 입력표</div>
+      </caption>
+      <colgroup>
+        <col style="width:140px;">
+        <col>
+      </colgroup>
+      <tbody>
+        <tr>
+          <th><label for="txt7_1">추천인 아이디</label></th>
+          <td>
+            <input type="text" id="txt7_1" style="width:390px;">
+            <button>추천인아이디확인</button>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt7_2">생년월일</label></th>
+          <td>
+            <div class="birthday">
+              <input type="tel" id="txt7_2">
+              <button><span>달력</span></button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>성별</th>
+          <td>
+            <input type="radio" name="rag3" id="rag3_1"><label for="rag3_1">남</label>
+            <input type="radio" name="rag3" id="rag3_2" checked><label for="rag3_2">여</label>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="btn">
+    <button>취소</button>
+    <button>회원가입 완료</button>
+  </div>
+</div>
+
+<br><br><br><br><br>
+<!-- 폼9 -->
+<div class="form_style9">
+  <ul>
+    <li>
+      <input type="checkbox" id="chk11_1">
+      <label for="chk11_1">티스토리 서비스 이용 약관, 개인정보 수집 및 이용동의에 모두 동의합니다. (전체동의)<span></span></label>
+      <div class="line"></div>
+    </li>
+    <li>
+      <input type="checkbox" id="chk11_2">
+      <label for="chk11_2">티스토리 서비스 이용 약관<span></span>
+      </label>
+      <div class="txt">
+        제1조(목적)<br>
+        본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은
+      </div>
+    </li>
+    <li class="on">
+      <input type="checkbox" id="chk11_3"><label for="chk11_3">개인정보 수집 및 이용 동의<span></span></label>
+      <div class="txt">
+        제1조(목적)<br>
+        본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은 본 약관은
+      </div>
+    </li>
+  </ul>
+  <div>
+    <button>취소</button>
+    <button>다음</button>
+  </div>
+</div>
+<br><br><br>
+
+<!-- 폼10 -->
+<div class="form_style10">
+  <div class="top">
+    <h2>회원 정보 입력</h2>
+    <table class="tb_type16">
+      <caption>
+        회원가입정보
+        <div>아이디, 비밀번호, 비민번호 확인, 닉네임 입력표</div>
+      </caption>
+      <colgroup>
+        <col style="width:160px;">
+        <col>
+      </colgroup>
+      <tbody>
+        <tr>
+          <th><label for="txt8_1">아이디</label></th>
+          <td>
+            <input type="email" id="txt8_1" placeholder="이메일 주소를 입력해주세요 (인증 시 필요)">
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt8_2">비밀번호</label></th>
+          <td>
+            <input type="password" id="txt8_2" placeholder="영문, 숫자, 특수문자를 조합하여 10자 이상 적어주세요.">
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt8_3">비밀번호 확인</label></th>
+          <td>
+            <input type="password" id="txt8_3" placeholder="비밀번호를 한번더 입력해주세요">
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt8_4">아이디</label></th>
+          <td>
+            <input type="text" id="txt8_4" placeholder="회원님을 나타내는 닉네임을 지어 주세요">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="bottom">
+    <h2>블로그 정보 입력</h2>
+    <table class="tb_type16">
+      <caption>
+        회원가입 블로그정보
+        <div>블로그 이름, 블로그 주소 입력표</div>
+      </caption>
+      <colgroup>
+        <col style="width:160px;">
+        <col>
+      </colgroup>
+      <tbody>
+        <tr>
+          <th><label for="txt9_1">블로그 이름</label></th>
+          <td>
+            <input type="text" id="txt9_1" placeholder="회원님의 블로그를 잘 설명하는 이름을 적어 주세요">
+          </td>
+        </tr>
+        <tr>
+          <th><label for="txt9_2">블로그 주소</label></th>
+          <td>
+            <input type="text" id="txt9_2" placeholder="영문 소문자, 숫자, 하이픈 만 입력 가능 (개설 후 변경 불가)">
+            <p>.tistory.com</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <img src="images/img_reCAPTCHA.png" alt="">
+  <div class="btn">
+    <button>이전</button>
+    <button>다음</button>
+  </div>
+</div>
+
+ <br><br><br><br><br><br><br><br><br>
+
+ <!-- 폼11 -->
+ <div class="form11">
+   <table>
+     <caption>
+       블로그 글쓰기
+       <div>분류선택, 제목, 내용, 파일첨부 입력표</div>
+     </caption>
+     <colgroup>
+       <col style="width:160px;">
+       <col>
+     </colgroup>
+     <tbody>
+       <tr>
+         <th>분류선택</th>
+         <td>
+           <input type="radio" name="rag4" id="rag4_1" checked><label for="rag4_1">블로그 운영팁</label>
+           <input type="radio" name="rag4" id="rag4_2"><label for="rag4_2">블로그 소개</label>
+           <input type="radio" name="rag4" id="rag4_3"><label for="rag4_3">스킨</label>
+           <input type="radio" name="rag4" id="rag4_4"><label for="rag4_4">기타</label>
+         </td>
+       </tr>
+       <tr>
+         <th><label for="txt10_1">제목</label></th>
+         <td>
+           <input type="text" id="txt10_1" placeholder="제목을 입력하세요">
+           <p>0/30</p>
+         </td>
+       </tr>
+       <tr>
+         <th><label for="txt10_2">내용</label></th>
+         <td>
+           <textarea id="txt10_2" placeholder="내용을 입력하세요"></textarea>
+           <p>0/1000</p>
+         </td>
+       </tr>
+       <tr>
+         <th><label for="txt10_3">제목</label></th>
+         <td>
+           <input type="file">
+           <p>사진은 3장까지만 첨부 가능합니다 (용량 10MB 미만)</p>
+           <button></button>
+         </td>
+       </tr>
+     </tbody>
+   </table>
+   <div class="btn">
+     <button>취소</button>
+     <button>등록</button>
+   </div>
+ </div>
+  </body>
+</html>

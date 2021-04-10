@@ -1,0 +1,18 @@
+html{font-size: 20px;}
+body{font-size: 1rem;}
+/* mypage_detail 시작 */
+.mypage_detail{padding: 1.88rem 1.2rem 0; }
+.login li:first-child{position: relative; padding-left: 4.03rem; min-height:3.2rem; }
+.login li img{position: absolute; left:0; top:0; width:3.2rem; height: 3.2rem; }
+.login li p{padding:.45rem 0 .76rem; color:#4d4d4d; font-size:.91rem;  }
+.login li span{display: block; padding-bottom: 1.61rem; font-size: .66rem;}
+.login li a{display:block; background: #dc074a; color:#fff; line-height: 2.8rem; font-size: .76rem; text-align: center;}
+.login_menu{ padding: .75rem 0 1.35rem;}
+.login_menu li a{ color:#4d4d4d; font-size: .83rem; line-height: 2.81rem;}
+.alarm{padding: 1.4rem 1.2rem 2.08rem; background: #f8f8f8;}
+.alarm div strong{font-size:.83rem;  color:#4d4d4d;}
+.alarm p{font-size: .55rem; color:#4d4d4d; line-height: 1.1rem;}
+/* mypage_detail 끝 */
+/* bar 시작 */
+.bar li:nth-child(3) a.on{ background: url(../images/ico_my_on.png) no-repeat top .45rem center / .88rem auto;}
+/* bar 끝 */

@@ -1,0 +1,158 @@
+html{font-size: 20px;}
+body{ font-size: 1rem; margin-bottom: 50px;}
+header{height: 2.8rem;}
+header .fix{position: fixed; left: 0; right:0; z-index: 40; height: 2.8rem; background: #fff; }
+header h1 a{position: absolute; top:50%; left:50%; width:6.4rem; height: .8rem; background: url(../images/h1_logo.png)no-repeat center /6.4rem auto; transform: translate(-50%,-50%); }
+header button{position: absolute; right:1.15rem; top:50%; width:1.6rem; height: 2.8rem; background: url(../images/btn_search.png)no-repeat center/ 1.6rem auto; transform: translateY(-50%);}
+.visual{position: relative;}
+.visual img{width:100%; max-width: 166rem; min-width:13rem;}
+.visual .txt{position: absolute; top:50%; left:50%; min-width: 9rem; transform: translate(-50%,-50%);}
+.visual .txt02{position: absolute; top:50%; left:1.25rem; min-width: 9rem; transform: translateY(-50%);}
+.visual span{display: inline-block; border-radius: .7rem; font-size: .4rem; color:#e4e6e3; }
+.visual .circle{width:3.7rem; border:2px solid #c6c0bf; text-align: center; line-height: .83rem;}
+.visual .txt .circle_2,
+.visual .txt02 .circle_2{width:3.1rem; text-align: center; line-height: .83rem;}
+.visual .txt .circle_2{background: #4085f9;}
+.visual .txt02 .circle_2{ background: #bc003b;}
+.visual .txt .set,
+.visual .txt02 .set{ padding-top: .5rem; font-size: .5rem; color:#fff;}
+.visual div strong{display:block; padding-top:.5rem; font-size: .91rem; color:#fcfdfe; line-height: 1;}
+.visual .txt p{padding-top: .33rem; font-size: .5rem; color:#fcf7f6; line-height: 1; }
+.visual .txt02 p{padding-top: .28rem; font-size: .9rem; color:#d9b463; line-height: 1;}
+.visual b{font-size: .83rem;}
+.visual .paging { position: absolute; bottom: .58rem; right:.58rem; left:auto; width:auto; padding:0 .53rem; border-radius: .8rem; background: #272826; text-align: right; font-size:.41rem; color:#fff; opacity: .8;}
+.visual .paging span{line-height:.98rem; }
+/* visual 끝 */
+/* main시작 */
+.hotel_info,
+.hotel_info02,
+.hotel_info03,
+.hotel_info04,
+.hotel_info05,
+.hotel_info06,
+.hotel_info07,
+.hotel_info08,
+.hotel_specials{padding:0 1.15rem;}
+/* quick 시작  */
+.quick { padding: .75rem 0 0 0; background: #fdfdfd; }
+.quick ul { display: flex; flex-wrap: wrap; }
+.quick ul li{position: relative; width:25%; height:3.9rem; text-align: center;}
+.quick ul li:nth-child(1),
+.quick ul li:nth-child(2),
+.quick ul li:nth-child(3),
+.quick ul li:nth-child(4){box-sizing: border-box; background: #fff; box-shadow: 7px 4px 3px .5px rgba(0,0,0,.2); }
+.quick ul li a{position: absolute; left:50%; padding-top: 2.5rem; width:100%; font-size: .5rem; color:#636363; transform: translateX(-50%); }
+.quick ul li:nth-child(1) a {background: url(../images/ico_1.png)no-repeat center/1.0rem;}
+.quick ul li:nth-child(2) a {background: url(../images/ico_2.png)no-repeat center/1.0rem;}
+.quick ul li:nth-child(3) a {background: url(../images/ico_3.png)no-repeat center/1.0rem;}
+.quick ul li:nth-child(4) a {background: url(../images/ico_4.png)no-repeat center/1.0rem;}
+.quick ul li:nth-child(5) a {background: url(../images/ico_5.png)no-repeat center/1.0rem;}
+.quick ul li:nth-child(6) a {background: url(../images/ico_6.png)no-repeat center/1.0rem;}
+.quick ul li:nth-child(7) a {background: url(../images/ico_7.png)no-repeat center/1.0rem;}
+.quick ul li:nth-child(8) a {background: url(../images/ico_8.png)no-repeat center/1.0rem;}
+.slide1 .img1{display: flex; justify-content: center; height: 100%; border:1px solid red; background: #fff;}
+.slide1 img,
+.slide12 img{display:block; width:100%;}
+.slide1 a,
+.slide12 a{display: block;}
+/* quick끝 */
+/* block부분 */
+.block{ margin:2.2rem 0;}
+.block div.align{display: flex; justify-content: space-between; padding-bottom: .9rem;}
+p.offer{font-size: .55rem; color:#828282;}
+.block ul{display: flex;}
+.block button{padding-right: 1.0rem; background: url(../images/btn_read.png)no-repeat right center /.73rem .58rem; font-size: .41rem; color:#666666;  }
+ .block figure{position: relative; }
+.block figcaption.box{  padding: .6rem .41rem 0 .41rem; width:14.55rem; box-sizing:border-box;}
+.block figcaption.box1{padding: .6rem .41rem 0 .41rem; width:14.55rem; box-sizing:border-box;}
+.block div ul li a figcaption .price{display: block; padding-top: 1.3rem;}
+.h2{padding-bottom: .7rem; font-size: .8rem; color:#4d4d4d; line-height: 1;}
+.block figcaption p{font-size:.56rem; color:#787878; line-height: 1;}
+.block figcaption b{padding-top: .46rem; font-size: .66rem; color:#454545;  line-height: 1;}
+.block figcaption del{ display: block; padding: .5rem 0 0 0; color:#bebebe; font-size: .5rem; line-height: 1;}
+.block figcaption em{display: inline-block; font-size: .6rem; color:#da074a; line-height: 1;}
+.block figcaption strong{font-size: .58rem; color:#292929; line-height: 1;}
+.block figcaption strong span{font-size: .5rem; color:#474747; line-height: 1;}
+.block figcaption span.coupon{padding-left: 1.25rem; background: url(../images/ico_coupon.png)no-repeat left .5rem center/.46rem auto; font-size: .41rem; color:#d60036; }
+
+
+
+/* block1부분 */
+.block1{ padding: 0 0 .41rem 0;}
+.block1 div.align{display: flex; justify-content: space-between; padding-bottom: .9rem;}
+nav ul.tab_type1 {display: flex; border-top: 1px solid #e9e9e9; border-bottom: 1px solid #e9e9e9;  }
+nav ul.tab_type1 li{flex:1; text-align: center;}
+nav ul.tab_type1 li a{display: block; font-size: .58rem; color:#7a7a7a; line-height: 2.1rem; text-align: center;}
+nav ul.tab_type1 li a {position: relative; }
+ nav ul.tab_type1 li a span{position: absolute; left:50%; bottom: 0; width:1.9rem; border: .08rem solid #4d4d4d; background: red; transform: translateX(-50%);}
+.block1 a.more{padding-right: 1.0rem; background: url(../images/btn_read.png)no-repeat right center /.73rem .58rem; font-size: .41rem; color:#666666;  }
+.block a.more{padding-right: 1.0rem; background: url(../images/btn_read.png)no-repeat right center /.73rem .58rem; font-size: .41rem; color:#666666;  }
+.block1 div button.view{width:100%; border:1px solid #d9d9da; background: none; font-size: .41rem; color:#7a7a7a; line-height: 2.1rem; }
+.block1 div button span{padding-right: 1.0rem; background: url(../images/btn_read.png)no-repeat  right 0 center /.73rem .58rem; }
+.block span.good{ position: absolute; bottom:1.1rem; left:0; padding-left: 1.25rem; background: url(../images/ico_thumb_up.png)no-repeat right 1.2rem center /.6rem; font-size: .41rem; color:#fff;}
+.block1 span.good{ position: absolute; bottom:1.1rem; left:0; padding-left: 1.25rem; background: url(../images/ico_thumb_up.png)no-repeat right 1.2rem center /.6rem; font-size: .41rem; color:#fff;}
+.block1 .event {display: flex; flex-wrap: wrap; margin-top: .75rem;}
+.block1 .event li{padding: 0 .26rem; width: calc(50% - .52rem);}
+.block1 .event li a img{width:100%; }
+.block1 .event figcaption{padding:.5rem .38rem 1.25rem .38rem; font-size: 0; }
+.block1 .event figcaption b{display: block; margin-bottom: .41rem; font-size: .58rem;  color:#4d4d4d;}
+.block1 .event figcaption b.ellipsis2{overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+/* width를 스크립트로 잡아서 가로값을 줘야함... 그때 그때 줄이 다르니까 */
+.block1 .event figcaption span{padding-right: .2rem; color:#e1004e; font-size: .41rem; }
+.block1 .event figcaption del{font-size: .41rem; color:#b3b3b3; }
+.block1 .event figcaption del.price{display: block; padding:.36rem 0 .31rem 0;}
+.block1 .event figcaption em.per{display: inline;}
+.block1 .event figcaption em{padding-right: .26rem; font-size: .5rem; color:#e31653;}
+.block1 .event figcaption strong{font-size:.5rem; color:#393939; }
+.block1 .event figcaption strong.price{ display: block; padding-top: .46rem;}
+.block1 .event figcaption span.today{margin-right: .28rem; padding:0 .1rem; border:1px solid #dddfe5; font-size:.41rem; color:#848ea6; }
+.block1 .event figcaption span.refund{padding:0 .1rem; font-size:.41rem; border:1px solid #c3dee1; color:#2ba5af;  }
+.block1 .event figcaption p.area{padding-bottom: .36rem; font-size: .46rem; color:#878787;}
+.block1 figcaption span.coupon{display: block; margin-top: .36rem; padding-left: .64rem; background: url(../images/ico_coupon.png)no-repeat left  center/.46rem auto; font-size: .41rem; color:#d60036;  }
+.block1 .event figcaption .box2{padding-top: .33rem;}
+/* 배너이미지부분 */
+.banner img{width:100%}
+.banner .ad03 div strong{font-size: .78rem; color:#2d220c;}
+.banner .ad03 div p{ padding:.26rem 0 .43rem 0; color:#160e01; font-size: .78rem;}
+.banner .ad03 div button{display: block; padding-right:.33rem; background: url(../images/btn_more_2.png)no-repeat right 0 center / .33rem auto; font-size:.33rem; color:#947d43;}
+.banner {margin: 1.53rem 0 .23rem;}
+.banner .ad01{display: block; position: relative;}
+.banner .ad02{display: block; position: relative;}
+.banner .ad01 p{position: absolute; top:50%; left:1.28rem; font-size: .8rem; color:#000; transform: translateY(-50%);}
+.banner .ad02 strong{position: absolute; top:50%; left:.96rem; font-size: .9rem; color:#fff; transform: translateY(-50%);}
+.banner .ad02 strong b{ color:#488bf2;}
+img{width:100%;}
+.banner .ad01 p em{font-size:.8rem; font-weight: lighter;}
+.banner .ad03{display: flex; justify-content: space-between; padding: .8rem .85rem .75rem .93rem;  width: 100%; box-sizing: border-box; background: #ecc870; }
+.banner .ad03 span { display: block; width:2.9rem; height: 2.9rem; border-radius: 100%; background: #fff; box-shadow: 3px 3px 3px .5px rgba(0,0,0,.2);}
+.banner .ad03 .bank_wrap{display: flex;}
+.banner .ad03 .bank_wrap .bank{position: relative;}
+.banner .ad03 .bank_wrap .bank2{position: relative; left:-9px;}
+.banner .ad03 .bank2 span {display: block; width:2.9rem; height: 2.9rem; border-radius: 100%; background: #fff; }
+.banner .ad03 .bank span::after{content: ""; position: absolute; width:2.9rem; height: 2.9rem; background: url(../images/img_wooribank.png)no-repeat center /2rem auto;}
+.banner .ad03 .bank2 span::after{content: ""; position: absolute; width:2.9rem; height: 2.9rem; background: url(../images/img_hanabank.png)no-repeat center /2rem auto;}
+.block .thumb li a {display: block; position: relative; }
+.block .thumb li a b{position: absolute; top:2.7rem; left:50%; min-width: 237px; text-align: center;  font-size: 1.1rem; color:#fff; line-height: 1.6rem; transform: translateX(-50%);}
+.block .thumb li a strong{position: absolute; bottom:1.1rem; left:50%; color:#fff; line-height: 1.6rem; font-size: .76rem; transform: translateX(-50%);}
+.block .thumb li a strong.offer{padding-right: .68rem; background: url(../images/btn_more_3.png)no-repeat center right /.6rem auto;}
+.block .thumb img{width:100%;}
+
+/* footer부분 */
+footer{padding:0 1.15rem; background: #f8f8f8; }
+footer .box{ display: flex; justify-content: space-between; padding-top: 1.1rem;}
+footer div h2 a{display:block; width:6.7rem; height: .8rem; background: url(../images/h1_logo.png)no-repeat center /100% auto; }
+footer .footer ul{display: flex; padding:.86rem 0;}
+footer .footer ul li{position: relative; padding:0 .21rem; line-height: 1; }
+footer .footer ul li ~ li::before { content: ""; position: absolute; top:50%; left: 0; width: 1px; height: .41rem; background: #afafaf; }
+footer .footer ul li a{font-size: .46rem; color:#aeaeae;}
+footer .footer ul li:first-child { padding-left:0;}
+footer .footer ul li a.on{color:#888;}
+footer p{font-size: .5rem; color:#aeaeae; line-height:.76rem; }
+footer .info {display: block; padding-right: .7rem; background: url(../images/btn_more.png)no-repeat right .07rem  center /.43rem auto; font-size: .48rem; color:#9e9e9e;}
+ footer .info_wrap{display: none; padding-top: .86rem;}
+footer .info_wrap li{position: relative; padding:0 .21rem; line-height: 1;}
+footer .info_wrap li:nth-child(2)::after,
+footer .info_wrap li:nth-child(3)::after { content: ""; position: absolute; top:50%; left: 0; width: 1px; height: .41rem; background: #afafaf; }
+footer .info_wrap li a{font-size: .5rem; color:#aeaeae;}
+footer .info_wrap ul{display: flex;}
+footer .info01 p{line-height: .93rem;}

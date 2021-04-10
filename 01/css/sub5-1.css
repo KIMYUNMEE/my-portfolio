@@ -1,0 +1,62 @@
+/* banner 시작 */
+.sub_banner01 {display: flex; flex-direction: column; justify-content: center; padding: 70px 0; margin-bottom: 100px; background: url("../images/bg_visual4.png")no-repeat top; text-align: center; }
+.sub_banner01 strong{padding-bottom: 20px; font-size: 30px; color:#fff; line-height: 1; }
+.sub_banner01 p{font-size: 15px; color:#fff; line-height: 1;}
+.sub_banner01 button{ font-size: 14px; color:#fff; margin: 0 auto; margin-top: 30px; width:138px; height: 49px; border: 1px solid #fff; background-color: rgba(255,255,255,.1); cursor: pointer;}
+.sub_banner01 button{ text-align: left; padding:0 29px 0 28px; background: url("../images/ico_go.png")no-repeat right 29px center;}
+/* banner 끝 */
+/* recruit_info 시작 */
+.recruit_info{margin: 0 auto; width:1100px;}
+.recruit_info_detail{margin-top: 30px; border-top: 2px solid #000;}
+.recruit_info h4{padding-right: 123px; font-size: 22px; color:#000; }
+.recruit_info .top,
+.recruit_info .right{display: flex; float: left; padding:55px 0; width:50%;}
+.recruit_info .top ul a{position: relative; padding-left: 16px; line-height: 26px; font-size: 15px; color:#666;}
+.recruit_info .right ul li {height: 52px; font-size: 15px;}
+.recruit_info .right ul a{position: relative; padding-left: 16px; line-height: 26px; font-size: 15px; color:#666;}
+.recruit_info .right ul a::before,
+.recruit_info .top ul a::before{content: ""; position: absolute; top:50%; left:0; width: 3px; height: 3px; background: #c61e2b; transform: translateY(-50%);}
+.recruit_info .bottom ol {display: flex;}
+.recruit_info .bottom li {flex:1;}
+.recruit_info .bottom h4{float:left; font-size: 22px; color:#000; }
+.recruit_info .bottom {clear: both; padding:49px 0 55px; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd;}
+.recruit_info .bottom ol li {background:no-repeat top;}
+.recruit_info .bottom ol li:nth-child(1){background-image: url(../images/bg_procedure1.png);}
+.recruit_info .bottom ol li:nth-child(2){background-image: url(../images/bg_procedure2.png);}
+.recruit_info .bottom ol li:nth-child(3){background-image: url(../images/bg_procedure3.png);}
+.recruit_info .bottom ol li:nth-child(4){background-image: url(../images/bg_procedure4.png);}
+.recruit_info .bottom ol li:nth-child(5){background-image: url(../images/bg_procedure5.png);}
+.recruit_info .bottom ol li {position: relative; margin-right: 35px; padding-top: 95px; height: 115px; box-sizing: border-box; text-align: center;}
+.recruit_info .bottom ol li:after {content: "" ; position: absolute; top:30px; right:0; margin-right: -25px; width:14px; height: 22px; background: url(../images/bg_next.png)no-repeat 0 0; }
+.recruit_info .bottom ol li:last-child:after{display: none;}
+/* recruit_info 끝 */
+/* project 시작 */
+.project {margin-top: 105px; }
+.h3{ font-size: 30px; line-height: 1; text-align: center;}
+.project h3 {padding-bottom: 36px;}
+.project nav {padding-bottom: 57px;}
+.project ul{display: flex; border-bottom: 2px solid #ddd; text-align: center;}
+.project ul li{flex:1; position: relative; font-size: 17px;}
+.project ul li button{display: inline-block; width: 100%; background: none; font-size: 17px; line-height: 60px; color:#999; }
+.project ul li button.on{color:#c50b2f;}
+.project ul li button.on:after{content: ""; position: absolute; left:0; bottom: -2px; right: 0; height: 3px; background: red;}
+.project .video {float: left; width:797px; height: 447px; }
+.project .txt03 {overflow: auto; float: right; padding: 30px; width:303px; height: 447px; box-sizing: border-box; background: #f7f7f7; font-size: 15px; color: #666; line-height: 30px; text-align: left;}
+.tabs .tab_content { display:none;}
+.tabs .tab_content.on { display: block;}
+.tabs .tab_nav li.on button::after { content: ""; position: absolute; left:0; bottom: -2px; right: 0; height: 3px;  background: red;}
+.tabs .tab_nav li.on button{color:red;}
+/* project 끝 */
+/* work_content 시작 */
+.work_content {display: flex; padding-top: 104px;}
+.work_content > div {width:485px;}
+.work_content .exploration h3,
+.work_content .dna h3{position: relative; padding-bottom: 12px; border-bottom: 2px solid #010101; font-size: 26px; line-height: 1; color:#111;}
+.work_content .exploration h3::after,
+.work_content .dna h3::after{content: ""; position: absolute; right:0; top:0; width:16px; height: 16px; background: url(../images/ico_plus.png)no-repeat center;}
+.work_content .exploration{ margin-right: 127px;}
+.work_content .exploration ul,
+.work_content .dna ul{padding-top: 13px;}
+.work_content .exploration li a {display: block; font-size: 14px; color:#666; line-height: 36px;}
+.work_content .dna li a {display: block; font-size: 14px; color:#666; line-height: 36px;}
+/* work_content 끝 */

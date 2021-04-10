@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>메인화면 | 건국대학교병원</title>
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" charset="utf-8"></script>
+  <script src="js/jquery-ui.min.js" charset="utf-8"></script>
+    <script src="js/swiper.min.js"></script>
+  <script src="js/default.js" charset="utf-8"></script>
+  <script src="js/swiper.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/swiper.css">
+
+</head>
+<body>
+  <header>
+    <div class="reservation">
+      <div class="diagnosis">
+        <button>외래진료예약</button>
+      </div>
+      <div class="checkup">
+        <button>건강검진 예약</button>
+      </div>
+    </div>
+    <div class="fex">
+      <h1><a href="" class="blink"><span class="hide">건국대학병원</span></a></h1>
+      <ul class="search">
+        <li>
+          <input type="search" placeholder="검색어를 입력하세요." title="검색">
+        </li>
+      </ul>
+      <ul class="top_menu">
+        <li class="pop01"><button class="blink02">로그인</button>
+        </li>
+        <li class="pop01"><button class="blink02">회원가입</button></li>
+        <li class="language"><button class="blink">Language</button>
+          <ul>
+            <li><button>English</button></li>
+            <li><button>Русский язык</button></li>
+            <li><button>中國語</button></li>
+            <li><button>日本語</button></li>
+            <li><button>монгол хэл</button></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="login"></div>
+    <div class="login_wrap">
+      <strong>로그인</strong>
+      <b>건국대학교병원 홈페이지 회원서비스는<br>
+        로그인 후 이용하실 수 있습니다.</b>
+      <ul>
+        <li><input type="text" placeholder="아이디" title="아이디 입력"></li>
+        <li><input type="password" placeholder="비밀번호" title="비밀번호 입력"></li>
+        <li><button>로그인</button></li>
+      </ul>
+      <div class="find">
+        <a href="">아이디/비밀번호 찾기</a>
+        <a href="">회원가입</a>
+      </div>
+      <div class="sns_login">
+        <a href="">네이버아이디로 로그인</a>
+        <a href="">카카오아이디로 로그인</a>
+      </div>
+      <div class="close">
+        <button><span class="hide">닫기</span></button>
+      </div>
+    </div>
+    <div class="join">
+    </div>
+    <div class="join_wrap">
+      <div class="box_wrap">
+        <div class="box_4">
+          <h2>회원가입</h2>
+          <div class="sns_login">
+            <a href="">네이버아이디로 로그인</a>
+            <a href="">카카오아이디로 로그인</a>
+          </div>
+        </div>
+        <p>* 표시 항목은 필수입력사항입니다.</p>
+        <table class="tb_type2">
+          <caption>
+            회원가입 폼
+            <div>아이디, 패스워드, 이름, 휴대전화, 이메일, 주소, 추천인 아이디, 생년월일, 성별을 작성하는 폼</div>
+          </caption>
+          <colgroup>
+            <col style="width:151px;">
+            <col>
+          </colgroup>
+          <tbody>
+            <tr>
+              <th><label for="txt1_1"><span class="necessary">*</span>아이디</label></th>
+              <td>
+                <input type="text" id="txt1_1" placeholder="영문포함 6글자 이상">
+            </tr>
+            <tr>
+              <th><label for="txt1_2"><span class="necessary">*</span>비밀번호</label></th>
+              <td>
+                <input type="password" id="txt1_2" placeholder="영문(대문자 1자 필수) +숫자 조합으로 8자 이상">
+            </tr>
+            <tr>
+              <th><label for="txt1_3"><span class="necessary">*</span>비밀번호 확인</label></th>
+              <td>
+                <input type="password" id="txt1_3" placeholder="영문(대문자 1자 필수) +숫자 조합으로 8자 이상">
+            </tr>
+            <tr>
+              <th><label for="txt1_4"><span class="necessary">*</span>이름</label></th>
+              <td>
+                <input type="text" id="txt1_4">
+                <input type="radio" name="rag1" id="rag1_1"><label for="rag1_1">내국인</label>
+                <input type="radio" name="rag1" id="rag1_2"><label for="rag1_2">외국인</label>
+            </tr>
+            <tr>
+              <th><label for="txt1_5"><span class="necessary">*</span>생년월일</label></th>
+              <td>
+                <input type="text" id="txt1_5" placeholder="1980년 3월 20일인 경우 : 19800320">
+                <input type="radio" name="rag1" id="rag1_3"><label for="rag1_3">남성</label>
+                <input type="radio" name="rag1" id="rag1_4"><label for="rag1_4">여성</label>
+            </tr>
+            <tr>
+              <th><label for="txt1_6">전화번호</label></th>
+              <td>
+                <input type="text" id="txt1_6" placeholder="전화번호 (숫자만)">
+              </td>
+            </tr>
+            <tr>
+              <th><label for="txt1_7">휴대폰번호</label></th>
+              <td>
+                <input type="text" id="txt1_7" placeholder="휴대폰번호 (숫자만)">
+              </td>
+            </tr>
+            <tr>
+              <th><label for="txt1_8">이메일</label></th>
+              <td>
+                <input type="email" id="txt1_8">
+              </td>
+            </tr>
+            <tr>
+              <th><label for="txt6_7">주소</label></th>
+              <td>
+                <div class="address">
+                  <input type="text" id="txt6_7" class="basic">
+                  <button class="address_search">주소검색</button>
+                </div>
+                <input type="text" id="txt6_8" class="detail" title="자세한 주소">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <b>건국대학교병원 회원 이용약관</b>
+        <div class="scroll">
+          건국대학교병원(이하 병원)은 고객님의 개인정보를 매우 중요시하며 개인정보보호법을 준수하고 있습니다. 병원은 개인정보처리방침을 통하여 귀하께서 제공하시는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.
+          제1장 총칙
+          제1조(목적)
+          본 약관은 병원에서 운영하는 홈페이지에서 제공하는 온라인서비스(이하서비스)의 이용에 관한 사항을 규정함을 목적으로 합니다.
+
+          제2조(정의)
+          1. 이용자(회원) : 홈페이지에 로그인하여 본 약관에 따라 병원이 제공 하는 서비스를 받는 사람을 말합니다.
+          2. 운영자 : 서비스의 전반적인 관리와 원활한 운영을 위하여 병원에서 선정한 사람을 말합니다.
+          3. 연결사이트 : 홈페이지와 하이퍼링크(문자, 정지 및 동화상 등이 포함됨) 등으로 연결된 웹 사이트를 말합니다.
+          4. 개인정보 : 당해 정보에 포함되어 있는 이름, 주민등록번호 등의 사항에 의하여 특정 개인을 식별할 수 있는 정보(특정 개인을 인식할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함함)를 말합니다.
+          5. 해지 : 이용자가 서비스 개통 후 이용계약을 해약하는 것을 말합니다.
+
+          제3조(약관의 게시 및 변경)
+          3. 연결사이트 : 홈페이지와 하이퍼링크(문자, 정지 및 동화상 등이 포함됨) 등으로 연결된 웹 사이트를 말합니다.
+          4. 개인정보 : 당해 정보에 포함되어 있는 이름, 주민등록번호 등의 사항에 의하여 특정 개인을 식별할 수 있는 정보(특정 개인을 인식할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함함)를 말합니다.
+          5. 해지 : 이용자가 서비스 개통 후 이용계약을 해약하는 것을 말합니다.
+
+          제3조(약관의 게시 및 변경)
+          3. 연결사이트 : 홈페이지와 하이퍼링크(문자, 정지 및 동화상 등이 포함됨) 등으로 연결된 웹 사이트를 말합니다.
+          4. 개인정보 : 당해 정보에 포함되어 있는 이름, 주민등록번호 등의 사항에 의하여 특정 개인을 식별할 수 있는 정보(특정 개인을 인식할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함함)를 말합니다.
+          5. 해지 : 이용자가 서비스 개통 후 이용계약을 해약하는 것을 말합니다.
+
+          제3조(약관의 게시 및 변경)
+          3. 연결사이트 : 홈페이지와 하이퍼링크(문자, 정지 및 동화상 등이 포함됨) 등으로 연결된 웹 사이트를 말합니다.
+          4. 개인정보 : 당해 정보에 포함되어 있는 이름, 주민등록번호 등의 사항에 의하여 특정 개인을 식별할 수 있는 정보(특정 개인을 인식할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함함)를 말합니다.
+          5. 해지 : 이용자가 서비스 개통 후 이용계약을 해약하는 것을 말합니다.
+
+          제3조(약관의 게시 및 변경)
+          3. 연결사이트 : 홈페이지와 하이퍼링크(문자, 정지 및 동화상 등이 포함됨) 등으로 연결된 웹 사이트를 말합니다.
+          4. 개인정보 : 당해 정보에 포함되어 있는 이름, 주민등록번호 등의 사항에 의하여 특정 개인을 식별할 수 있는 정보(특정 개인을 인식할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함함)를 말합니다.
+          5. 해지 : 이용자가 서비스 개통 후 이용계약을 해약하는 것을 말합니다.
+
+          제3조(약관의 게시 및 변경)
+          3. 연결사이트 : 홈페이지와 하이퍼링크(문자, 정지 및 동화상 등이 포함됨) 등으로 연결된 웹 사이트를 말합니다.
+          4. 개인정보 : 당해 정보에 포함되어 있는 이름, 주민등록번호 등의 사항에 의하여 특정 개인을 식별할 수 있는 정보(특정 개인을 인식할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함함)를 말합니다.
+          5. 해지 : 이용자가 서비스 개통 후 이용계약을 해약하는 것을 말합니다.
+
+          제3조(약관의 게시 및 변경)
+          3. 연결사이트 : 홈페이지와 하이퍼링크(문자, 정지 및 동화상 등이 포함됨) 등으로 연결된 웹 사이트를 말합니다.
+          4. 개인정보 : 당해 정보에 포함되어 있는 이름, 주민등록번호 등의 사항에 의하여 특정 개인을 식별할 수 있는 정보(특정 개인을 인식할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함함)를 말합니다.
+          5. 해지 : 이용자가 서비스 개통 후 이용계약을 해약하는 것을 말합니다.
+
+          제3조(약관의 게시 및 변경)
+          3. 연결사이트 : 홈페이지와 하이퍼링크(문자, 정지 및 동화상 등이 포함됨) 등으로 연결된 웹 사이트를 말합니다.
+          4. 개인정보 : 당해 정보에 포함되어 있는 이름, 주민등록번호 등의 사항에 의하여 특정 개인을 식별할 수 있는 정보(특정 개인을 인식할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함함)를 말합니다.
+          5. 해지 : 이용자가 서비스 개통 후 이용계약을 해약하는 것을 말합니다.
+
+          제3조(약관의 게시 및 변경)
+          3. 연결사이트 : 홈페이지와 하이퍼링크(문자, 정지 및 동화상 등이 포함됨) 등으로 연결된 웹 사이트를 말합니다.
+          4. 개인정보 : 당해 정보에 포함되어 있는 이름, 주민등록번호 등의 사항에 의하여 특정 개인을 식별할 수 있는 정보(특정 개인을 인식할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함함)를 말합니다.
+          5. 해지 : 이용자가 서비스 개통 후 이용계약을 해약하는 것을 말합니다.
+
+          제3조(약관의 게시 및 변경)
+        </div>
+        <div class="checkox">
+          <input type="checkbox" id="chk1_2"><label for="chk1_2"></label>
+          <label for="chk1_2" class="sp">개인정보 수집 및 이용동의에 모두 동의합니다.(전체동의)</label></div>
+        <b>개인정보 수집 및 이용에 대한 안내</b>
+        <div class="scroll">
+          건국대학교병원(이하 병원)은 고객님의 개인정보를 매우 중요시하며 개인정보보호법을 준수하고 있습니다. 병원은 개인정보처리방침을 통하여 귀하께서 제공하시는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.
+          제1장 총칙
+          제1조(목적)
+          본 약관은 병원에서 운영하는 홈페이지에서 제공하는 온라인서비스(이하서비스)의 이용에 관한 사항을 규정함을 목적으로 합니다.
+        </div>
+        <div class="checkox"><input type="checkbox" id="chk1_3"><label for="chk1_3"></label>
+          <label for="chk1_3" class="sp">개인정보 수집 및 이용동의에 모두 동의합니다.(전체동의)</label></div>
+        <div class="checkox all"><input type="checkbox" id="chk1_4"><label for="chk1_4"></label>
+          <label for="chk1_4" class="sp all">약관에 모두 동의합니다.</label></div>
+
+        <div class="signup_wrap">
+          <button class="signup">회원가입</button>
+        </div>
+        <div class="close">
+          <button><span class="hide">닫기</span></button>
+        </div>
+      </div>
+    </div>
+    <nav class="lnb">
+      <ul>
+        <li class="bg1">
+          <a href=""><span class="line">진료안내</span></a>
+          <div class="box_wrap">
+            <div class="box">
+              <ul class="h2_wrap">
+                <li>
+                  <h2>진료안내</h2>
+                </li>
+                <li class="on"><button>진료과</button>
+                </li>
+                <li><button>전문센터</button></li>
+                <li><button>특수클리닉</button></li>
+              </ul>
+              <ul class="center">
+                <li><a href="">가정의학과</a></li>
+                <li><a href="">감염내과</a></li>
+                <li><a href="">건강의학과</a></li>
+                <li><a href="">내분비대사내과</a></li>
+                <li><a href="">루마티스내과</a></li>
+                <li><a href="">마취통증의학과</a></li>
+                <li><a href="">방사선종양학과</a></li>
+                <li><a href="">병리과</a></li>
+                <li><a href="">비뇨의학과</a></li>
+                <li><a href="">산부인과</a></li>
+                <li><a href="">성형외과</a></li>
+                <li><a href="">소아청소년과</a></li>
+                <li><a href="">소화기내과</a></li>
+                <li><a href="">신경과</a></li>
+                <li><a href="">신경외과</a></li>
+                <li><a href="">신장내과</a></li>
+                <li><a href="">심장혈관내과</a></li>
+                <li><a href="">안과</a></li>
+                <li><a href="">영상의학과</a></li>
+                <li><a href="">외과</a></li>
+                <li><a href="">응급의학과</a></li>
+                <li><a href="">이비인후-두경부외과</a></li>
+                <li><a href="">임상약리학과</a></li>
+                <li><a href="">재활의학과</a></li>
+                <li><a href="">정신건강의학과</a></li>
+                <li><a href="">정형외과</a></li>
+                <li><a href="">종양혈액내과</a></li>
+                <li><a href="">진단검사의학과</a></li>
+                <li><a href="">치과</a></li>
+                <li><a href="">피부과</a></li>
+                <li><a href="">핵의학과</a></li>
+                <li><a href="">호흡기-알레르기내과</a></li>
+                <li><a href="">흉부외과</a></li>
+                <div class="link_wrap">
+                  <ul class="link clear">
+                    <li><b>처음 오시는 분 예약상담신청</b>
+                      <em>상담시간:평일 09:00-17:00(토요일, 공휴일 제외)</em></li>
+                    <li><input type="text" placeholder="성함" title="성함 입력"></li>
+                    <li><input type="number" placeholder="연락처" title="연락처 입력"></li>
+                    <li><button class="re_link">예약신청</button></li>
+                  </ul>
+                </div>
+              </ul>
+              <ul class="right">
+                <li>
+                  <a href=""><strong>외래진료안내</strong></a>
+                  <ul>
+                    <li><a href="">예약안내</a></li>
+                    <li><a href="html/sub1_2_2.html" class="blink02">비급여진료비 안내</a></li>
+                    <li><a href="">제외동포 진료안내</a></li>
+                    <li><a href="">진료협력센터 초진예약</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href=""><strong>입원/퇴원 안내</strong></a>
+                  <ul>
+                    <li><a href="">입원절차</a></li>
+                    <li><a href="">퇴원절차</a></li>
+                  </ul>
+                </li>
+                <li><a href=""><strong>응급진료안내</strong></a></li>
+              </ul>
+            </div>
+          </div>
+        <li class="bg2"><a href=""><span class="line">이용안내</span></a>
+          <div class="box_wrap">
+            <div class="box">
+              <ul class="h2_wrap">
+                <li>
+                  <h2>이용안내</h2>
+                </li>
+              </ul>
+              <ul class="dept02">
+                <li>
+                  <a href="">위치안내</a>
+                  <ul>
+                    <li><a href="">오시는길</a></li>
+                    <li><a href="">주차안내</a></li>
+                    <li><a href="">둘러보기</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="">편의시설</a>
+                  <ul>
+                    <li><a href="">원내 편의시설</a></li>
+                    <li><a href="">주변 편의시설</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="dept02">
+                <li>
+                  <a href="">신청/발급 안내</a>
+                  <ul>
+                    <li><a href="">진료의뢰서</a></li>
+                    <li><a href="">진단서발급</a></li>
+                    <li><a href="">처방전</a></li>
+                    <li><a href="">진료비계산서</a></li>
+                    <li><a href="">의무기록/영상 사본발급</a></li>
+                    <li><a href="">병리자료(슬라이드) 발급</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="dept02">
+                <li>
+                  <a href="">병문안 안내</a>
+                </li>
+                <li>
+                  <a href="">전화번호 안내</a>
+                </li>
+                <li>
+                  <a href="">온라인증명서발급</a>
+                </li>
+              </ul>
+              <ul class="num">
+                <li><b>건국대학교병원 전화번호 안내</b></li>
+                <li><em>대표전화번호</em>&nbsp;<span>1588-1533, 1800-1533</span></li>
+                <li><em>팩스번호</em>&nbsp;<span>02-2030-5009</span></li>
+                <li><em>온라인증명서</em>&nbsp;<span>070-8656-1176</span></li>
+                <li><em>입원수속</em>&nbsp;<span>02-2030-7171,7172</span></li>
+                <li><em>퇴원수속</em>&nbsp;<span>02-2030-7174, 6934</span></li>
+                <li><em>응급의료센터</em>&nbsp;<span>02-2030-5555</span></li>
+                <li><em>헬스케어센터</em>&nbsp;<span>02-2030-5700</span></li>
+                <li><em>진료협력센터</em>&nbsp;<span>02-2030-7080</span></li>
+                <li><em>장례식장</em>&nbsp;<span>02-2030-7900</span></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="bg2">
+          <a href=""><span class="line">건강정보</span></a>
+          <div class="box_wrap">
+            <div class="box">
+              <ul class="h2_wrap">
+                <li>
+                  <a href="">
+                    <h2>건강정보</h2>
+                  </a>
+                </li>
+              </ul>
+              <ul class="dept02 hei_none">
+                <li>
+                  <a href="">
+                    건강 TV
+                  </a>
+                  <ul>
+                    <li><a href="">건강강좌 일정</a></li>
+                    <li><a href="">건강정보 동영상</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="dept02 hei_none">
+                <li>
+                  <a href="">
+                    의학백과사전
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    건강이야기
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    의료기기정보
+                  </a>
+                </li>
+              </ul>
+              <a href="">
+                <ul class="num02">
+                  <li><b>건강강좌</b><img src="images/img_gnb_banner01.png" alt="">
+                    <p>건강한 문화를 실현시키기 위해 항상 노력하겠습니다.</p>
+                  </li>
+                  <li><b>건강이야기</b><img src="images/img_gnb_banner02.png" alt="">
+                    <p>일상생활에 필요한 건강정보를 다양하게 제공하도록 노력하겠습니다.</p>
+                  </li>
+                </ul>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="bg2">
+          <a href=""><span class="line">고객서비스</span>
+          </a>
+          <div class="box_wrap">
+            <div class="box">
+              <ul class="h2_wrap">
+                <li>
+                  <a href="">
+                    <h2>고객서비스</h2>
+                  </a>
+                </li>
+              </ul>
+              <ul class="dept02 hei01">
+                <li>
+                  <a href="">
+                    고객의 소리
+                  </a>
+                  <ul>
+                    <li><a href="">고객상담실 이용안내</a></li>
+                    <li><a href="">고객의 소리 글쓰기</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="">
+                    고맙습니다
+                  </a>
+                </li>
+              </ul>
+              <ul class="dept02 hei01">
+                <li>
+                  <a href="">
+                    자원봉사
+                  </a>
+                  <ul>
+                    <li><a href="">자원봉사자 모집</a></li>
+                    <li><a href="">자원봉사 활동현황</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="">
+                    시니어친화병원
+                  </a>
+                  <ul>
+                    <li><a href="">서비스 이용안내</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="dept02 hei01">
+                <li>
+                  <a href="">
+                    발전기금
+                  </a>
+                  <ul>
+                    <li><a href="">발전기금 안내</a></li>
+                    <li><a href="">발전기금 후원하기</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <a href="">
+                <ul class="num03">
+                  <li><b>고객의 소리</b><img src="images/img_gnb_banner03.png" alt="">
+                    <p>병원을 이용하면서 겪은 감사한 일, 불편한 점이나 개선할 점이 있는 경우 작성해주세요.</p>
+                  </li>
+                  <li><b>발전기금 후원하기</b><img src="images/img_gnb_banner04.png" alt="">
+                    <p>건국대학교병원은 경쟁력 향상을 위해 여러분의 후원을 받고 있습니다.</p>
+                  </li>
+                </ul>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="bg2">
+          <a href=""><span class="line">병원안내</span></a>
+          <div class="box_wrap">
+            <div class="box">
+              <ul class="h2_wrap">
+                <li>
+                  <a href="">
+                    <h2>병원안내</h2>
+                  </a>
+                </li>
+              </ul>
+              <ul class="dept02 hei02">
+                <li>
+                  <a href="">
+                    의료원장 인사말
+                  </a>
+
+                </li>
+                <li>
+                  <a href="">
+                    병원장 인사말
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    비션/비전
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    연혁
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    조직도
+                  </a>
+                </li>
+              </ul>
+              <ul class="dept02 hei02">
+                <li>
+                  <a href="">
+                    병원소식
+                  </a>
+                  <ul>
+                    <li><a href="html/sub5_6.html" class="blink02">공지사항</a></li>
+                    <li><a href="">채용공고</a></li>
+                    <li><a href="">입찰공고</a></li>
+                    <li><a href="">건강강좌 안내</a></li>
+                    <li><a href="">보도자료 배포</a></li>
+                    <li><a href="">언론보도</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="">
+                    정기간행물
+                  </a>
+                  <ul>
+                    <li><a href="">건강매거진</a></li>
+                    <li><a href="">건강소식</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="dept02 hei02">
+                <li>
+                  <a href="">
+                    HI/로고
+                  </a>
+                </li>
+                <li>
+                  <a href="html/sub5_9.html" class="blink02">
+                    갤러리
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    홍보동영상
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    소셜네트워크
+                  </a>
+                </li>
+              </ul>
+              <ul class="num04">
+                <li><a href=""><img src="images/img_magazine.jpg" alt=""></a></li>
+                <li><a href=""><img src="images/img_magazine02.jpg" alt=""></a>
+                  <p>2020.AUTUMN vol.75</p>
+                  <button><span>다운로드</span></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="visual">
+      <div class="dim blink">
+        <p>코로나바이러스 감염증-19 예방을 위한 내원객 협조 안내 <button><span class="hide">닫기</span></button></p>
+        <div class="pop02">
+          <div> 코로나바이러스 감염증-19 지속 발생에 따라 건국대학교병원은 출입구 발열 측정 및 호흡기 증상자 분류를 시행하여 내원객의 안전관리를 강화하고 있습니다.<br><br>
+            최근 2주 이내 코로나19 감염병 발생지역 방문 후 발열 또는 호흡기 증상(기침,가래,인후통 등)이 있는 경우 질병관리본부(1339) 및 관할 보건소로 상담받으시기 바라며, 내원을 하실 경우 반드시 병원밖 선별진료소를 방문하여 조치를 받으시기 바랍니다.<br><br>
+            환자, 보호자, 방문객 등 모든 내원객은 병원 출입 시 반드시 마스크를 착용해 주시고, 출입구에서 체온측정과 손소독을 하시기 바랍니다.<br>
+            본원은 입원하는 모든 환자에 대하여 코로나19 진단검사를 필수적으로 시행하고 있사오니, 협조 부탁드립니다.<br><br>
+            보호자 1인을 제외한 방문객의 면회가 금지됩니다.<br><br>
+            건국대학교병원은 감염병 예방과 안전한 병원환경 유지에 최선을 다하겠습니다.<br><br>
+          </div>
+          <span class="today_no"><em>오늘 하루동안 열지 않기<input type="checkbox" id="chk1_1"><label for="chk1_1"></label></em></span>
+        </div>
+      </div>
+      <div>
+        <video src="images/konkuk.mp4" class="video" autoplay muted></video>
+        <button class="btn_play blink"><span class="hide">재생</span></button>
+      </div>
+      <div>
+        <ul>
+          <li><a href="">헬스케어센터</a></li>
+          <li><a href="">진료협력센터</a></li>
+          <li><a href="">채용사이트</a></li>
+          <li><a href="">장례식장</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="view">
+      <h2><span class="hide">빠른메뉴</span></h2>
+      <ul>
+        <li>
+          <h2 class="h2">처음 오시는 분 예약상담신청</h2>
+          <p>전문상담사가 빠른 예약을 도와드립니다.<br>
+            상담시간 : 평일 09:00-17:00(토요일, 공휴일 제외)</p>
+          <div class="consulting">
+            <div class="consulting_form">
+              <input type="text" placeholder="성함" title="성함입력">
+              <input type="tel" placeholder="연락처" title="연락처 입력">
+              <button class="reservation">예약신청</button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <h2 class="h2">온라인 진료예약/확인</h2>
+          <p>온라인으로 쉽고 빠르게<br>
+            진료예약 및 조회를 하실 수 있습니다.</p>
+          <button>외래진료 예약</button>
+          <button>건강검진 예약</button>
+          <button class="on">진료예약 확인</button>
+        </li>
+        <li>
+          <h2 class="h2">진료안내</h2>
+          <span>언제나 환자를 향합니다.</span><br>
+          <p><b>대표전화 : 1588-1533, 1800-1533<br>
+              해외전화 : 82-2-2030-5114</b></p>
+          <button>외래안내</button>
+          <button>진료시간표</button>
+        </li>
+        <li>
+          <h2 class="h2">증명서 발급</h2>
+          <p>온라인으로 증명서를<br>
+            발급받으실 수 있습니다.</p>
+          <button>발급서비스안내</button>
+          <button>온라인증명서발급</button>
+        </li>
+        <li>
+          <h2 class="h2">오시는 길</h2>
+          <p>건국대학교병원으로<br>
+            오시는 길을 알려드립니다.</p>
+          <button>위치안내</button>
+          <button>교통안내</button>
+        </li>
+        <li>
+          <h2 class="h2">발전기금 안내</h2>
+          <p>건국대학교병원은 경쟁력 향상을 위해<br>
+            여러분의 후원을 받고 있습니다.</p>
+          <button>자세히보기</button>
+        </li>
+      </ul>
+    </section>
+    <section class="quick_search">
+      <div class="box">
+        <h2 class="h2 white">진료과/의료진</h2>
+        <p>진료과/의료진을 검색하시면 더욱 쉽고 빠르게 서비스를 이용하실 수 있습니다.</p>
+        <div class="search">
+          <input type="search" title="검색어 입력" placeholder="검색하실 진료과/의료진 명을 입력하세요." class="search">
+          <button>
+            <span class="hide">검색</span>
+          </button>
+        </div>
+        <ul>
+          <li>
+            <a href="">
+              <div class="box_1">
+                <h3>진료과</h3>
+                <p class="text">
+                  원하시는 진료과를 선택하시면<br>
+                  소개 및 의료진정보를 보실 수 있습니다.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="box_1">
+                <h3>전문센터</h3>
+                <p class="text">
+                  원하시는 전문센터를 선택하시면<br>
+                  소개 및 의료진정보를 보실 수 있습니다.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="box_1">
+                <h3>특수클리닉</h3>
+                <p class="text">
+                  원하시는 특수클리닉을 선택하시면<br>
+                  소개 및 의료진정보를 보실 수 있습니다.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="box_1">
+                <h3>외래진료안내</h3>
+                <p class="text">
+                  외래진료 예약부터 진료절차까지 외래진료의<br>
+                  모든 것을 알려드립니다.
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="notice">
+      <h2 class="h2">건국대학교병원소식</h2>
+      <p class="notice_1">건국대학교병원의 소식 및 정보를 알려드립니다.</p>
+      <nav>
+        <ul class="aa">
+          <li><a href="" class="on">공지사항</a></li>
+          <li><a href="">채용공고</a></li>
+          <li><a href="">입찰공고</a></li>
+          <li><a href="">보도자료 배포</a></li>
+          <li><a href="">언론보도</a></li>
+        </ul>
+      </nav>
+      <ul class="notice_2">
+        <li>
+          <div>
+            <span>
+              2020-01-24
+            </span>
+            <strong>[공지]면회 전면 금지안내</strong>
+            <p>보호자 1인을 제외한 방문객의 면회 금지 단,보호자 1인 또한 아래에 해당하는 경우에는 병원 출입을 금지합니다.-</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>
+              2020-01-23
+            </span>
+            <strong class="flow_hidden">[공지]코로나바이러 감염증-19 확산에 확산확산에 확산확산에 확산</strong>
+            <p>코로나바이러스 감염증-19 확산에 따라 건국대학교병원은 출입구 발열 측정 및 호흡기 증상자 분류를 시행하여 내</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>
+              2020-06-09
+            </span>
+            <strong class="flow_hidden">충남 아산의 코로나 19 확진자 A씨의 건국확진자 A씨의 건국</strong>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>
+              2020-05-27
+            </span>
+            <strong>당뇨약제 메트포르민 관련 안내</strong>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>
+              2020-05-12
+            </span>
+            <strong>건국대학교병원 개인정보처리방침 개정 공지</strong>
+            <p>건국대학교병원 개인정보처리방침이 다음과 같이 개정되어 안내드립니다.시행일:2020년 5월 18일 개인정보처리</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>
+              2020-05-04
+            </span>
+            <strong class="flow_hidden">5/12(화)건국대학교병원 전자처방전달 서전자처방전달 서</strong>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <div class="swiper-container slide1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/img_banner01.jpg" alt="지하철역과 병원로비가 바로 연결되는 의료기관 지하철 2,7호선 건대입구역 3번출구와 연결되어 있습니다."></div>
+        <div class="swiper-slide"><img src="images/img_banner02.jpg" alt="간호,간병 통합 서비스 병동 확대 운영 일시:2019년 11월 1일 확대대상:기존 소화기내과,신장내과 운영,외과 확대 추가 운영 병동: 기존 111/112병동 운영,52병동 추가"></div>
+        <div class="swiper-slide"><img src="images/img_banner03.jpg" alt="하늘의 뜻이 아니라 우리의 의지입니다. 사람의 운명은 하늘이 정하는 것이라지만 우리의 생각은 조금 다릅니다. 사람의 운명은 우리의 의징제 달려있음을 믿습니다. 단 하나의 생명이라도 끝까지 살려내려는 의지로 당신의 건강을 책임지겠습니다. 환자와 직원이 건강한 병원 건강은 건국,건국대학교병원"></div>
+        <div class="swiper-slide"><img src="images/img_banner04.jpg" alt="보건복지부 건국대학교병원, 상급종합병원 3회 연속 지정!"></div>
+        <div class="swiper-slide"><img src="images/img_banner05.jpg" alt="최신형 4세대 로봇다빈치 Xi 수술 건국대학교병원의 스타급 의료진 의술과 로봇수술의 첨단기술이 함께합니다. 진료과 | 비뇨기과 , 산부인과, 외과, 이비인후-두경부외과, 흉부외과 로봇수술센터 상담전화 02-2030-5337"></div>
+      </div>
+      <div class="btn_wrap">
+        <button class="btn_prev sprite"></button>
+        <button class="btn_next sprite"></button>
+      </div>
+      <div class="paging blink"></div>
+      <button class="btn_play_on"><span class="hide">재생</span></button>
+      <button class="btn_stop"><span class="hide">정지</span></button>
+    </div>
+    <section class="info clear">
+      <div class="wrap clear">
+        <h2 class="h2">건강정보</h2>
+        <p class="info_txt">새로운 건강정보와 건강강좌를 보실 수 있습니다.</p>
+        <div class="health_story blink">
+          <button class="prev sprite"><span class="hide">이전슬라이드</span></button>
+          <button class="next sprite"><span class="hide">다음슬라이드</span></button>
+            <h3>건강이야기</h3>
+          <div class="paging"></div>
+          <div class="swiper-container slide2 new">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="images/@photo4.png" alt="">
+                  <strong>임신 중 혈압이 오른다면 임식중독증을 의심하세요</strong>
+                  <p>임신중독증이라 불리는 전자간증은 임산부의 5대 사망 원인 중 하나로 전 세계적으로 연간 7만 6000명이 사망하는 위험한 질환입니다.건강보험심사평가원에 따르면 지난해 임식중독증으로 진단받은 임산부는 약1만명으로2014년(7,172명)에 비해 3년 새 1.4배 증가합니다.특히 중증 임신중독증의 경우</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="images/@photo2.jpg" alt="">
+                  <strong>건강체크, 소변으로 확인하세요</strong>
+                  <p>
+                    날이 따뜻해지면서 생활 패턴의 변화가 많은 요즘이다. 운동을 시작하는가 하면 약속도 늘고 주말 나들이 계획을 세우는 사람도 많다. 이럴 때일수록 주기적인 건강관리는 필수. 봄 철 건강한 야외활동을 위해 소변으로 건강을 체크해보자. 소변의 색깔, 거품 유무, 냄새만으로도 우리 몸의 변화와 질병에 대한 정보를 얻을 수 있다.
+                    연한 노란색, 건강한 소변의 기준
+                    소변은 보통 연한 노란색이나 황갈색을 띠며 약간의 지린내가 가는 것이 특징이다. 다만 수분양이 부족하거나 탈수 현상이 있는 경우에는 소변의 색이 짙은 노란색을 띠고 반대로 물을 많이 마신 경우에는 물처럼 투명한 색이 나타날 수 있는데 이 세 경우 모두 정상 범주다.
+                    소변이 선명한 붉은색이라면 요도 근처 출혈을 의심해 볼 수 있다. 질환으로 요로나 요도의 결석, 염증이나 종양일 가능성이 있다. 검붉은색은 좀 더 안쪽의 출혈로 신장 문제를 확인해 볼 필요가 있다.
+                    운동과도 관련이 있다. 무리하게 활동한 경우 근육이 손상되면서 근육 세포의 ‘마이오글로빈’ 성분이 소변으로 배출되면서 분홍빛이나 옅은 붉은색 소변이 나올 수 있다. 약품도 영향을 미친다. 결핵치료제 중 리팜피신을 복용하는 경우에는 오렌지색 소변이 나올 수 있다. 하지만 단순히 섭취한 음식물에 따라 소변 색이 결정되기도 한다. 붉은 채소인 비트를 많이 먹은 경우 평소보다 붉은색 소변이, 비타민B를 많이 섭취하면
+                    형광 노란색 소변이 나올 수 있다.
+                    색과는 다르게 소변이 뿌연 경우는 요산이나 인산으로 인한 일시적인 증상일 수 있지만 요로감염이나 방광염 등 염증성 질병을 의심해 볼 수 있다. 거품이 섞여 나오는 경우도 있다. 거품뇨를 일으키는 원인은 여러 가지인데, 문제가 되는 경우는 단백뇨 때문에 생기는 거품뇨다. 이는 콩팥 질환을 의미하는 것 일수도 있다. 간단한 소변 검사로 단백뇨를 알 수 있으며, 소변에 거품이 많이 생기면 병원을 찾아 검사를 받아
+                    보는 것디 좋다.
+                    소변에서 은은한 과일향이 난다?
+                    소변에서 과일향이 난다면 당뇨병을 의심할 필요가 있다. 당뇨병 합병증인 케토산혈증이 있으면 케토산 성분이 혈액 속에 다량으로 생기면서 소변으로 배출되고 과일향이 난다. 방광염인 경우에는 늘어난 세균이 소변 속 노폐물을 분해해 암모니아를 만들어 내 톡 쏘는 소변 냄새를 유발하고 소변냄새가 심한 경우에는 대장균 감염을 의심해 볼 수 있다.
+                    지나치게 화장실을 자주 간다면?
+                    소변 횟수도 건강과 관련이 있다. 대개 영아는 하루 20회, 소아는 하루 8~10회, 청소년은 6회 이하, 성인은 5~6회 정도 소변을 본다. 이보다 소변을 자주 보는 빈뇨 증상은 방광염에서 흔하다. 방광염이 생기면 양이 많지는 않지만 자주 화장실을 가면서 소변 시 통증이 있고, 소변을 봐도 잔뇨감이 있으며 참기 힘든 절박뇨 증상이 생긴다. 또한 중년남성의 경우 잔뇨감이 계속된다면 전립선비대증이나 전립선염도
+                    의심할 수 있다. 또 당뇨병이 조절이 잘 되지 않을 때도 소변양이 많아질 수 있다.
+                    흔하지는 않지만 하루 평균 10번 이상 화장실을 찾는다면 소변량이 하루에 3리터 이상으로 늘어나는 질병인 요붕증을 의심해 볼 수 있다. 이는 뇌하수체에서 항이뇨호르몬이 제대로 생성되지 않거나 분비된 항이뇨호르몬이 소변을 만드는 신장에서 제대로 작동하지 않으면서 많은 양의 소변을 만드는 질환이다.
+                  </p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="images/@photo3.jpg" alt="">
+                  <strong>급격한 일교차에는 심장 돌연사 주의!</strong>
+                  <p>
+                    하늘도 높고 푸른 것이 어느 덧 가을이 왔습니다. 올 여름 무더운 날씨 속에 힘들었을 이들에겐 이 가을이 얼마나 반가울까요? 하지만, 심장내과 의사들에게 가을의 시작은 심장 돌연사와 같은 응급 심장 질환 환자들이 늘어나는 시기라 항상 긴장을 하게 됩니다.
+                    실제로, 가을이 되면 필자가 근무하는 병원 가까운 산에서 의식을 잃거나 흉통으로 본원으로 실려와 심근경색증을 진단받고 치료를 받는 환자분들이 종종 있었습니다. 어떤 분들은 의식을 찾지 못 해 안타까운 일을 당하기도 하지만, 주위 동료들에 의해 심폐소생술을 시행 받고 119 대원들의 신속한 처치와 이송으로 병원까지 빠른 시간 내에 도착하여 잘 치료 받고 별다른 후유증 없이 퇴원하는 분들도 많습니다.
+                    이처럼 청명한 가을 날이 누군가에게는 생명의 위협을 일으킬 수 이유는 무엇일까요? 여름에서 가을로 접어드는 환절기에는 아침과 낮의 일교차가 발생하게 되는데 외부 기온의 급격한 변화는 인체의 자율신경계에 영향을 주게 됩니다. 특히 이른 아침의 낮은 기온은 인체 내 교감신경을 자극하게 되는데 이로 인해 혈관을 수축시키는 호르몬이 분비되어 말초 혈관이 수축하게 됩니다. 이 때문에 혈액 공급이 줄어든 심장은 체온을
+                    유지하기 위해 더 빠르게 운동을 하게 되는데, 이것이 혈압을 상승시켜 심장에 무리를 주게 됩니다. 이러한 자극으로 혈관내 동맥경화의 파열로 혈전이 발생하여 주요 혈관이 막히게 되면 뇌졸중이나 급성 심근 경색이 발생하게 되는 것것입니다. 가을철 일교차는 심뇌혈관질환의 발생의 위험이 될 뿐만 아니라 심근에 자극을 주어 부정맥 발생도 증가시키게 되는데, 일부에서는 심실성 부정맥과 같은 급사을 일으킬 수도 있습니다.
+                    가을철 심장 돌연사의 주 원인은 심근경색에 의한 심실성 부정맥 발생입니다. 그렇기 때문에 협심증이나 심근경색과 같은 허혈성 심장 질환을 진단 받고 약물 치료를 받고 있는 환자들은 평소 운동을 하지 않았던 경우에는 무리한 운동이나 나들이는 삼가야 합니다. 특히, 일상 생활 중에 계단이나 오르막길을 오를 때 가슴 불편감이나 흉통, 호흡곤란이 평소와 다르게 발생하거나 이른 아침 가슴 불편감을 자주 느낀다면
+                    심혈관질환의 위험 신호이기 때문에 병원 진료를 받아야 합니다.
+                    심장 돌연사의 위험 인자로는 흡연, 과도한 신체 활동, 돌연사의 가족력, 과도한 음주, 정신적 스트레스, 과도한 카페인 섭취 등이 있습니다. 특히 돌연사의 가족력이 있는 경우에는 그렇지 않은 경우에 비해 돌연사의 위험이 1.5 ~ 1.8배 증가하는 것으로 알려져 있습니다. 이들 위험 인자들 중 우리가 조절할 수 있는 부분은 금연과
+                    금주, 카페인 조절, 스트레스 조절 등이 있습니다. 운동 역시 평소에 꾸준히 운동을 한 경우에는 산행과 같은 과도한 신체 활동에서 돌연사의 위험이 높지 않지만 평소 운동을 하지 않은 경우에는 산행과 같은 무리한 신체 활동은 독약이 될 수가 있습니다. 이에 평소 자신의 운동 능력을 감안하여 운동 수준과 강도를 결정하여야 할 것입니다.
+                    돌연사와 같은 급성 심장 질환을 예방하는 최고의 방법은 평소 꾸준히 운동하며 흡연, 음주와 같은 위험 인자들을 멀리 하는 것입니다. 일교차가 심한 가을에는 기상 후 실내에서 스트레칭을 충분히 하고 따뜻한 차나 물을 섭취하고 집을 나설 때는 옷가지로 몸을 따뜻이 하여야 합니다. 마지막으로 심폐소생술을 배워 두어 주위에서 발생한 심장 돌연사 환자를 살릴 수 있다면 서로의 생명을 지켜주는 최고의 방법이 될
+                    것입니다.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lecture blink">
+          <button class="prev sprite"><span class="hide">이전슬라이드</span></button>
+          <button class="next sprite"><span class="hide">다음슬라이드</span></button>
+            <h3>건강강좌</h3>
+          <div class="paging"></div>
+          <div class="swiper-container slide3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="professor">
+                  <span><img src="images/bg_professor.png" alt=""></span>
+                  <strong>유영범 교수</strong>
+                  <p>[갑상선센터장]</p>
+                  <strong>유방암센터 유영범 교수유영범유영범</strong>
+                  <p>2020-07-10</p>
+                </div>
+                <iframe width="370" height="190" src="https://www.youtube.com/embed/1N4jFKwdSMk"></iframe>
+              </div>
+              <div class="swiper-slide">
+                <div class="professor">
+                  <span><img src="images/bg_professor.png" alt=""></span>
+                  <strong>박정진 교수</strong>
+                  <strong>뇌경색</strong>
+                  <p>2020-12-29</p>
+                </div>
+                <iframe width="370" height="190" src="https://www.youtube.com/embed/TxqRidweSL8"></iframe>
+              </div>
+              <div class="swiper-slide">
+                <div class="professor">
+                  <span><img src="images/bg_professor.png" alt=""></span>
+                  <strong>전유성 교수</strong>
+                  <strong>뇌경색</strong>
+                  <p>2020-12-29</p>
+                </div>
+                <iframe width="370" height="190" src="https://www.youtube.com/embed/-4VTByWkxCs"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab_wrap">
+      <div class="tab">
+        <nav>
+          <ul class="tab_2 blue blink">
+            <li class="on"><button>진료과</button></li>
+            <li><button>전문센터</button></li>
+            <li><button>특수클리닉</button></li>
+          </ul>
+        </nav>
+        <div class="tab_content on">
+          <ul class="work clear">
+            <li><a href="">가정의학과</a></li>
+            <li><a href="">감염내과</a></li>
+            <li><a href="">건강의학과</a></li>
+            <li><a href="">내분비대사내과</a></li>
+            <li><a href="">루마티스내과</a></li>
+            <li><a href="">마취통증의학과</a></li>
+            <li><a href="">방사선종양학과</a></li>
+            <li><a href="">병리과</a></li>
+            <li><a href="">비뇨의학과</a></li>
+            <li><a href="">산부인과</a></li>
+            <li><a href="">성형외과</a></li>
+            <li><a href="">소아청소년과</a></li>
+            <li><a href="">소화기내과</a></li>
+            <li><a href="">신경과</a></li>
+            <li><a href="">신경외과</a></li>
+            <li><a href="">신장내과</a></li>
+            <li><a href="">심장혈관내과</a></li>
+            <li><a href="">안과</a></li>
+            <li><a href="">영상의학과</a></li>
+            <li><a href="">외과</a></li>
+            <li><a href="">응급의학과</a></li>
+            <li><a href="">이비인후-두경부외과</a></li>
+            <li><a href="">임상약리학과</a></li>
+            <li><a href="">재활의학과</a></li>
+            <li><a href="">정신건강의학과</a></li>
+            <li><a href="">정형외과</a></li>
+            <li><a href="">종양혈액내과</a></li>
+            <li><a href="">진단검사의학과</a></li>
+            <li><a href="">치과</a></li>
+            <li><a href="">피부과</a></li>
+            <li><a href="">핵의학과</a></li>
+            <li><a href="">호흡기-알레르기내과</a></li>
+            <li><a href="">흉부외과</a></li>
+          </ul>
+        </div>
+        <div class="tab_content">
+          <ul class="work clear">
+            <li><a href="">간센터</a></li>
+            <li><a href="">감마나이프센터</a></li>
+            <li><a href="">갑상선암센터</a></li>
+            <li><a href="">뇌졸중센터</a></li>
+            <li><a href="">대동맥혈관센터</a></li>
+            <li><a href="">대장암센터</a></li>
+            <li><a href="">로봇수술센터</a></li>
+            <li><a href="">무릎관절센터</a></li>
+            <li><a href="">소화기병센터(내시경실)</a></li>
+            <li><a href="">수면센터</a></li>
+            <li><a href="">스포츠의학센터</a></li>
+            <li><a href="">심장혈관센터</a></li>
+            <li><a href="">어깨팔꿈치관절센터</a></li>
+            <li><a href="">여성부인종양센터</a></li>
+            <li><a href="">위암센터</a></li>
+            <li><a href="">유방암센터</a></li>
+            <li><a href="">임상시험센터</a></li>
+            <li><a href="">정밀의학폐암센터</a></li>
+            <li><a href="">족부족관절센터</a></li>
+            <li><a href="">천식·COPD센터</a></li>
+            <li><a href="">췌담도센터</a></li>
+            <li><a href="">팔다리혈관센터</a></li>
+            <li><a href="">헬스케어센터</a></li>
+            <li><a href="">혈액암센터</a></li>
+            <li><a href="">KU양악수술센터</a></li>
+          </ul>
+        </div>
+        <div class="tab_content">
+          <ul class="work clear">
+            <li><a href="">건강노화클리닉</a></li>
+            <li><a href="">경직클리닉</a></li>
+            <li><a href="">관상동맥질환클리닉</a></li>
+            <li><a href="">관절염클리닉</a></li>
+            <li><a href="">광역학암치료클리닉</a></li>
+            <li><a href="">구순구개열클리닉</a></li>
+            <li><a href="">금연클리닉</a></li>
+            <li><a href="">기억인지클리닉</a></li>
+            <li><a href="">기억장애·치매클리닉</a></li>
+            <li><a href="">당뇨발클리닉</a></li>
+            <li><a href="">대장항문병클리닉</a></li>
+            <li><a href="">레이저클리닉</a></li>
+            <li><a href="">무지외반증클리닉</a></li>
+            <li><a href="">변비·변실금클리닉</a></li>
+            <li><a href="">비만클리닉</a></li>
+            <li><a href="">소아알레르기클리닉</a></li>
+            <li><a href="">소아청소년성장·비만클리닉</a></li>
+            <li><a href="">신경·근육질환클리닉</a></li>
+            <li><a href="">신경인성방광클리닉</a></li>
+            <li><a href="">심부전클리닉</a></li>
+            <li><a href="">어지럼증클리닉</a></li>
+            <li><a href="">염증성장질환클리닉</a></li>
+            <li><a href="">이식클리닉</a></li>
+            <li><a href="">조혈모세포이식클리닉</a></li>
+            <li><a href="">지방간클리닉</a></li>
+            <li><a href="">척추클리닉</a></li>
+            <li><a href="">탈장클리닉</a></li>
+            <li><a href="">통증클리닉</a></li>
+            <li><a href="">하지정맥류클리닉</a></li>
+            <li><a href="">호스피스완화의료클리닉</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="top_wrap">
+      <div class="top">
+        <ul>
+          <li>의료기관<br>인증병원</li>
+          <li>세계보건기구<br>건강증진병원</li>
+          <li>유니세프<br>아기에게 친근한 병원</li>
+          <li>MEDICAL KOREA<br>
+            AWARDS 2016</li>
+          <li>우수내시경실</li>
+          <li>인증범위 : 건국대학교병원 대외서비스(홈페이지, 그룹웨어, 고객의 소리), EMR/OCS
+            유효기간 : 2017년 11월 30일 – 2020년 11월 30일</li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="info01">
+        <nav>
+          <ul>
+            <li><a href="">병원윤리강령</a></li>
+            <li><a href="">환자의 권리와 의무</a></li>
+            <li><a href="">이용약관</a></li>
+            <li><a href="" class="on">개인정보처리방침 </a></li>
+            <li><a href="">비급여진료비 안내</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="select">
+        <div class="cite blink">
+          <button>부서페이지</button>
+          <ul>
+            <li><a href="">연구지원센터</a></li>
+            <li><a href="">임상연구윤리센터</a></li>
+            <li><a href="">임상의학연구소</a></li>
+            <li><a href="">인체유래물은행</a></li>
+            <li><a href="">간호부</a></li>
+          </ul>
+        </div>
+        <div class="cite1 blink">
+          <button>패밀리사이트</button>
+          <ul>
+            <li><a href="">건국대학교</a></li>
+            <li><a href="">건국대학교 의학전문대학원</a></li>
+            <li><a href="">건국대학교병원</a></li>
+            <li><a href="">건국대학교 충주병원</a></li>
+            <li><a href="">건국대학교 글로컬 캠퍼스</a></li>
+            <li><a href="">스타시티(건국 AMC)</a></li>
+            <li><a href="">더 클래식 500</a></li>
+            <li><a href="">건국대학교 건국유업</a></li>
+            <li><a href="">스마트 KU 골프 파빌리온</a></li>
+            <li><a href="">건국대학교병원 e-IRB</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bottom_2">
+      <div>
+        <address>
+          주소 : 05030 서울특별시 광진구 능동로 120-1(화양동) 건국대학교병원 <span>대표전화 : 1588-1533</span> <span>사업자등록번호 : 207-82-02115</span><span>황대용</span><br>
+          © 2018 Konkuk University Medical Center. All rights reserved.<span>해외전화 : 82-2-2030-5114</span>
+        </address>
+        <div class="icon">
+          <ul>
+            <li><a href=""><span class="hide">정오의 음악회</span></a></li>
+            <li><a href=""><span class="hide">블로그</span></a></li>
+            <li><a href=""><span class="hide">포스트</span></a></li>
+            <li><a href=""><span class="hide">네이버티비</span></a></li>
+            <li><a href=""><span class="hide">유투브</span></a></li>
+            <li><a href=""><span class="hide">트위터</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

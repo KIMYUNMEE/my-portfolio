@@ -1,0 +1,62 @@
+/* header 시작 */
+header { position: absolute; left: 0; right: 0; z-index: 50;}
+header h1 { position: absolute; left: 50px; top:50%; transform: translateY(-50%);}
+header h1 a { display: block; width:102px; height:41px; background: url(../images/h1_logo.png) no-repeat;}
+header nav > ul{width:816px; margin: 0 auto; text-align: center;}
+header nav > ul > li { float: left; position: relative; padding: 0 44px; width:calc(25% - 88px); }
+header nav > ul > li > a { display: block; padding: 0 31px; line-height: 94px; font-size: 18px; color:#000;}
+header nav ul ul{position: absolute; left: 0; z-index: 15; width: 100%; text-align: center; display: none; padding: 12px 0;}
+header nav ul ul a{display: block; padding: 5px 0; text-align: center; font-size: 13px; line-height: 30px; color:#6f6f6f;}
+header nav ul ul a:hover{color:#ff780b;}
+.dim {position: absolute; left: 0; top: 93px; width: 100%; height: 258px; background:#fff;
+border-top:1px solid #dedede; border-bottom:1px solid #dedede; display: none; z-index: 10;}
+header .util { position: absolute; right: 90px; top:50%; transform: translateY(-50%); font-size: 0;}
+header .util * { margin: 0 0 0 15px;}
+header .util a { vertical-align: middle;}
+header .util .txt { font-size: 14px; color:#111; vertical-align: -6px;}
+header .util .btn_login { display: inline-block; width: 53px; height: 23px; border: 1px solid #000; text-align: center; line-height: 23px; font-size: 11px; color:#302c21;}
+header .util .btn_mypage { display: inline-block; width: 35px; height: 30px; background: url(../images/btn_mypage.png) no-repeat center;}
+header .util .btn_menu { display: inline-block; width: 35px; height: 30px; background: url(../images/btn_menu.png) no-repeat center;}
+/* footer 시작 */
+footer { padding: 40px 0 0; background: #333;}
+footer .left { float: left; padding: 0 0 20px;}
+footer .left ul li {float: left; position: relative; padding: 0 15px;}
+footer .left ul li ~ li:before { content: ""; position: absolute; left: 0; top: 50%; width: 1px; height: 15px; background: #444; transform: translateY(-50%);}
+footer .left ul li:first-child { padding-left:0;}
+footer .left ul a { font-size: 14px; color:#fff; line-height: 25px;}
+footer .left address { padding: 32px 0 0; line-height: 20px; font-size: 14px; color:#888;}
+footer .left address span {display: block; padding: 17px 0 0;}
+footer .right {float: right; text-align: right;}
+footer .right select {padding: 0 30px 0 11px; height: 33px; border: 1px solid #525252; background: #333; font-size: 16px; color:#afafaf;}
+footer .right .tel {padding: 19px 0 0; color:#fff; line-height: 1; text-align: left;}
+footer .right .tel div {float: left; padding: 0 14px;}
+footer .right .tel > div ~ div { height: 49px; border-left:1px solid #444;}
+footer .right .tel strong { font-size: 16px;}
+footer .right .tel p { padding:7px 0 0; font-size: 19px;}
+footer .bottom { padding: 20px 0 0; height: 84px; border-top: 1px solid #444;}
+footer .bottom div:first-child { float: left; width: 182px; height: 52px; background: url(../images/img_footer.png) no-repeat;}
+footer .bottom div:last-child { float: right;font-size: 0;}
+footer .bottom div:last-child a { display: inline-block; margin: 0 0 0 11px; width: 45px; height: 45px; }
+footer .facebook {background: url(../images/ico_facebook.png);}
+footer .kakao { background: url(../images/ico_kakao.png)}
+
+/* 전체공통 스타일 */
+.contents,
+.m0auto { margin: 0 auto; width: 1200px;}
+.contents { padding: 50px 0 120px;}
+
+/* 포트폴리오 기능 및 페이지이동 도형 */
+.blink::before,
+.blink02::before{content: ""; position: absolute;z-index: 1; width:20px; height: 20px; border-radius: 100%; background: #fa70cb;animation:blink 0.8s ease-in-out infinite alternate;}
+@keyframes blink{
+0% {opacity:0}
+49%{opacity:0}
+50%{opacity:1}
+}
+ .blink::before{background: #fa70cb;}
+ .blink02::before{background: #fbaf5d;}
+@keyframes blink02{
+0% {opacity:0}
+49%{opacity:0}
+50%{opacity:1}
+}

@@ -1,0 +1,40 @@
+/* sub간 페이지이동 tab 시작 */
+.tab_3{background: #3086c9; font-size: 15px; color:#fff;}
+.tab_3_detail{margin: 0 auto; width:1280px; }
+.tab_3_detail ul {display: flex;}
+.tab_3_detail > ul>  li> button{position: relative; padding:0 28px 0 21px; width:211px; border-right: 1px solid #5f9dcd; box-sizing: border-box; background: #3086c9; line-height: 53px; color:#fff; text-align: left;}
+.tab_3_detail > ul> li> button::after{content: ""; position: absolute; top:50%;  right:28px; width:12px; height: 7px; background: url(../images/sprite.png)-380px -123px; transform:translateY(-50%);}
+.tab_3_detail > ul li{ position: relative;}
+.tab_3_detail ul > button { height: 30px; border: 1px solid #000;}
+.tab_3_detail ul > button:after { content: "▽"; display: inline-block;}
+.tab_3_detail ul > button.on:after { transform: rotate(180deg);}
+.tab_3_detail ul li ul { display: none; position: absolute; top: 52px; left: 0; z-index: 100; min-width:211px; box-sizing: border-box; background: #3086c9;}
+.tab_3_detail ul li ul a{display: block; padding:0 21px; line-height: 60px; color:#b2ddff; font-size: 15px; transition: .4s color;}
+.tab_3_detail ul li ul a:hover{color:#fff;}
+/* sub간 페이지이동 tab 끝 */
+/* sub notice_2 시작 */
+.notice_1,
+.information{margin: 0 auto; width:1280px;}
+.notice_2{display: flex; justify-content: space-between; padding: 52px 0 60px 0; }
+.notice_2 h2{display: inline-block; font-size: 30px; line-height: 1;}
+.notice_2 ul li{ display: inline-block; text-align: center;}
+.notice_2 ul li a{display: inline-block; position: relative; width:40px; height: 40px; border-radius: 100%; border:1px solid #ddd; }
+.notice_2 ul li a::before{content: ""; position:absolute; top:14px; left:50%; height: 15px; background: url(../images/sprite.png); transform: translateX(-50%);}
+.notice_2 ul li:nth-child(1) a::before{width:20px; background-position: -245px -123px;}
+.notice_2 ul li:nth-child(2) a::before{width:19px; background-position: -275px -123px;}
+.notice_2 ul li:nth-child(3) a::before{width:16px; background-position: -299px -123px;}
+.notice_2 ul li:nth-child(4) a::before{width:15px; background-position: -423px -123px;}
+.notice_2 ul li:nth-child(5) a::before{width:13px; background-position: -400px -123px;}
+/* sub notice_2 끝 */
+
+/* paging */
+.paging {padding-top: 30px; text-align: center; font-size: 0; }
+.paging * { display: inline-block; margin: 0 4px; width: 38px; height: 38px; box-sizing: content-box; vertical-align: middle; }
+.paging a { font-size: 12px; color:#666; text-align: center; line-height: 38px;}
+.paging a.on { color:#3086d0; text-decoration:underline; }
+.paging button{border: 1px solid #ddd;}
+.paging .first {background: url(../images/btn_first01.png) no-repeat center;}
+.paging .prev {background: url(../images/btn_prev01.png) no-repeat center;}
+.paging .next {background: url(../images/btn_next01.png) no-repeat center;}
+.paging .last {background: url(../images/btn_last01.png) no-repeat center;}
+/* paging */
